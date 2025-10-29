@@ -1,0 +1,88 @@
+Casopis Chip 10/1998
+
+Cenově výhodný, chrání životní prostředí – a přitom vydrží deset i více hodin
+Revoluce na trhu notebooků! Nový zdroj energie by mohl postavit stávající akumulátory mimo hru! Přináší více síly, vydrží věčně, má flexibilní design, je recyklovatelný a – co nesmíme zapomenout – je mnohem výhodnější. Chip si na pověstmi opředený palivový článek vzal pořádnou lupu.
+
+Palivový článek místo akumulátoru
+
+Uwe Paschke, technik a marketingový pracovník ve Fraunhoferově ústavu pro solární energetické systémy ve Freiburgu, říká: “Naše palivové články se stávají rozhodujícím argumentem pro trh notebooků.” Předpovídá, že “díky tomuto systému energie budou notebooky místo tří hodin běhat deset hodin, aniž by musely být připojeny do sítě”.Nadšenému vývojáři je jasné, že taková známka výsadního postavení naláká zástupy kupujících.
+Mistrovským kouskem nové techniky je membránový palivový článek, který mění vodík na proud. Zásobník vodíku přitom může být doma prostřednictvím externího miniaturního elektrolyzéru nabit nebo prostě vyměněn podobně jako baterie.
+Palivové články nejsou novým objevem. Princip převodu energie prostřednictvím vodíku je znám už od roku 1836. V dnešní době však o sobě dávají hodně vědět, protože jsou při své výkonnosti schopny nahradit i dieselové nebo zážehové motory. Vůdčí výzkumnou instancí v této oblasti je výrobce automobilů Daimler-Benz. Kolem roku 2005 by se měly na ulicích objevit nové vozy s pohonem na elektromotor, který dostane svoji “šťávu” od palivového článku. Dosavadní elektromobily poháněné bateriemi pak budou rázem poslány do starého železa. 
+Výhoda nového vývoje je v tom, že palivové články akumulují podstatně více energie než baterie. Osobní automobily tak nemusejí být u konce svých sil už po ujetí stovky kilometrů, jak je tomu při provozu na akumulátory, ale mohou bez problémů ujet až 400 km, tedy čtyřikrát větší vzdálenost.
+
+Od auta k notebooku
+Asi před rokem přemítali Uwe Paschke a jeho šest kolegů z oddělení chemických přeměn a akumulace energie ve Fraunhoferově ústavu o možnostech udělat “díru do světa” i v oblasti, která je mnohem menší, než jsou auta. Uvažovali takto: Energie získaná z palivového článku je špičkový technologický výrobek, musí tedy patřit na trh špičkových výrobků. A to je právě trh notebooků, protože zásobování energií v oblasti notebooků je v současné době ještě naprosto neuspokojivé. Paschke a jeho tým chtějí tímto způsobem získat zajímavý sektor trhu, protože podle nich je doba provozu notebooku na akumulátory kolem dvou hodin extrémně malá.
+Stále nové a nové aplikace potřebují stále více paměti, která spotřebovává energii, a v noteboocích se objevují nová paměťová média, například mechaniky DVD, u kterých díky jejich extrémně vysoké kapacitě (ve srovnání s CD-ROM) trvá přenos dat na pevný disk nebo do paměti počítače mnohem déle. Roste také velikost displejů a tím i jejich spotřeba. Z těchto i z mnoha dalších důvodů se zvyšují nároky na výdrž energetickéjho zdroje. Pokud by se tento problém ale řešil použitím stávajících technologií, znamenalo by to růst hmotnosti těchto “zásobníků” energie. Zdá se však, že palivové články zasáhly do trendu zvyšování kapacity v pravý okamžik a mohou poskytovat elektronickým zařízením sílu po dlouhé hodiny.
+
+Vodík se mění na proud
+Všechno, co ke kýžené chemické reakci potřebujeme, je proud, vodík, kyslíková elektroda, vodíková elektroda a polymerová membrána. Vodík je přitom akumulován v hydridu železa (metalhydridu). Abychom vodík získali, potřebujeme elektrolyzér – přístroj, který prostřednictvím elektrického napětí z vody uvolní vodík. Ten pak je připraven v zásobníku (hydridovém akumulátoru) připojeném na palivový článek.
+Palivový článek pak umožní reakci přiváděného vodíku s okolním vzduchem – výsledkem této reakce je elektrický proud. K tomu účelu se uprostřed článku nachází polymerová membrána. Kolem ní se z jedné strany vede vodík a z druhé strany okolní vzduch. Vzniklou reakcí se vytváří elektrický proud.
+
+Jeden článek to ale neutáhne
+V mobilní oblasti, například pro notebooky nebo měřicí přístroje, chtějí výzkumníci použít takzvané palivové články s páskovou membránou. V tomto případě se interně spojí pět palivových článků. Výhoda je zřejmá – vyšší energetická výtěžnost, které se dočkáme i v malém prostoru.
+Freiburští výzkumníci už potvrdili, že vše funguje podle jejich představ. Prototyp palivového článku pro notebook byl předveden už počátkem roku na hannoverském veletrhu CeBIT. Nyní hledá Paschke partnery nebo sponzory, kteří by byli ochotni vyvinout z inovativního prototypu výrobek vhodný pro sériovou výrobu.
+
+Ještě hodně práce
+Než se ale palivový článek bude moci usídlit třeba ve vašem notebooku, mají před sebou vývojáři ještě hodně práce. Teprve v horizontu dvou let počítají s tím, že výrobek by mohli představit na trhu. Náklady na vývoj přitom odhadují na sumu kolem 3,5 milionu DEM. Před nimi ještě stojí nejdůležitější úkol, totiž redukovat současnou velikost článku maximálně na čtvrtinu. Protože zásobník vodíku je dostatečně flexibilní, lze ho vyrobit i jako plochou, asi jeden centimetr silnou desku, která zaujme celou plochu notebooku. Palivový článek sám by pak mohl být umístěn v pravém rohu notebooku.
+Velkou předností této konstrukce by bylo uvolnění dodatečného místa pro mechaniky nebo možnost umístit na skříň notebooku podstatně více rozhraní. Dosavadní provedení akumulátorů je kvůli uložení několika článků vedle sebe mnohem “ustrnulejší” a toto provedení není možné v současné době nějakým podstatným způsobem změnit. Proto momentálně není ani možné zabudovat do notebooku více než dvě mechaniky.
+Velkou nevýhodou zásobníku vodíku je ovšem jeho hmotnost. Pokud bychom chtěli notebook zásobovat energií po dobu deseti hodin, musíme se připravit na to, že náš stroj bude (zatím) minimálně o jeden kilogram těžší. Sám Paschke k tomu podotýká, že bez této hmotnosti se ani za dva roky ještě neobejdeme. Čím menší je vodíkový zásobník, tím bude logicky kratší doba běhu notebooku. Snaživí vývojáři ale nemohou s pětihodinovou dobou provozu během dvou let příliš uspět, i když notebook by pak byl méně těžký. Jejich konečným cílem je pokořit hranici alespoň deseti hodin provozu.
+Jestliže vývojáři najdou vhodného partnera, počítají s tím, že na trh vrhnou nejméně 100 000 kusů nových článků. Přitom předpokládají, že výrobní náklady na celý notebook budou s palivovým článkem mnohem nižší než s doposud používanými akumulátory. Jejich kalkulace zahrnuje i elektrolyzér k nabíjení vodíkového akumulátoru. Bez něj by bylo nutné vždy po deseti hodinách starý zásobník vyhodit a nasadit nový. A to by bylo škoda.
+Vývojáři, a především Paschke jako nadšený obránce palivových článků a jako angažovaný ochránce přírody zdůrazňují ještě jednu důležitou věc. Abychom nebyli při nabíjení jako doposud závislí na proudu ze zásuvky (ten potřebujeme k “dobíjení” vodíku), lze si představit na notebooku solární článek, který by se staral o krmení nového typu zdroje. Je to nápad, nad kterým se vývojáři už teď vážně zamýšlejí.
+Susanne Specht
+
+Výhody a nevýhody palivových článků
++ Vysoký počet nabíjecích a vybíjecích cyklů. Palivový článek může být na rozdíl od akumulátorů dvacetkrát častěji nabíjen (asi 500x). Potom je možné zásobník vodíku vyčistit a opět jej v článku použít. Současný akumulátor v ceně i několika tisíc korun, jehož životnost už skončila, musíme naproti tomu vyměnit.
++ Vysoká kapacita článku. Až deset hodin provozu notebooku bez připojení do zásuvky.
++ Žádné samovybíjení. Kapacita se zachová, i když článek není provozován. Naproti tomu se akumulátor vybije po určitém čase sám.
++ Variabilní provedení. S palivovým článkem mají výrobci větší volnost při tvorbě podoby notebooku, protože mohou dát vodíkovému akumulátoru jakýkoli tvar.
+– Přijde na trh příliš pozdě. Teprve za dva roky je možno počítat s prvními sériově vyráběnými modely.
+– Příliš vysoká hmotnost. Akumulátor vodíku bude vzhledem k metalhydridovému opláštění vážit asi jeden kilogram. Mobilní přístroje by ale měly být čím dál lehčí.
+
+
+
+
+Autor:
+Susanne Specht
+Rubrika:
+Magazín
+Vydání:
+729663 - 729693
+
+
+Cenově výhodný, chrání životní prostředí – a přitom vydrží deset i více hodin
+Revoluce na trhu notebooků! Nový zdroj energie by mohl postavit stávající akumulátory mimo hru! Přináší více síly, vydrží věčně, má flexibilní design, je recyklovatelný a – co nesmíme zapomenout – je mnohem výhodnější. Chip si na pověstmi opředený palivový článek vzal pořádnou lupu.
+
+Palivový článek místo akumulátoru
+
+Uwe Paschke, technik a marketingový pracovník ve Fraunhoferově ústavu pro solární energetické systémy ve Freiburgu, říká: “Naše palivové články se stávají rozhodujícím argumentem pro trh notebooků.” Předpovídá, že “díky tomuto systému energie budou notebooky místo tří hodin běhat deset hodin, aniž by musely být připojeny do sítě”.Nadšenému vývojáři je jasné, že taková známka výsadního postavení naláká zástupy kupujících.
+Mistrovským kouskem nové techniky je membránový palivový článek, který mění vodík na proud. Zásobník vodíku přitom může být doma prostřednictvím externího miniaturního elektrolyzéru nabit nebo prostě vyměněn podobně jako baterie.
+Palivové články nejsou novým objevem. Princip převodu energie prostřednictvím vodíku je znám už od roku 1836. V dnešní době však o sobě dávají hodně vědět, protože jsou při své výkonnosti schopny nahradit i dieselové nebo zážehové motory. Vůdčí výzkumnou instancí v této oblasti je výrobce automobilů Daimler-Benz. Kolem roku 2005 by se měly na ulicích objevit nové vozy s pohonem na elektromotor, který dostane svoji “šťávu” od palivového článku. Dosavadní elektromobily poháněné bateriemi pak budou rázem poslány do starého železa. 
+Výhoda nového vývoje je v tom, že palivové články akumulují podstatně více energie než baterie. Osobní automobily tak nemusejí být u konce svých sil už po ujetí stovky kilometrů, jak je tomu při provozu na akumulátory, ale mohou bez problémů ujet až 400 km, tedy čtyřikrát větší vzdálenost.
+
+Od auta k notebooku
+Asi před rokem přemítali Uwe Paschke a jeho šest kolegů z oddělení chemických přeměn a akumulace energie ve Fraunhoferově ústavu o možnostech udělat “díru do světa” i v oblasti, která je mnohem menší, než jsou auta. Uvažovali takto: Energie získaná z palivového článku je špičkový technologický výrobek, musí tedy patřit na trh špičkových výrobků. A to je právě trh notebooků, protože zásobování energií v oblasti notebooků je v současné době ještě naprosto neuspokojivé. Paschke a jeho tým chtějí tímto způsobem získat zajímavý sektor trhu, protože podle nich je doba provozu notebooku na akumulátory kolem dvou hodin extrémně malá.
+Stále nové a nové aplikace potřebují stále více paměti, která spotřebovává energii, a v noteboocích se objevují nová paměťová média, například mechaniky DVD, u kterých díky jejich extrémně vysoké kapacitě (ve srovnání s CD-ROM) trvá přenos dat na pevný disk nebo do paměti počítače mnohem déle. Roste také velikost displejů a tím i jejich spotřeba. Z těchto i z mnoha dalších důvodů se zvyšují nároky na výdrž energetickéjho zdroje. Pokud by se tento problém ale řešil použitím stávajících technologií, znamenalo by to růst hmotnosti těchto “zásobníků” energie. Zdá se však, že palivové články zasáhly do trendu zvyšování kapacity v pravý okamžik a mohou poskytovat elektronickým zařízením sílu po dlouhé hodiny.
+
+Vodík se mění na proud
+Všechno, co ke kýžené chemické reakci potřebujeme, je proud, vodík, kyslíková elektroda, vodíková elektroda a polymerová membrána. Vodík je přitom akumulován v hydridu železa (metalhydridu). Abychom vodík získali, potřebujeme elektrolyzér – přístroj, který prostřednictvím elektrického napětí z vody uvolní vodík. Ten pak je připraven v zásobníku (hydridovém akumulátoru) připojeném na palivový článek.
+Palivový článek pak umožní reakci přiváděného vodíku s okolním vzduchem – výsledkem této reakce je elektrický proud. K tomu účelu se uprostřed článku nachází polymerová membrána. Kolem ní se z jedné strany vede vodík a z druhé strany okolní vzduch. Vzniklou reakcí se vytváří elektrický proud.
+
+Jeden článek to ale neutáhne
+V mobilní oblasti, například pro notebooky nebo měřicí přístroje, chtějí výzkumníci použít takzvané palivové články s páskovou membránou. V tomto případě se interně spojí pět palivových článků. Výhoda je zřejmá – vyšší energetická výtěžnost, které se dočkáme i v malém prostoru.
+Freiburští výzkumníci už potvrdili, že vše funguje podle jejich představ. Prototyp palivového článku pro notebook byl předveden už počátkem roku na hannoverském veletrhu CeBIT. Nyní hledá Paschke partnery nebo sponzory, kteří by byli ochotni vyvinout z inovativního prototypu výrobek vhodný pro sériovou výrobu.
+
+Ještě hodně práce
+Než se ale palivový článek bude moci usídlit třeba ve vašem notebooku, mají před sebou vývojáři ještě hodně práce. Teprve v horizontu dvou let počítají s tím, že výrobek by mohli představit na trhu. Náklady na vývoj přitom odhadují na sumu kolem 3,5 milionu DEM. Před nimi ještě stojí nejdůležitější úkol, totiž redukovat současnou velikost článku maximálně na čtvrtinu. Protože zásobník vodíku je dostatečně flexibilní, lze ho vyrobit i jako plochou, asi jeden centimetr silnou desku, která zaujme celou plochu notebooku. Palivový článek sám by pak mohl být umístěn v pravém rohu notebooku.
+Velkou předností této konstrukce by bylo uvolnění dodatečného místa pro mechaniky nebo možnost umístit na skříň notebooku podstatně více rozhraní. Dosavadní provedení akumulátorů je kvůli uložení několika článků vedle sebe mnohem “ustrnulejší” a toto provedení není možné v současné době nějakým podstatným způsobem změnit. Proto momentálně není ani možné zabudovat do notebooku více než dvě mechaniky.
+Velkou nevýhodou zásobníku vodíku je ovšem jeho hmotnost. Pokud bychom chtěli notebook zásobovat energií po dobu deseti hodin, musíme se připravit na to, že náš stroj bude (zatím) minimálně o jeden kilogram těžší. Sám Paschke k tomu podotýká, že bez této hmotnosti se ani za dva roky ještě neobejdeme. Čím menší je vodíkový zásobník, tím bude logicky kratší doba běhu notebooku. Snaživí vývojáři ale nemohou s pětihodinovou dobou provozu během dvou let příliš uspět, i když notebook by pak byl méně těžký. Jejich konečným cílem je pokořit hranici alespoň deseti hodin provozu.
+Jestliže vývojáři najdou vhodného partnera, počítají s tím, že na trh vrhnou nejméně 100 000 kusů nových článků. Přitom předpokládají, že výrobní náklady na celý notebook budou s palivovým článkem mnohem nižší než s doposud používanými akumulátory. Jejich kalkulace zahrnuje i elektrolyzér k nabíjení vodíkového akumulátoru. Bez něj by bylo nutné vždy po deseti hodinách starý zásobník vyhodit a nasadit nový. A to by bylo škoda.
+Vývojáři, a především Paschke jako nadšený obránce palivových článků a jako angažovaný ochránce přírody zdůrazňují ještě jednu důležitou věc. Abychom nebyli při nabíjení jako doposud závislí na proudu ze zásuvky (ten potřebujeme k “dobíjení” vodíku), lze si představit na notebooku solární článek, který by se staral o krmení nového typu zdroje. Je to nápad, nad kterým se vývojáři už teď vážně zamýšlejí.
+Susanne Specht
+
+Výhody a nevýhody palivových článků
++ Vysoký počet nabíjecích a vybíjecích cyklů. Palivový článek může být na rozdíl od akumulátorů dvacetkrát častěji nabíjen (asi 500x). Potom je možné zásobník vodíku vyčistit a opět jej v článku použít. Současný akumulátor v ceně i několika tisíc korun, jehož životnost už skončila, musíme naproti tomu vyměnit.
++ Vysoká kapacita článku. Až deset hodin provozu notebooku bez připojení do zásuvky.
++ Žádné samovybíjení. Kapacita se zachová, i když článek není provozován. Naproti tomu se akumulátor vybije po určitém čase sám.
++ Variabilní provedení. S palivovým článkem mají výrobci větší volnost při tvorbě podoby notebooku, protože mohou dát vodíkovému akumulátoru jakýkoli tvar.
+– Přijde na trh příliš pozdě. Teprve za dva roky je možno počítat s prvními sériově vyráběnými modely.
+– Příliš vysoká hmotnost. Akumulátor vodíku bude vzhledem k metalhydridovému opláštění vážit asi jeden kilogram. Mobilní přístroje by ale měly být čím dál lehčí.
