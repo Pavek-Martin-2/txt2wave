@@ -23,7 +23,3 @@ ffmpeg tak i do "mp3" lze potom vysledny soubor prenes napr. pre Bluetooth do mo
 telefonu tabletu atd. a poslouchat pres sluchtka nekde na cestach apod.
 a nebo pouslouchat u desktopoveho pocitace misto cteni se u toho da dalat jeste i neco jineho...
 preju hodne zabavy
-
-
-
-
