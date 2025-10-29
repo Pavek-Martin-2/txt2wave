@@ -5,7 +5,7 @@ hned na prvni pokus
 https://github.com/jonelo/unlock-win-tts-voices
 
 co stim :
-davkovy soubor "unlock-win-tts-voices.bat" slouzi pro odemceni vsech naistalovanych
+davkovy soubor "unlock-win-tts-voices.bat" slouzi pro odemceni vsech nainstalovanych
 hlasu ve sluzbe "predcitani" a je NUTNE ho spustit v rezmu Spravce
 tzn. kliknout na soubor "unlock-win-tts-voices.bat" pravym tlacitkem mysi
 a z otevrene nabidky pak vybrat radek "Spustit jako spravce" nasledne v modrem okenku
@@ -23,6 +23,7 @@ ffmpeg tak i do "mp3" lze potom vysledny soubor prenes napr. pre Bluetooth do mo
 telefonu tabletu atd. a poslouchat pres sluchtka nekde na cestach apod.
 a nebo pouslouchat u desktopoveho pocitace misto cteni se u toho da dalat jeste i neco jineho...
 preju hodne zabavy
+
 
 
 
