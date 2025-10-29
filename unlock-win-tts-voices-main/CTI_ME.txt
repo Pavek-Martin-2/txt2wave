@@ -1,0 +1,37 @@
+
+puvodni link na gitHub kde je tento "ulock" program, ktery jsem si zde od autora vypujcil :)
+musim rict ze funguje naprosto spolehlive a nebyl z jeho funkci zadny problem a vse se podarilo
+hned na prvni pokus
+https://github.com/jonelo/unlock-win-tts-voices
+
+
+co stim :
+davkovy soubor "unlock-win-tts-voices.bat" slouzi pro odemceni vsech naistalovanych
+hlasu ve sluzbe "predcitani" a je NUTNE ho spustit v rezmu Spravce
+tzn. kliknout na soubor "unlock-win-tts-voices.bat" pravym tlacitkem mysi
+a z otevrene nabidky pak vybrat radek "Spustit jako spravce" nasledne v modrem okenku
+kliknout na "Ano" a dale pak v jiz v samotnem terminalovem okne programu odpovedet
+na dotaz "Unlock TTS voice? [y]" tim ze zmacknete sekvenci klaves "y" a "Enter"
+
+tento program jsem docela dlouho hledal na internetu
+nektere hlasy jsou v systemu Windows udajne nejaky zpusobem "zamcene"
+Microsoft se tim pravdepodobne brani tomu aby mohly bit jeho systemove sluzby
+(sluzba Predcitani) vyuzivana i jinymy programy a aby byl clovek odkazan jen na to
+co mu nabyzi system Windows samotny.
+
+po prevodu textoveho souboru do souboru "wav" pripadne pokud mate v pocitaci take utilitu 
+ffmpeg tak i do "mp3" lze potom vysledny soubor prenes napr. pre Bluetooth do mobilniho
+telefonu tabletu atd. a poslouchat pres sluchtka nekde na cestach apod.
+
+a nebo pouslouchat u desktopoveho pocitace misto cteni se u toho da dalat jeste i neco jineho...
+preju hodne zabavy
+
+
+pozn. 
+pokud by byl ze souborem "unlock-win-tts-voices.bat" nejaky problem a nedelal by to co ma
+viz. autoruv screenshot v adesari "docs\images"
+pripadne by se nechtel zpustit, muze to byt zapricineno tim ze interne vola "PowerShell"
+takze i zde uz je potreba slpnovat nejake to jejich "ExecutionPolicy"
+v Powershelu ktomu slouzi prikazy napr. "Get-ExecutionPolicy", "Get-Help ExecutionPolicy",
+"Set-ExecutionPolicy" pro vice informaci hledejte na Google a nebo se prejte AI
+

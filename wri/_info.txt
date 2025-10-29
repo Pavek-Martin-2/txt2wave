@@ -1,0 +1,10 @@
+
+soubory z priponou *.wri, lze otevrit treba v OpenOffice nebo LibreOffice
+a text pak pomoci clipboardu prenest do poznamkoveho bloku a ulozit soubor
+jako ciste "txt" z kodovanim UTF8
+
+pozn.
+opet pozor jako jiz tradicnena nazvy textovych souboru,
+program si nerozumy z mazerami v nazvua z diaklitikou, takze pro zpravnou 
+funkcnost toto doporucuji vynechat diakritiku uplne a i jine specialni
+znaky a mezeru nahrazovat podtrzitekem "_"
