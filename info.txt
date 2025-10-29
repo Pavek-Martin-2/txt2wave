@@ -2,5 +2,5 @@
 zde je ke stazeni FFmpeg pro Windows
 https://sdilej.cz/32098894/ffmpeg-a-mpv.rar
 
-
-
+a zde pak je par jiz prevedenych souboru do wavu
+https://sdilej.cz/32249981/txt2wave-audio.rar
