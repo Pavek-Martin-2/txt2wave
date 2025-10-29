@@ -5,6 +5,7 @@ jako ciste "txt" z kodovanim UTF8
 
 pozn.
 opet pozor jako jiz tradicnena nazvy textovych souboru,
-program si nerozumy z mazerami v nazvua z diaklitikou, takze pro zpravnou 
+program si nerozumy z mazerami v nazvu a z diaklitikou, takze pro spravnou 
 funkcnost toto doporucuji vynechat diakritiku uplne a i jine specialni
-znaky a mezeru nahrazovat podtrzitekem "_"
+znaky a mezeru nahrazovat znakem podtrzitko "_"
+
