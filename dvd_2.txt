@@ -1,0 +1,115 @@
+dvd 2
+Všechno o DVD
+S digitálními univerzálními disky (DVD) je už nutno počítat. Znamenají konec běžných CD a hodí se k tomu, aby vytlačily videokazety z role filmových konzerv. Chip vám ukáže, co už můžete s novým médiem dělat.
+
+Aby to s DVD všechno vyšlo
+
+Jednotky DVD pro PC už technicky uzrály a jsou k dostání za ceny mezi 4500 a 8000 korunami. Jinak to však vypadá se softwarem. Pro naprostou většinu her a aplikací zatím 650 megabajtů paměťového prostoru na CD-ROM stačí.
+Na discích DVD jsou zatím především filmy. Na 4,7GB disk DVD-5 (jednostranný, popsaný v jedné vrstvě) se vejdou stejně jako na videokazetu celé hrané filmy. Digitální obrazy z disku přitom předčí videokazety co do čistoty a ostrosti.
+Proto začíná filmový průmysl v USA (první vlaštovky jsou však už také u nás) přecházet s novými tituly na DVD, na nichž je šíří mezi zákazníky. Není divu, že se na atraktivním americkém trhu uspokojí mnoho zákazníků. Na co si dávat pozor, říká tip 10.
+Na následujících stránkách najdete tucet tipů, jak je třeba připravit váš počítač pro DVD. O principu funkce a technických základech DVD jsme už psali mnohokrát.
+
+Tip 1: Karta MPEG uvede pomalý PC do poklusu
+Abyste si mohli přehrát video DVD, nemusíte si zrovna pořizovat Pentium II s 300 nebo více megahertzy. Tam, kde výkonnost počítače nestačí, aby se filmy prezentovaly bez trhání, pomůže karta MPEG. Dokonce i uživatelé Pentia 120/133 mohou přibližně za 11 000 Kč vybavit svůj počítač kompletní sadou, jako je DVD Encore od Creative Labs, obsahující DVD-ROM a kartu MPEG.
+Chip může doporučit sadu DVD Encore jako univerzální řešení pro počítače od Pentia 90 do Pentia II 266. Instalace ovladače a hardwaru se povedla i pod Windows 95 a 98 bez problémů. Philips nabízí podobnou kompletní sadu za přibližně 7000 korun. 
+Hůře vypadá situace v oblasti grafických karet. Zatímco ještě nedávno se vybavovaly určité modely (např. od ATI) integrovaným čipem MPEG, musí se dnes rozšíření pro DVD draze dokupovat (u Matroxu za pár tisíc korun).
+Pouze specialista na grafické karty STB vybavil svůj model Nitro pravým dekodérem MPEG (celková cena kolem 5000 korun). Výrobci, jako je např. ATI, se pro budoucnost zaměřují nikoliv na čipy MPEG, ale spíš na výkonnost moderních procesorů a kompenzační funkce pro pohyb u svých grafických čipů. Doporučují dekódovat filmy softwarovým přehrávačem.
+ATI např. přibaluje své grafické karty v současné době k přehrávači DVD Zoran, bude však brzo dodávat lépe optimalizovaný přehrávač, který má zvládnout bez trhání přehrávání na Pentiu II 266.
+Nespolupracuje-li grafická karta, nestačí však ani výkonný procesor Intel Pentium II 333 MHz nebo AMD-K6-2 350 MHz, aby se video DVD přehrávalo bez rušivých proužků. Se starším ATI Mach 64 neběhají určité akční filmy zcela bez trhání ani s Pentiem II 400, ale s novou grafickou kartou ATI mající podporu kompenzace pohybu a s optimalizovanými ovladači a přehrávacím programem ano.
+
+Tip 2: Dejte pozor na výkonnost zvukové karty
+Levné zvukové karty mohou být při přehrávání audiodat nasnímaných při 48 kHz přetíženy a musí se transformovat za cenu ztráty kvality dolů. Se zvukovou kartou Sound Blaster (např. Sound Blaster 16 nebo lepší) jste však pro DVD vybaveni dobře, protože současné karty umí přehrávat datovou stopu filmů DVD zpravidla bez ztráty kvality.
+
+Tip 3: Grafické karty AGP se starají o vyšší tempo
+Kdo si chce přehrát filmy DVD bez karty dekodéru MPEG, měl by mít kromě rychlého procesoru i grafickou kartu AGP novější generace. Port AGP (Advanced Graphic Port) přináší zřetelné výhody v rychlosti, protože dopraví datové toky ke grafické kartě podstatně rychleji než sběrnice PCI.
+Kvalita přehrávky se výrazně zlepší, když je grafická karta vybavena čipem MPEG (viz tip 4), anebo umí alespoň kompenzaci pohybu (Motion Compensation). K tomu patří mimo jiné všechny čipové sady ATI Rage Pro.
+Dobrý a přitom levnější softwarový přehrávač přichází od tchajwanské firmy Cyberlink. PowerDVD lze objednat za 25 dolarů na domovské stránce (www.cyberlink.com.tw) faxovým formulářem. Sharewarovou verzi PowerDVD naleznete také ve fórech na internetu. 
+Pozor: tato odlehčená verze “Lite” je silně omezena – přehrává filmy pouze bez zvuku a akceptuje pouze filmové titulky nezávislé na kódu země (viz tip 8).
+
+Tip 4: Levně ke grafické kartě MPEG s urychlovačem
+Kartou Nitro DVD uvedl výrobce grafických karet STB na trh všestrannou kartu s urychlovačem MPEG za cenu kolem 4200 korun. Škoda že je tato karta jen pro slot AGP. Starším systémům s Pentiem se tedy co do DVD takto na nohy nepomůže, protože jejich desky slot AGP nemají. Nitro DVD nenabízí zrovna vynikající výkony pro 2D a 3D, ale zato se hodí jako univerzální grafická karta.
+V testovacím středisku Chipu nepracovala tato karta s BIOS verze 1.5 na všech základních deskách nové generace, současná revize 1.9 však ano. Protože Windows 95/98 nepoznají tuto integrovanou čipovou sadu, je tato grafická karta v čistém režimu VGA hodně pomalá. Po instalaci ovladačů (jen Windows 95/98) se scéna mění: dodaný přehrávač DVD se obsluhuje pohodlně, a dovoluje dokonce pořizování momentek.
+
+Tip 5: Jak funguje DVD i pod Windows NT
+Skoro všechna nabízená řešení s jednotkou DVD-ROM a kartou MPEG se zatím orientují na Windows 95/98. Pro ostatní operační systémy je nabídka bohužel ještě chudičká. Windows NT budou přímo podporovány teprve verzí 5 DVD oznámenou na počátek roku 1999. Jedinou dekódovací kartu DVD, která pracuje i pod Windows NT 4.0, našel Chip na internetu u výrobce multimédií Dooin. Jeho DVD Vision II je k dostání od německého distributora Comline (www.comlinehq.com). Operační systémy Linux a OS/2 nejsou zatím podporovány žádnou kartou MPEG, která umí DVD.
+
+Tip 6: Pozor na to, aby byly správné ovladače
+Nový operační systém od Microsoftu přináší i podporu souborového systému UDF používaného na DVD a CD-RW. Avšak přehrávač DVD se nenainstaluje jen tak. Windows 98 zavedou přehrávací program (dvdplay.exe) jen tehdy, když se při instalaci nebo rozpoznávání hardwaru najde DVD-ROM a karta MPEG. Avšak seznam podporovaného hardwaru DVD není právě bohatý. Především tam jsou jednotky první generace DVD, které už na trhu nejsou.
+DVD-ROM, jako jsou třeba současné modely od Creative Labs, se sice nainstalují jako jednotky CD-ROM a také tak bez potíží pracují, ale operační systém je nerozpozná jako “hardware DVD”. I pod Windows 98 jsme tedy odkázáni na současné ovladače a přehrávače výrobců DVD. Avšak ten nejpřirozenější pokus, totiž vybrání programového souboru dvdplay.exe z CD pro Windows 98 (je v driver17.cab) a jeho odstartování, selhal.
+
+Tip 7: Menší zatěžování CPU aktivací DMA
+S většinou jednotek DVD-ROM se pod Windows 95/98 nakládá jako s jednotkami CD-ROM. Není k tomu třeba ovladač, protože se tato zařízení poznají přes rozhraní ATAPI. Stejně jako u jednotek CD může být i u zařízení DVD podstatně sníženo zatížení CPU během práce aktivací DMA (Direct Memory Access). Tímto kanálem bude procesor komunikovat při přímém přístupu do paměti. Abyste to prověřili, klepněte v Ovládacím panelu na “Systém|Správce souborů”, pod rubrikou CD-ROM zvolte jednotku DVD a klepněte na “Vlastnosti”.
+Je-li v “Nastavení” volba DMA, aktivujte ji. V testu Chipu kleslo vytížení CPU během přehrávání filmů DVD z přibližně 50 procent na hodnoty mezi 11 a 15 procenty.
+
+Tip 8: Jak obelstíte kód země
+Sotva se objevila sada DVD Encore Dxr2 od Creative Labs na trhu, už se objevilo na internetu první rozlousknutí kódu země. Tento malý program dovolí přes menu přepnout kód země (např. z USA na Evropu). Změna se sice neprojeví hned, ale po novém startu počítače už přehrává jednotka hrané filmy DVD v kódu zvolené země.
+Také pro balení DVD od Philipse (DVD-ROM a karta MPEG Hollywood Motion) existuje řešení, jak přehrávat filmy buď s kódem země 1 (USA), nebo 2 (Evropa, Japonsko). Vtip je v tom, že řešení pochází přímo od výrobce karty MPEG. Kód se přestaví tak, že se instaluje změna pro tuto kartu a přitom se zadá jiný kód. Avšak na domovské stránce (www.realmagic.com) upozorňuje Sigma Designs na to, že přepínání kódu země je z právních licenčních důvodů zapovězeno. U některých přehrávačů stačí odinstalovat software a znova jej na systém nainstalovat s jiným kódem země.
+
+Tip 9: Jak jsou od sebe odděleny státy na zeměkouli
+Právě pro hudební fandy jsou některé koncertní filmy DVD atraktivní kvůli kvalitě zvuku (Dolby Digital, AC-3). Zde se vyplatí trošku sáhnout do USA, protože hodně zajímavých hudebních titulů je od kódu země oproštěno. Například tituly “Tina Turner – Wildest Dreams” nebo sestřih z “Lord of the Dance” se dají bez omezení přehrát všemi přehrávači. Také pornoprůmysl se při DVD o kód země nestará; zejména velmi tvrdé tituly nejsou kódovány (kód 0, viz tabulku). Avšak erotické tituly třeba z Playboye jsou zakódovány.
+
+Tip 10: Pozor, objednávka z USA se může prodražit
+Pro filmové fandy jsou USA zemí zaslíbenou, protože je tam už několik set filmů všech oborů na DVD. Mezi nimi i takové, které k nám do kin teprve přijdou. Ale pozor! Americké kotouče jsou kódovány jinak než české.
+Přesto je atraktivní mnohý DVD s americkým kódem 1. Zdrojů na internetu je bezpočet. Chip udělal u Kena Kranese (www.kenkranes.com) zkušební objednávku tří titulů za senzační cenu pod 20 dolarů za titul. Po týdnu se dostavilo překvapení ve formě dodávky (letecké). Poštovné dosáhlo slušně mastných 33 amerických dolarů a později se přidalo dalších 50 dolarů v podobě dovozní daně...
+
+Tip 11: Informace navíc se volají myší
+Vysoká datová hustota média DVD umožňuje až devět paralelních toků, maximálně 32 řečí v titulcích a až osm datových stop pro různé synchronizační účely. Například si člověk může přehrávat film střídavě německy a anglicky a k tomu mít finské anebo dánské titulky.
+Mnoho filmů nabízí úvodní menu s možnostmi volby. Klepnutím myší si tak můžeme přímo vyvolat oblíbenou scénu nebo se informovat o životopise herců. 
+O zvýšené hodnotě filmů se informujeme většinou jediným pohledem na obal filmu DVD. Lze tak objevit mnohé. Jako bonbonky můžete najít třeba ukázky nových filmů, životopisy, pohledy za kulisy při natáčení filmů, různé formáty zvuku a různé úhly pohledu na tutéž scénu.
+
+Tip 12: Ochrana kopií je stejně málo účinná jako u videa
+Dobrá kvalita obrazu filmů DVD činí ovšem toto médium zajímavým i pro pirátské kopírování. Z tohoto důvodu je větší část filmů DVD opatřena několika bezpečnostními mechanismy. Digitální data na DVD jsou kódována systémem CSS (Content Scrambling System). Teprve při přehrávce se data dekódují přehrávačem DVD. Tak se má zabránit digitálnímu kopírování na pevný disk nebo jiná paměťová média.
+Proti analogovým kopiím na videokazetu slouží systém Macrovision. Používá se také u kazet VHS a ruší nahrávku roztroušeným třesením. Protože se to však v odborných obchodech jen hemží zařízeními na neutralizaci systému Macrovision už za méně než 100 marek, plánují se další ochranné mechanismy pro DVD.
+Christian Riedel
+
+Pojmy DVD srozumitelně
+Audio-Grabbing: Čtení nebo kopírování audiodat uložených na CD ve speciálním formátu.
+CD-R: Paměťové médium, na které můžeme data vypálit, nemůžeme je však smazat. Typickým znakem je barva: zlatá, zelená nebo modrá.
+CD-RW: Datový nosič, na kterém můžeme až tisíckrát zapisovat a mazat.
+Dolby Digital: Komprimovaný digitální audioformát se šesti kanály pro trojrozměrný zvuk (dříve AC-3).
+DMA: Direct Memory Access. Data jdou od komponenty přímo do paměti, aniž by prošla procesorem.
+DVD: Obecný pojem odvozený z “Digital Versatile Disk” (digitální univerzální disk), který se vztahuje na vylepšenou formu techniky CD, na které lze zapsat až do čtyř vrstev (na každé straně dvě) až 17 gigabajtů dat.
+DVD-RAM: Datový nosič DVD s možností zápisu i opakovaného přepisu (cca 1000 x)  až 2,6 GB na každou stranu. Mnozí lidé jej považují za zprostředkující médium budoucnosti. Není však ještě posvěcen jako standard.
+DVD-ROM: Je považován za následníka CD-ROM; vzhledem k vysoké datové hustotě může pojmout až 17 gigabajtů dat. V současné době jsou však na trhu většinou jen jednostranné a jednovrstvé DVD se 4,7 GB (DVD-5).
+DVD-5: DVD popsaný po jedné straně v jedné vrstvě, kapacita 4,7 GB.
+DVD-9: DVD popsaný po jedné straně, ale ve dvou vrstvách; kapacita 8,5 GB.
+DVD-10: DVD popsaný po obou stranách v jedné vrstvě; kapacita 9,4 GB.
+DVD-18: DVD popsaný po obou stranách ve dvou vrstvách; kapacita 17 GB.
+Doba přihlášení: Časový úsek, než jednotka rozpozná založené médium (CD nebo DVD) a uživatel může přistoupit k jeho obsahu.
+Motion Compensation: Redundantní obrazové informace se znova nekonstruují v každé obrazové posloupnosti, nýbrž je na ně učiněn vektorový odkaz.
+MPEG-2: Vylepšený komprimační proces pro videodata, který se používá u filmů DVD. Pro přehrávání souborů MPEG-2 potřebujeme buď dekódovací software a výkonný procesor, nebo dekódovací kartu.
+PIO-Mode: Také se mu říká “polling”. Na rozdíl od DMA nejdou data do paměti přímo, nýbrž přes CPU.
+UDF: Universal Disk Format je nástupcem technicky zastaralého formátu ISO 9660, který zvládl pouze 1 GB. 
+Protože UDF (ISO 13346) může adresovat několik terabajtů dat, hodí se pro techniku DVD.
+
+Pouze sexuální průmysl využívá paralelní videostopy
+Výhoda videa DVD je až v devíti paralelních stopách. Dovoluje-li to výchozí materiál, třeba protože byla scéna pořízena současně více kamerami, může si divák podle svého vkusu zvolit vhodnou perspektivu (úhel) kamery. Filmy Hollywoodské produkce, které jsou v současné době dostupné, tuto možnost nevyužívají, ale mají alespoň volbu jazyka (angličtinu, francouzštinu, němčinu) a cizojazyčné titulky.
+V současné době využívá plně nové médium hlavně sexuální průmysl. Vysoká kapacita se tady využívá tak, že některé pornoscény se snímají více kamerami z různých pohledů. 
+Avšak ne vždy se na kotouči najde to, co stojí na obalu. Některé erotické tituly sice vábí titulkem “multi-angle”, ale neposkytují o mnoho víc než levně produkované CD-ROM s kraťoučkými videoklipy. Ani jméno Playboy neznamená film budoucnosti. Jeho tituly, které jsou k dostání, se dají přehrávat jen z určité perspektivy...
+Kdo si chce udělat obrázek o skutečně interakčním DVD, měl by se podívat na film německé produkce “Fotbalová Bundesliga 97 – Ran”.
+
+Software na DVD je pořád nedostatkové zboží
+I když by mohli producenti softwaru brzo udělat s gigantickou kapacitou DVD díru do světa, téměř všichni od toho dávají ruce pryč. Německý producent softwaru Topware byl před rokem jedním z prvních a vytvořil dva disky DVD-ROM bestselerů D-Sat 2 a Gold 3. Oba produkty se jinak dodávaly na více než deseti CD-ROM. Po jednom roce však Topware nevidí na základě čísel o odbytu žádný důvod sázet moc na DVD.
+Také u Corelu, specialisty na grafiku, ještě čekají, jak se DVD uplatní na trhu PC. Rozhodnutí, zda se třeba objeví sbírka obrázků úsporně uložená na DVD, je ještě ve hvězdách.
+Alespoň Microsoft se snaží rozšířeným vydáním díla Encarta určit směr pro DVD. Avšak ten už má.
+Nadějně vypadá pouze filmový průmysl. Stále víc gigantů této branže se připojuje k průvodu interakčních hraných filmů DVD.
+
+Zdroje filmů DVD:
+www.jpc.de (kód 1 a 2, od 100 marek bez dopravného)
+www.dvd-film.com (pouze kód 2, též informace o filmech)
+DVD EMS, Dortmund, tel. (0049 0231) 44 24 11-0, www.e-m-s.de
+
+Mnoho filmů však najdete také na pultech, kde jste zvyklí hledat i CD a videokazety. Tyto obchody však zatím nejsou vybaveny přehrávači, na kterých by bylo možné zhlédnout ukázky.
+
+Informace o DVD:
+www.chip.de/News/Archive/1998-04/dvd.html (“Jak funguje DVD”)
+www.dvd-info.de (dobrý slovník DVD, přehledy filmů, objednací středisko)
+
+Dekódovací karty:
+Quadrant Cinemaster (asi 5000 korun), www.dvd.de
+
+Softwarové přehrávače:
+PowerDVD, www.cyberlink.com.tw/ (plná verze za 25 dolarů) 
+Omezenou sharewarovou verzi najdete na přiloženém CD.
+Zoran SoftDVD, www.zoran.com (u některých karet ATI je součástí dodávky)
+

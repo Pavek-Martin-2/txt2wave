@@ -1,0 +1,171 @@
+Pohled na 32bitové operační systémy
+Co míchanice 32bitových operačních systémů znamená pro průměrného uživatele? Podívejme se na tato prostředí, abychom zjistili, proč pořád inspirují neumírající oddanost k DOSu. Vždyť i IBM přichází s jeho novou verzí, a tou je IBM PC DOS 7.0.
+
+Od konce roku 1992, kdy jsem se naposled zajímal o 32bitové operační systémy, se situace značně změnila. Tehdy byl OS/2 uctíván malou, ale fanatickou skupinou stoupenců, Unix byl zmatenou sbírkou nekompatibilních příchutí a zkratka NT (New Technology) byla slibem v tiskových zprávách Microsoftu. Dneska si stoupenci OS/2 začínají troufat, všechny rozmanitosti Unixu začínají chutnat zahořkle a tiskové zprávy Microsoftu mluví o Windows 95.
+
+OS/2 Warp
+IBM provedla loni na OS/2 plastickou operaci, aby přilákala více fandů sci-fi. Aby “Velká modrá” udělala prostředí snáze použitelné, přidala dvanáctihodinové školení a vyvinula barevnější ikony. Největší změnou je, že vám teď OS/2 dovolí si vybrat a pohnout ikonou stejným knoflíkem na myši. IBM se svým Warpem protrhla bariéru i v propagačním umění - je to první 32bitový operační systém, který má jeptišky na obrazovce (nevím, zda se tato reklama ukazuje i v české televizi, ale ujišťuji vás, že určitě stojí za vidění).
+Navíc OS/2 Warp se dodává se širokým sortimentem utilit pro Internet, což vám poskytuje plný přístup na Infobahn o něco dráž než obvykle, a Warp obsahuje též několik skromných aplikací, abyste zapomněli na to, že chybí kompletní alternativy.
+Protože je nedostatek nativních aplikací, hodnota OS/2 je totálně závislá na tom, jak spouští aplikace pro Windows 3.1. Zkuste nechat běžet aplikace pro Windows pod OS/2 a užasnete, jak rychle běží, když se vracejí zpátky do Windows.
+
+Windows NT
+Když už znáte Windows 3.1, pak s uživatelským rozhraním Windows NT budete jako ruka v starém rukávě - obnošeném, plném děr a otřepeným na krajích. Po nějaké době nošení tohoto rukávu zjistíte, že je příliš veliký a že se někdy chová jako brnění, které vám nedovolí se hýbat.
+Když instalujete NT, první věc, kterou na vás chce, je stisknout Ctrl+Alt+Del. Rychle si na to zvykněte. NT to na vás bude chtít ještě mnohokrát.
+Protože je nedostatek nativních aplikací, hodnota NT je totálně závislá na tom, jak spouští aplikace pro Windows 3.1. NT se zbavuje této úlohy s půvabem a rychlostí zdechlé gazely.
+
+NextStep pro Intel
+NextStep pro Intel je perfektním výběrem pro softwarové vývojáře, kteří mají touhu vytvořit snadno použivatelné, objektově orientované aplikace pro trh tak asi 12 uživatelů. NextStep se prodával před několika lety pouze se specializovanými pracovními stanicemi NeXT (třetí nejpopulárnější typ počítače na trhu), kde se počet životaschopných platforem rovnal jedné. Dnes můžete spustit NextStep na standardním intelovském PC - ovšem jen pokud máte hodně rychlý stroj, 20 MB RAM a také velmi dobrou znalost Unixu.
+Protože je nedostatek nativních aplikací, hodnota NextStepu je naprosto závislá na tom, jak spouští aplikace pro Windows 3.1. Tady je NextStep třídou samou o sobě, dokáže spouštět “wokenní” aplikace jen pomocí zvláštní utility a jen za dodatečný poplatek třetím stranám. Tato utilita pomáhá vašemu Pentiu emulovat PC 286.
+
+Windows 95
+Každý věří, že Windows 95 nás konečně dostanou ze šestnáctibitového světa DOS. Jakou výhodu má tento nejnovější operační systém, že dokáže být tak daleko před OS/2, NT a NextStepem?
+Je to jednoduché: ještě se nedodává. Dokud Microsoft dokáže udržovat tento stav, Windows 95 budou premiérovým 32bitovým operačním systémem.
+Naštěstí to vypadá tak, že je Microsoft rozhodnut udržovat tuto pozici do nekonečna. Současný cíl Microsoftu vydat Windows 95 spolu s Encartou 96 se zdá asi tak realistický jako to, že česká vláda sníží DPH na polovinu. Je tedy naprosto bezpečné předpokládat, že hodnota Windows 95 je úplně závislá na tom, jak spouští aplikace pro Windows 3.1. Podle Microsoftu budou Windows 95 spouštět existující aplikace “v průměru” asi o 10 procent rychleji než Windows 3.1. To ovšem předpokládá, že ta “průměrná” aplikace je benchmark Microsoftu.
+
+Udělejme správný výběr
+Čekáme na něco lepšího, co by vyměnilo DOS, už přes osm let a mnozí z nás začínají doufat. Dosáhli jsme kritického bodu, kdy je naprosto imperativní, aby si počítačová veřejnost vybrala 32bitový operační systém a s ním už zůstala. Jinak my budeme muset psát recenze na Windows 95 dalších osm let.
+Ale který operační systém byste si měli vybrat? Budete chtít ten, který se již dodává, na počítači “nespadne”, má všeobecnou popularitu a spouští aplikace pro Windows alespoň tak rychle jako Windows. Takže vám zbývá jenom... OK, tak třeba ignorujte to, že někdy může “spadnout”.
+Gustav Jindra, USA
+
+Rekordní Intergraph
+Nové zprávy od Integraphu v poslední době přicházejí z oblastí, odkud by je příznivci CAD vůbec neočekávali. Divize Intergraph Computer Systems (ICS) oznámila, že její nový model serveru InterServe MP6 (ISMP6) dosáhl při benchmarku TPS1 výkonu přes 400 transakcí za sekundu. Tohoto rekordu (podle údajů firmy cca o 25 % překonávajícího výkony konkurence) bylo dosaženo s databázovým systémem Microsoft SQL Server pod operačním systémem Windows NT.
+Server ISMP6 je vybaven šesti 100MHz Pentii v symetrickém multiprocesorovém uspořádání (SMP) a vnitřní čtyřúrovňovou ECC-pamětí o kapacitě až 256 MB. Procesory mají primární datovou i instrukční dvoucestnou asociativní paměť cache a sekundární cache 1 MB. Výkonná komunikace a vstup/výstup jsou podporovány sběrnicí PCI a tříkanálovým Fast SCSI-2.
+Tentýž den oznámila další z nezávislých divizí - Intergraph Software Solutions - produkt DiskAccess for Windows 95, určený pro integraci Windows 95 aplikací do smíšeného síťového prostředí klient/server od různých dodavatelů. Produkt podporuje sdílení souborů a síťových zdrojů mezi systémy pod OS UNIX a Windows 95. 
+–abe
+
+Server pro obchodní aplikace
+Rakouská firma Tandem bude rozšiřovat možnosti serveru Windows NT tak, aby se rozšířily jeho možnosti v oblasti obchodních aplikací. Děje se tak na základě licence, kterou firmě Tandem poskytla společnost Microsoft. Výsledkem spolupráce obou firem je projekt “Windows NT Server Business”. Rakouští partneři Microsoftu se v rámci tohoto projektu zaměří především na zabezpeční integrity dat a na škálovatelnost serveru.
+Firma Tandem má více než dvaceliteou zkušenost v oblasti obchodních aplikací a v současné době se specializuje na přenos těchto aplikací na platformu Windows NT. Paralelně s Windows NT podporuje firma Tandem i vlastní platformu NonStop Kernel a dále i otevřené unixové systémy.
+
+Automatická distribuce SW
+Americká společnost Frye Computer Systems ohlásila nový produkt, který slouží k automatické distribuci softwaru a k automatické aktualizaci souborů prostřednictvím sítí WAN. Nový produkt byl nazván “SEDS Wide Area Server Update Program V1.0” (SUDSSRV). SUDSSRV umožňuje správci sítě WAN, aby prostřednictvím jednotlivých serverů této sítě organizoval distribuci a aktualizaci softwaru, modifikoval INI-soubory, aktualizoval NLM atd.
+–ali
+
+Nový standard
+OLE pro technické aplikace
+Významným nástrojem v prostředí Windows je tzv. OLE (Object Linking and Embedding), které se uplatňuje při sdílení jednotlivých objektů různými programovými aplikacemi. Jeho význam vzrůstá v programových souborech typů “Office”, které se stávají stále žádanějším programovým produktem. 
+
+Společnost Intergraph Corporation vytvořila v souvislosti s přechodem na platformu Windows NT nový standard OLE, který je určen pro přenos objektů v aplikacích CAD. Začátkem letošního roku dala společnost Intergraph tento nástroj k dispozici konsorciu DMAC (Design and Modelling Applications Council), které sdružuje výrobce softwaru. Členy konsorcia jsou v současnosti společnosti ANSYS, Autodesk, Bentley Systems, Cadence Design Systems, Crisis in Perspective, Intergraph, Microsoft, Ray Dream, SDRC, Shapeware a Spatial Technology.
+Standard, který dostal označení “OLE for Design and Modelling Applications”, je určen pro připojování a vkládání dvourozměrných a třírozměrných technických výkresů do ostatních aplikací, které pracují v prostředí Windows. Technologie OLE se tímto standardem rozšiřuje o řadu možností (viz tabulku).
+Díky standardu “OLE for Design and Modelling Applications” jsou nástroje OLE otevřeny nejen uživatelům běžných kancelářských aplikací (textové editory, tabulkové procesory editory a databáze), ale i uživatelům náročných grafických aplikací. Informace vytvořené projektanty nebo uživateli geografických informačních systémů jsou takto dostupné i ostatním uživatelům osobních počítačů, včetně vrcholových složek řízení. 
+Pro velké průmyslové firmy bude nasazení této technologie znamenat zjednodušení pracovních postupů, pro průmysl programů CAD to naopak bude cesta ke zvýšení obratu. 
+Programováním technických aplikací v souladu se specifikací “OLE for Design and Modelling Applications” umožňují dodavatelé jednotlivých aplikací výběr softwaru podle potřeb zákazníka. Intergraph při uvolnění tohoto standardu vyzval všechny dodavatele grafických programů a programátory, aby vytvářeli otevřené modely ve společném objektovém rámci.
+Technologii OLE dnes podporuje více než 400 programových produktů od více než 300 výrobců. Konsorcium DMAC se nyní soustředilo na popularizaci nového nástroje, vytvoření plánu jeho dalšího rozšiřování a na získávání nových členů.
+Miloš René
+
+HELP
+Fultextové databáze
+Databáze: Tradiční databáze byly navrženy pro práci se strukturovanými daty. Tyto systémy najdeme na všech platformách: od “stolních” PC--databází (dBASE, FoxPro) až po “dospělé” SQL-systémy. Aby při vyhledávání záznamů nebylo nutno procházet vždy celý objem dat, databáze se indexují. Pro data, která nejsou strukturována na jednotlivé položky, nenabízejí však tradiční databáze žádnou možnost, jak je efektivně indexovat,a tak je obvykle nutné při každém vyhledávání znovu procházet celý objem dat.
+
+Fultext: Pro práci s nestrukturovanými informacemi (a těch je většina) byly navrženy tzv. fultextové systémy (fultextové databáze). Do fultextových databází se zakládají obecně nestrukturovaná data (obvykle textové soubory) a jejich základní vlastností je schopnost indexovat výskyt každého slova.
+
+Dotazy: Dotazem se ve fultextových systémech rozumí zadání hledaných výrazů a odpovídajích logických
+vztahů mezi nimi. Logické vztahy mezi hledanými výrazy se zadává pomocí tzv. logických spojek a operátorů (AND = a zároveň, OR = a/nebo, NOT = logické “ne”). Výsledkem dotazu je seznam dokumentů vyhovujících zadané podmínce.
+
+Konceptové vyhledávání umožňuje uživatelům definovat komplexní dotaz obsahující i vztahy mezi jednotlivými termíny. Uživatel si musí vytvořit tzv. strom konceptu nebo pojmu (topic). Vzhledem ke složitosti tento způsob dotazování není vhodný pro uživatele, kteří potřebují rychle a nahodile formulovat své dotazy.
+
+Podobnostní vyhledávání je technika navržená především pro méně zkušené uživatele. Na základě statistického vyhodnocení četností slov v zadaném úryvku textu a porovnáním jejich četnosti s četností jednotlivých výrazů v celé fultextové databázi se pak naleznou dokumenty, které jsou zadanému úryvku textu obsahově podobné.
+–ali
+
+Výhody nového standardu OLE for Design and Modelling Applications
+Třírozměrné objekty lze vkládat k dvojrozměrným dokumentům nebo je k nim připojovat a naopak dvojrozměrné objekty lze vkládat k třírozměrným dokumentům nebo je k nim připojovat.
+Lze zachovat skutečné měřítko při vkládání do dokumentů (nebo při připojování k nim).
+Lze používat průhledných a průsvitných objektů; tyto objekty lze pak překládat přes sebe.
+Je možno udržovat správné poměry a rozměry při změně velikosti a při další úpravě objektů.
+Práce s velkým množstvím objektů v různých aplikacích je efektivní.
+Je umožněno překrývání objektů bez “rámečků”.
+Uživatelé mají možnost přesouvat objekty mezi CAD-aplikacemi a ostatními aplikacemi pomocí metody drag-and-drop.
+Integrace CAD-programů s kancelářskými aplikacemi typu “office”
+
+Fultextová aplikace
+Tovek Tools 1.0
+Firma Tovek, spol s r. o., je specializovaným dodavatelem aplikací pro inteligentní vyhledávání, monitorování a třídění nestrukturovaných informací od úrovně osobního počítače až po úroveň organizace. Tyto aplikace jsou založeny především na technologii a produktech firmy Verity (USA). Účelem těchto aplikací je nalézt požadovanou informaci v nestrukturovaných textech nezávisle na tom, kde jsou uloženy.
+
+Firma Tovek dodává svůj fultextový systém ve formě stavebnice, která nese označení “Fultextový kit Verity-Tovek”. Mezi jednotlivé komponenty systému patří:
+- Tovek Tools jsou fultextové aplikace určené především pro administrativu. Pomocí těchto nástrojů je možné z dokumentů pořízených v uživatelském prostředí Windows vytvořit fultextovou databázi. Tuto databázi je pak jednoduché prohledávat a monitorovat.
+- Informační server Topic je produkt určený k vytváření velkých fulltextových databází. Taková databáze by měla být schopná obsáhnout veškeré nestrukturované informace uvnitř i vně organizace, nezávisle na formátu a místě uložení těchto informací.
+- Informační agenti Topic jsou produkty pro různá uživatelská prostředí, určené pro vyhledávání, monitorování a zobrazování fultextových databází.
+- Server Topic pro WWW (World Wide Web) doplňuje výhody WWW--hypertextu o výhody fultextového vyhledávání, a usnadňuje tak práci v Internetu.
+- Aplikace Sherlock umožňuje současně vyhledávat informace z různých a různě dostupných fultextových databází. Databáze mohou být vytvořeny systémem Topic, aplikací Topic Tools nebo produkty využívajícími technologii firmy Verity (Lotus Notes, Adobe Acrobat atd.). Vyhledávání se provádí pomocí elektronické pošty, BBS nebo obecně pomocí jiného systému pro přenos dat. Vyhledávání provádí “klient-broker-server”. Tato aplikace je určena především pro státní správu nebo pro firmy zabývající se zabezpečením informací.
+
+Tovek Tools pro MS Office
+Z celého fultextového kitu si dále blíže povšimneme jedné jeho součásti, a to sady fultextových nástrojů Tovek Tools.
+Tovek Tools jsou nástroje pro rychlé a inteligentní vyhledávání textových informací. MS Word 6.0 sice obsahuje pomůcky pro nalezení požadovaného souboru, ale možnosti hledání jsou značně omezené. Tovek Tools nabízejí možnost efektivního vyhledání požadovaného dokumentu, a to nejen dokumentu vytvořeného programem Word 6.0.
+Firma Tovek dodává rovněž demonstrační verzi programu Tovek Tools 1.0 pro Microsoft Office, která je volně šiřitelná a oproti normální verzi má omezení na počet dokumentů, které lze do fultextové databáze zařadit (100 dokumentů). V této verzi je možné pracovat pouze se soubory vytvořenými v aplikacích Word, Excel, Notepad a Write. Plná verze umožňuje naproti tomu pracovat s více typy dokumentů a s větším počtem zařazených souborů (podle typu zakoupené licence).
+Tovek Tools se instalují z programu Word 6.0 pro Windows. Do tohoto programu se otevře šablona SETUP.DOT. Tato šablona obsahuje jednak informace o instalaci, jednak obsahuje makro, které celou instalaci provede. Po instalaci se ve Windows vytvoří nová skupina “Tovek Tools pro MS Office”. Tato skupina obsahuje pět programů (Licence, Zdroj, Očko, Agent, Administrátor) a informační soubor.
+Program Licence slouží k vlo-žení aktivačního klíče a ke změně cesty. 
+Program Zdroj slouží k zadávání dokumentů, ve kterých chceme provádět hledání. Po spuštění programu se objeví okno “Tovek Zdroj” (resp. jeho ikona). Do této ikony nebo okna se přesunují pomocí myši požadované soubory ze správce souborů. Výhodné je využít ve správci programů funkci “Vyhledat soubory” a do ikony (okna) přesunout např. všechny soubory s koncovkou DOC. Další možností je spustit program Zdroj s parametrem, kde parametr je název souboru. Zadané soubory se zaindexují a je v nich možné vyhledávat. Původní text však zůstane beze změn.
+Program Očko slouží k vyhledávání. Okno programu Očko je rozděleno na dvě části. V první části se zadávají dotazy, v druhé části se zobrazují výsledky dotazů. Velikost těchto částí je měnitelná. Po zadání dotazu se provede hledání. Výsledkem hledání je seznam souborů, které vyhovují zadanému dotazu, a jejich váhy. Navíc je tento seznam seřazen podle důležitosti, tedy podle toho, jak soubory vyhovují dotazu. Na prvním místě jsou dokumenty, které dotazu nejvíce vyhovují (které mají nejvyšší váhu).
+Zobrazené soubory je možné otevřít. Otevřou se v aplikaci, která je asociována s příslušným typem dokumentu. Asociaci je možné provést ve správci programů. Zvolený dotaz je možné uložit pro pozdější využití.
+Program Agent je podobný programu Očko. Agent však pracuje stále na pozadí a monitoruje nově vzniklé dokumenty. Po zadání a zindexování nového dokumentu začlení Agent do seznamu vyhovujících i tento dokument, pokud splňuje podmínky dotazu. Program Očko pouze provede jednorázové prohledání.
+Program Administrátor lze použít ke smazání souborů z disku a k vyjmutí souborů ze stavu sledovanosti pomocí Tovek Tools. Pokud se soubor vyjme, nebude se po zadání dotazu již používat ani zobrazovat.
+Dotazy lze zadávat velice jednoduše. Dotaz se skládá z hledaných slov a operátorů. Operátor Accrue, který se zapisuje jako čárka (,), vyhledá všechny dokumenty, ve kterých je slovo zadané před tímto operátorem nebo za ním. Dokumenty se seřadí podle důležitosti a na prvním místě bude dokument, který obsahuje obě slova v nejvíce výskytech, na konci dokument, který obsahuje jen jedno ze slov.
+Operátory AND, OR a NOT jsou všeobecně známy. Rozdíl mezi OR a Accrue je ve vahách výsledků. Operátory se dají mezi sebou libovolně kombinovat. V dotazech se dají používat i speciální znaky hvězdička (*) a otazník (?). Jejich použití je podobné jako v DOSu (hvězdička nahradí jeden a více znaků, otazník nahradí právě jeden znak). Zadaná slova se potom hledají v celém textu dokumentu.
+Vyhledávání se provádí nejen podle zadaného výrazu, ale hledají se i dokumenty, které obsahují slovo se stejným kmenem, jaký má slovo v dotazu. Například při dotazu na slovo stromy se vyhledají i dokumenty obsahující slova strom, stromům atd. Komplikace nastávají v případě, že u hledaného slova se při skloňování mění jeho kmen. Dotazem na slovo orel se nevyhledá dokument, ve kterém se vyskytuje jen slovo orlům. V dotazu se musí potom zadat více tvarů.
+Tovek Tools jsou velice šikovnou pomůckou pro vyhledávání informací a elektronickému zpracování dokumentů přinášejí další rozměr. Uživatelské prostředí je příjemné a jednoduché.
+Pavel Trousil
+
+
+INTERVIEW
+Databázově nezávislý Progress
+Databázově nezávislá databáze? Takový protimluv. Jak to jde dohromady? Samozřejmě, že nijak. Pro většinu našich uživatelů je sice jméno Progress spojeno s relačními databázemi, ale společnost Progress Software se orientuje především na softwarové nástroje pro vývoj informačních systémů. S trochou nadsázky lze říci, že databáze Progress je jen jakýsi nutný “vedlejší produkt”. A jak je to s tou databázovou nezávislostí? Kromě své vlastní databáze dnes firma nabízí uživatelům aplikací vytvořených v jejím vývojovém prostředí také prostředky pro přístup do jiných databázových systémů, jako je Oracle, Sybase, DB2/400 nebo Rdb/VMS.
+
+Během celosvětového setkání marketingových manažerů Progressu, které se letos konalo v Praze, jsme se setkali také s paní Gail Goodmanovou, viceprezidentkou firmy Progress Software. Při povídání o současném stavu a perspektivách trhu s vývojářským softwarem se řeč stočila zákonitě i na databázovou nezávislost.
+CHIPweek: Jak dnes vypadá trh softwaru pro vývoj aplikací klient/server?
+Goodmanová: V posledních letech došlo k rozčlenění tohoto trhu do několika skupin: kromě platforem pro vývoj osobních aplikací se objevily prostředky pro vývoj aplikací využívaných v rámci pracovních skupin a nástroje pro vývoj informačních systémů typu klient/server použitelných v rámci celého podniku.
+Pro celý tento trh platí, že softwarové prostředky určené pro vývoj aplikací nižší třídy nemohou být dost dobře použity pro vývoj aplikací vyššího typu. Podniky, které používaly aplikace typu klient/server v rámci pracovních skupin a nyní se je snaží rozšířit na celopodnikovou úroveň, narážejí na hranice možností použitých platforem.
+CHIPweek: Informační systém řízení na celopodnikové úrovni - co to obnáší?
+Goodmanová: Koncový uživatel vnímá každou aplikaci zejména prostřednictvím aplikačního uživatelského rozhraní. Ve skutečně funkčním celopodnikovém informačním systému se však za uživatelským rozhraním vždy skrývá velmi komplexní zázemí: mohutná aplikační logika, výkonné prostředky pro práci s daty a spolehlivé nástroje zajišťující datovou integritu. Úspěch při zavádění takového informačního systému je podmíněn teprve řádnou implementací všech těchto součástí.
+Firmy, které nabízejí menší nástroje sloužící k vývoji aplikací pro pracovní skupiny, jsou většinou silné v oblasti grafického uživatelského rozhraní. Pokud však chtějí nabízet nástroje pro tvorbu rozsáhlých systémů, musí přidat v oblasti aplikační logiky a práce s daty. My máme proti nim tu výhodu, že jsme naše produkty takhle budovali hned od počátku.
+CHIPweek: Dobré prostředí pro vývoj rozsáhlých aplikací tedy nevystačí pouze s kvalitními prostředky pro tvorbu uživatelského rozhraní?
+Goodmanová: Správný nástroj pro tvorbu celopodnikových systémů typu klient/server musí podporovat návrh všech tří hlavních funkcí aplikace: kromě uživatelského rozhraní i návrh aplikační logiky a správy dat.
+Pro tvorbu aplikační logiky především potřebujete robustní a kompletní správu transakcí. Úkol je dnes o to složitější, že zatímco ve světě sálových počítačů byla správa transakcí explicitní, ve světě klient/server mohou být tyto služby poskytovány jak použitým databázovým systémem, tak nástrojem samotným.
+Pro správu dat celopodnikových systémů potřebujete především databázově nezávislé prostředí a dále dobrou datovou repozitoř pro vytvoření jediné definice dat. V ní nejsou obsažena jen jména tabulek a položek nebo indexy, ale i další informace o datech - jaká jsou pravidla pro potvrzování jejich platnosti, jak by měla být data zobrazována na obrazovce a jak se budou implicitně chovat.
+CHIPweek: Vývoj na trhu systémů klient/server tedy směřuje ke stále větší databázové nezávislosti.
+Goodmanová: Neexistuje snad jediné oddělení informačních systémů, kterému by se podniku podařilo prosadit pouze jeden databázový systém. Realitou dneška je využívání více databází. Podnik například pohltí jinou společnost, která využívala odlišný databázový systém. Nebo v rámci podniku pracuje skupina koncových uživatelů, kteří se nechtějí či nemohou vzdát výhod řešení vytvořeného v jiné databázi.
+Jak databázový trh vyzrává, ukazuje se, že na něm zůstává několik klíčových hráčů, z nichž každý drží významný podíl trhu. Dnes neexistuje jediný vítěz konkurenčního boje, ale tři nebo čtyři silné firmy. A dodavatel vývojářských nástrojů musí podporovat všechny významné platformy.
+CHIPweek: Když otevřu stránky odborných časopisů, mám pocit, že databázově nezávislé nástroje nabízejí snad všichni prodejci vývojářských platforem.
+Goodmanová: Ne každý software, který si činí nárok na skutečně databázovou nezávislost, takovým skutečně je. Některé firmy se těší velké pozornosti tisku a analytiků jako dodavatelé databázově nezávislých řešení klient/server, protože tvrdí, že nabízejí dobrou podporu mnoha databází.
+Ve většině případů však nejde o skutečnou databázovou nezávislost, ale pouze o velmi dobrou podporu nativních prostředků jednotlivých databází. Kód napsaný přímo v těchto vývojových prostředích pak nikdy nebude úplný - aby byl funkční, bude jej třeba doplnit o nezanedbatelné části napsané s využitím programovacích prostředků databází, s nimiž se má aplikace provozovat. A já mohu jen prohlásit, že touto cestou firma Progress Software nejde.
+-tpš
+
+Help
+Architektura klient/server
+Architektura klient/server představuje takové uspořádání síťového výpočetního systému, které rozděluje činnost mezi server (servery) a klienty. 
+Výpočetní výkon celého systému je rozdělen na dvě části – mezi klienta a server. Typickým příkladem z praxe může byt například vyhodnocení databázového dotazu: Uživatel zadá prostřednictvím klientské aplikace dotaz na databázový server, ten dotaz zpracuje (vyhledá příslušné záznamy) a výsledek pošle zpět na klientskou stanici. Oproti stavu, kdy by server sloužil jen jako zdroj dat a kdy by se celé vyhodnocení dotazu provádělo na klientské stanici, je v tomto případě daleko menší zatížení sítě. Po síti “putuje” totiž jen minimální množství dat, a to zadání dotazu jedním směrem a nalezené záznamy druhým.
+Pokud by server sloužil jen jako server souborový (tedy jen jako nástroj pro uschování databáze), “putoval” by po síti celý objem dat, v němž by se pak vyhledávalo.
+–ali
+
+Vizuální vývojový prostředek
+Borland Delphi (2)
+Delphi je vizuální programátorský nástroj pro vývoj aplikací pro Windows, který podporuje architekturu klient/server. Druhá část recenze se bude podrobněji zabývat některými (především databázovými) komponenty z balíku Delphi, na něž se v první části nedostalo místa.
+
+Pro ty, kteří první díl nečetli, uvádím, že Delphi je vizuální vývojový nástroj, který je vhodný pro rychlé navrhování aplikací v oblasti hromadného zpracování dat.
+
+Visual Controls Library
+Visual Controls Library je knihovnou vizuálních, ale i nevizuálních objektů. Některé objekty můžete vkládat do dialogových oken a jiné jsou určeny pro správu databází.
+Z vizuálních objektů najdete ve Visual Controls Library některé objektové typy známé z Borland Pascalu, např. TMenuItem, TForm, TEdit a TOutLine. Kromě toho zde také naleznete objekty pro práci s OLE 2.0. Některé prvky jsou částečně vizuální - jsou to např. objekty pro dotaz (TQuery). Tyto objekty se objevují pouze při navrhování dialogového okna, a to pouze jako ikony.
+Z nevizuálních objektů jsou ve Visual Controls Library obsaženy například objekty TField, TClipboard, TPrinter a podobné. Pomocí těchto objektů lze “objektově orientovaně” ovládat do aplikace příslušná zařízení.
+Kromě těchto objektů naleznete v této knihovně také objekty sloužící pro komunikaci s databázovým strojem Borlandu (Borland Database Engine). Mezi tyto objekty patří například TTable, TDatabase, TReport, TField (TStringField, TIntegerField).
+Ke knihovně Visual Controls Library není bohužel v základní verzi Delphi zdrojový kód; ten je k dispozici pouze ve verzi klient/server.
+
+Database Engine, IDAPI
+Databázový stroj Borland Database Engine je v podstatě sada knihovních funkcí, která je určena pro komunikaci aplikace (napsané v Delphi nebo v C++) s rozhraním IDAPI. Ke komunikaci s databázovým strojem jsou určeny objekty z knihovny Visual Controls Library.
+IDAPI je zkratka pro Integrated Database Application Programming Interface. Toto rozhraní připravovala firma Borland několik let, a jak je vidět, výsledek stojí za to.
+IDAPI je velmi flexibilní databázové rozhraní. Samo o sobě může přistupovat k databázím formátu dBase a Paradox. IDAPI však zvládá přístup k databázím také pomocí driverů ODBC; tím je umožněno přistupovat prakticky k libovolným databázím. Standardně se dodávají drivery k databázovým systémům Btrieve, dBase, Excel, FoxPro, Access, Paradox a Text (k dBase a Paradoxu můžete tedy přistupovat buď přímo, anebo prostřednictvím ODBC). Dále můžete prostřednictvím tzv. SQL Links přistupovat k několika databázovým serverům.
+Parametry IDAPI je možné nastavovat hromadně z konfiguračního panelu. V tomto panelu nastavujete, které drivery chcete používat, jaký typ třídění chcete používat, dále jména, formát data, času a čísel a další parametry. Když už jsem zmínil třídění - IDAPI samozřejmě podporuje také české třídění. Bohužel k Borland Database Engine není zdrojový kód k dispozici v žádné podobě. 
+
+InterBase a SQL Links
+Delphi obsahuje také lokální (jednouživatelskou) verzi databázového serveru InterBase 4.0. S verzí Delphi Client/Server dostanete také oprávnění jednouživatelskou verzi serveru InterBase 4.0 neomezeně šířit. InterBase je databázový server kompatibilní s ANSI SQL-92. Mezi jeho možnosti patří také ukládání tzv. objektů BLOB (Binary Large Objects). BLOB jsou objekty s neformátovanými informacemi binární povahy (např. obrázek, zvuk anebo objekt OLE).
+Tato omezená verze serveru InterBase je k dispozici pouze pro prostředí Windows, ale plná verze je k dispozici dále i pro operační systémy Windows NT, UNIX a NetWare.
+K produktu Delphi Client/Server dostanete také SQL-Links pro připojení k serverům InterBase, Oracle, Informix, Sybase, Microsoft SQL Server a dalším. Tyto linky se nainstalují jednak jako ovladače ODBC, jednak se nainstalují přímo do IDAPI (jsou viditelné v konfiguračním panelu).
+Součástí verze Delphi Client/Server je rovněž tzv. Visual Query Builder - nástroj na vizuální navrhování dotazů. Tento nástroj umožňuje generovat také odpovídající kód v jazyce SQL.
+
+Database Desktop
+K jednoduchému prohlížení databází a k vytváření a výrobě dotazů je určen nástroj Database Desktop. Database Desktop pracuje s tabulkami Paradoxu a dBase a s propojeními SQL-Links.
+
+ReportSmith
+ReportSmith je nástroj, který je určen k navrhování reportů (výpisů, sestav) z databází a který se prodává také samostatně. ReportSmith je k dispozici i ve verzi “Runtime”. Verzi “Runtime” je možné volně šířit.
+Pomocí tohoto nástroje můžete snadno dělat výpisy z databází. V těchto výpisech můžete také používat náročnější formátování - např. můžete do výpisu zařazovat obrázky. Můžete si například vypsat přehled faktur, které došly od určitých odběratelů. Pro jednotlivé kolonky formuláře můžete také používat různé funkce. 
+Pro spolupráci s nástrojem ReportSmith slouží objekt Treport, který je součástí knihovny Visual Controls Library. Tento objekt umožňuje spustit ReportSmith a vypsat požadovaný report. Programování i složitých výstupních formulářů může být hotovo velmi rychle.
+

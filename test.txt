@@ -1,0 +1,5 @@
+GitHub, z nějakého důvodu neumožnuje vytvářet prázdné adresáře,
+vždy musí adresář obsahovat alespoň jeden soubor, podle mě to je blbost
+ale co se dá dělat
+takže tohle to je zde pouze z tohoto důvodu a potom to ve svém
+počítači smažte

@@ -1,0 +1,268 @@
+článek z časopisu Chip 05/1995
+Operační systémy
+MiNT - unixové prostředí pro Atari
+Dávno tomu, co firma Atari ohlásila svoji verzi Unixu -
+Atari System V. Tento systém měl běžet na tehdy nově 
+uváděném počítači TT, jehož konstrukce byla původnímu 
+záměru zcela podřízena. Kdo měl možnost vidět stroj s 
+21palcovým monitorem, Unixem a X-Window systémem, jistě
+potvrdí, že takovéto Atari působilo dojmem plnokrevné 
+pracovní stanice. Bohužel, jak už dnes víme, firma 
+Atari z nepříliš jasných důvodů usoudila, že v Unixu 
+není její budoucnost, a ASV se nikdy nedostal k běžným 
+uživatelům. Od té doby se ovšem stal opak toho, co 
+firma Atari očekávala: Unix začal nabývat stále většího
+významu.
+Atari goes Unix
+Uživatel, který chtěl s Unixem pracovat, a chtěl s ním 
+pracovat na počítači Atari, neměl mnoho možností: buď 
+malý a na výuku zaměřený Minix, anebo malé multitaskové
+jádro kanadského programátora Erica Smithe -MiNT. 
+Zatímco se Minix nikdy příliš nerozšířil, MiNT prodělal
+velký rozvoj. Ale to už je téma následujícího článku.
+MiNT (zkratka z anglického “MiNT is not TOS“) byl 
+původně vyvíjen jako multitaskové rozšíření firemního 
+operačního systému TOS. Už od počátku byla však zřejmá 
+orientace na Unix (resp. jeho variantu BSD). MiNT 
+zaujal firmu Atari, která stála před otázkou, jak 
+rychle vyvinout víceúlohovou nadstavbu systému TOS. 
+MiNT se zřejmě zdál představitelům firmy nejlepším 
+řešením, a tak firma Atari nakonec učinila možná 
+nejlepší rozhodnutí za poslední léta - přijala MiNT 
+jako základ svého operačního systému (s názvem 
+MultiTOS). Výklad názvu se změnil na “MiNT is now TOS“.
+V současné době MiNT úplně náhradil GEMDOS (což je DOS na PC). Je s ním kompatibilní, nicméně obsahuje desítky
+systémových služeb a mechanismů navíc. O tom, co vše 
+MiNT ve srovnání s klasickým a zastaralým TOS nabízí, 
+pojednává další kapitola.
+Procesy
+MiNT je, jak už bylo řečeno, zejména víceúlohový 
+systém. S tím souvisí první zásadní rozdíl vzhledem k 
+TOS: správa procesů. MiNT na rozdíl od TOS umožňuje 
+spouštět více programů (procesů) současně. Stará se o 
+to, aby každému procesu bylo přiděleno a posléze 
+odebráno řízení. To se děje velmi rychle, takže 
+uživateli se zdá, že programy běží současně. Každý 
+proces má svoji prioritu. Ta může nabývat hodnot od -20
+do 20. Podle této priority se odvozuje množství 
+procesorového času, které dostává daný proces k 
+dispozici.
+Základní priorita při spuštění je 0. MiNT navíc 
+podporuje tzv. adaptivní priorizaci: to znamená, že 
+proces v popředí, který je intenzivně používán 
+uživatelem (tady má neustálý vstup), dostane prioritu 
+dočasně o něco vyšší, než je jeho normální priorita. 
+Procesy dále charakterizuje jejich stav: rozlišujeme 
+procesy běžící, čekající a pozastavené. Běžícím 
+procesům je přidělován procesorový čas podle jejich 
+priority. Čekající proces je takový proces, který z 
+nějakých důvodů nemůže pokračovat v běhu. To se obvykle
+stává v důsledku čekání na vstup z vnějšího zařízení 
+(klávesnice, disk, sériový port). Takový proces 
+nespotřebovává žádný systémový čas. Správce procesů 
+sleduje, zda už nenastal stav, na který proces čeká 
+(např. data ze vstupního zařízení jsou připravena), a v
+kladném případě mu začne opět běžným způsobem 
+přidělovat strojový čas procesoru. Proces lze také 
+dočasně uživatelsky pozastavit. Takový proces, stejně 
+jako proces čekající, není zpracováván a čeká, dokud ho
+uživatel znovu nerozeběhne. Popsaný způsob práce umožňuje značné úspory strojového času procesoru, neboť
+většina procesů větší část doby svého běhu pouze čeká. 
+Proti TOS má proces v MiNT přiřazenou řadu atributů 
+navíc. Jde zejména o maximální paměť, kterou může 
+proces alokovat, dobu, po kterou smí proces běžet, o 
+čas spuštění, čas běžícího programu (to jest mimo čas 
+strávený čekáním), čas strávený v systému, o příkazovou
+řádku, se kterou byl program spuštěn, vlastníka 
+procesu, identifikační číslo procesu - tzv. pid (MiNT 
+má vždy 0, je tedy takzvaným root procesem) a o 
+identifikační číslo otcovského procesu (= -1 pokud 
+neexistuje, to se týká pouze jádra MiNT, všechny 
+ostatní procesy jsou odvozeny od něho).
+MiNT rovněž podporuje skupiny procesů a tak umožňuje 
+implementovat řízení prací (jobs management).
+Pro kompatibilitu s TOS zavádí MiNT navíc tzv. domény: 
+tosovou a mintovou. Procesům v doméně TOS MiNT emuluje 
+v případě nutnosti TOS. To se týká zejména použití 
+dlouhých jmen souborů, které tosové aplikace neumějí 
+použít a MiNT je proto konvertuje. Procesy v doméně 
+MiNT naopak mohou využívat všech služeb MiNT. 
+Předpokládá se přitom, že takový program je napsán 
+přímo pro MiNT.
+Meziprocesová komunikace
+V multitaskovém prostředí nabývá na významu komunikace 
+mezi procesy.
+Následující prostředky implementované v MiNT jsou 
+odvozené opět z Unixu - TOS nezná ani jeden z nich.
+Signály jsou první z možností. Program může pomocí 
+služeb systému způsobit vyvolání určité procedury po 
+přijetí určitého signálu. Význam většiny signálů je 
+pevně definován. Například zaslání signálu SIGKILL 
+způsobí ukončení procesu, SIGINT pozastavení běhu 
+procesu apod. Signály jsou velmi užitečné pro ovládání 
+procesů, které se zhroutily, nebo které nelze  jiným 
+způsobem ovládat (procesy běžící v pozadí).Zprávy se skládají z čísla (typu) zprávy a z jejího 
+obsahu. Zprávy lze použít k předávání obsáhlejších a 
+přesnějších informací mezi procesy. Pro práci se 
+zprávami se používají tzv. poštovní schránky (mail 
+boxes).
+Roury (pipes) slouží k přenášení větších objemů dat 
+mezi procesy. Roura je v podstatě buffer typu FIFO. Z 
+hlediska programu se roura jeví jako běžný soubor a pro
+přístup k ní se využívají běžné služby vstupu/výstupu.
+Jeden proces do roury zapisuje (z jeho pohledu je roura
+soubor otevřený pro zápis) a druhý z roury čte (z jeho 
+hlediska je roura soubor otevřený pro čtení). Roury se 
+dají s výhodou použít k realizaci proudu dat 
+zpracovávaných více programy čili k řetězení procesů. 
+Např A|B|C; proces A čte data ze vstupu, zpracovává je,
+posílá výstup procesu B, ten je dále zpracovává a svůj 
+výstup posílá procesu C, který provádí další zpracování
+a finální data posílá na výstup. Uživatelům DOS jistě 
+napoví například povel “dir *.* | more”, kde jde o 
+stejný princip (který ovšem DOS realizuje jiným 
+způsobem).
+Semafory jsou jednoduché prostředky využívané zejména 
+při synchronizaci přístupu ke sdíleným datům. Obecně 
+první proces, který semafor vytvoří, se automaticky 
+stane vlastníkem semaforu. Žádosti ostatních procesů o 
+získání vlastnictví semaforu budou neúspěšné tak 
+dlouho, dokud stávající vlastník semafor neuvolní.
+Sdílená paměť umožňuje alokovat blok paměti, který je 
+přístupný více procesům. Normální bloky paměti obecně 
+nejsou přístupné ostatním procesům.
+Systém souborů
+I systém souborů se dočkal značného rozšíření. MiNT 
+zavádí unixový systém, kde neexistují jména zařízení. 
+Vše je mapováno do systému souborů. Ten začíná ze 
+základního adresáře (bez jakéhokoliv C: apod). Do tohoto systému jsou mapována veškerá fyzická zařízení 
+(disketové jednotky, disky, terminály, sériové a 
+paralelní porty, síťové porty atp.).
+Protože však MiNT musí ze zřejmých důvodů zachovat 
+kompatibilitu se stávajícím systémem souborů, umisťuje 
+tento unifikovaný systém do logického zařízení U:. Toto
+zařízení obsahuje následující podadresáře: 
+/a/ disketová jednotka A: 
+/b/ disketová jednotka B: 
+/c/ disková jednotka C: 
+/d/ disková jednotka D: atd.
+/dev/ ovladače zařízení
+/proc/ běžící procesy.
+Pokud je tedy nastavena jednotka U: jako aktuální 
+zařízení, je shoda s Unixem dokonalá - MiNT totiž umí 
+používat i znak “/“ místo “\“.
+Nyní se zastavme u adresářů dev/ a proc/. První z nich 
+obsahuje instalovaná zařízení reprezentovaná soubory. 
+Přítomné soubory jsou: 
+tty.............terminál s emulací VT-52
+prn............tiskárna
+aux............sériový port
+modem1...modem 1
+null............zařízení, které nic nedělá.
+Některá z těchto zařízení fungují jako znaková a lze je
+běžně používat.
+Např. příkazová řádka: lharc l arch.lzh >U: \DEV\PRN 
+zajistí výstup výpisu obsahu archivu na tiskárně. Jiná 
+zařízení fungují ve zvláštních režimech a je velmi 
+nevhodné pokoušet se je číst či zapisovat. V adresáři 
+dev/ se mohou také objevit další uživatelem instalované
+ovladače. V praxi to jsou programy s koncovkou XDD, 
+které MiNT zavádí ihned po svém spuštění.
+Podadresář proc/ obsahuje reprezentaci právě spuštěných
+procesů. Přípona souboru vyjadřuje identifikační číslo,
+velikost souborů udává velikost spotřebované paměti, 
+čas vytvoření je časem spuštění procesu.Procesy v tomto adresáři je možné rovněž mazat. Smazání
+takového souboru MiNT vyhodnotí jako příkaz k ukončení 
+procesu (pomocí signálu).
+Další vymožeností je použití takzvaných spojů (anglicky
+links). Tyto spoje se tváří jako soubor, ale ve 
+skutečnosti jde pouze o odkazy. Takový odkaz se však 
+chová jako soubor samotný. Pak je možné mít jeden 
+soubor ve více adresářích. Spoje je možné aplikovat i 
+na adresáře. Například je možné mít adresář C: 
+\MINT\BIN\ a ten přelinkovat na U: \BIN. Potom MiNT 
+bude směrovat veškeré přístupy do U: \BIN na disk C:. 
+Takto je možné vytvořit standardní unixové adresáře 
+etc/, bin/, tmp/ apod. na jednotce U: (na ní nelze 
+adresáře běžným způsobem vůbec vytvořit). Spoje lze 
+ovšem používat pouze na systémech souborů, které je 
+podporují (což není případ systému  souborů TOS). Oba 
+typy spojů známé z Unixu - tj. pevné a symbolické - 
+jsou podporovány.
+Další důležitou novinkou je možnost připojování 
+nedosových souborových systémů. MiNT tak nabízí 
+prostředky umožňující vymanit se z tyranie filesystému 
+DOS (čili tzv. 8+3 limit) a používat dlouhá jména 
+souborů a jména s rozlišením malých a velkých písmen. V
+současné době je implementován minixový systém souborů.
+Jeho hlavní výhodou je především výrazně vyšší rychlost
+práce se soubory. Jiné než tosové systémy souborů se 
+realizují pomocí ovladačů (soubor s příponou XFS). MiNT
+nahraje tento ovladač ihned po spuštění a tak 
+zpřístupní data na části disku s instalovaným systémem 
+souborů. V současné době je k dispozici již zmiňovaný 
+minixový filesystém (umožňuje jména dlouhá přes 32 
+znaků s rozlišením velkých a malých písmen). Další je 
+RAM-FS, což je takzvaný paměťový systém souborů - v 
+podstatě RAM-disk, podporující rovněž dlouhá jména, 
+který si sám nastavuje svoji velikost podle potřeb (je 
+velmi užitečné ho připojit jako adresář /tmp). A 
+nakonec též NFS - síťový systém souborů (o něm dále).Víceuživatelský provoz
+Vzhledem k tomu, že MiNT udržuje jak u souborů, tak u 
+procesů údaje o jejich vlastnictví, je možné MiNT 
+používat i ve víceuživatelském pro-vozu.
+K tomu jsou ovšem potřebné zvláštní programové 
+prostředky, které umožní přihlášení uživatele a vedení 
+uživatelských účtů chráněných hesly. Je to např. 
+populární balík MiNT-OS, který obsahuje programy init, 
+getty a login a vytváří tak prostředí kompatibilní s 
+Unixem. To je důležité pro práci v síti a při používání
+některých programů přenesených z Unixu.
+Síťový provoz
+MiNTnet je produkt německého programátora Kaye Roemera,
+který doplňuje MiNT o síťové funkce. Jde o standardní 
+systémový ovladač, který implementuje protokoly TCP/IP.
+K dispozici jsou ovladače pro přenos TCP/IP datagramů 
+po sériové lince SLIP a PPP. Vzhledem k tomu, že i 
+MiNTnet je kompatibilní s Unixem, bylo možné v krátké 
+době přenést množství síťových aplikací a utilit, jako 
+jsou telnet, ftp, tftp, rlogin, rsh, gopher, NFS, 
+finger, Lynx a jiné. Pro dobrodružnější povahy jsou k 
+dispozici i příslušné serverové programy: telnetd, 
+ftpd, tftpd, fingerd, nfsd+mountd, rpc nebo httpd. V 
+úhrnu lze říci, že počítač Atari s instalovaným MiNT a 
+MiNTnetem může fungovat jako klient všech podstatných 
+internetových služeb a většinou i jako jejich server.
+Se sítěmi souvisí i grafické rozhraní X-Window, které 
+je odnedávna rovněž k dispozici.
+MiNT a programátor
+MiNT je napsán v GNU C a je volně přístupný i ve 
+zdrojových textech.
+Mimo GNU C jej lze zkompilovat i na nejrozšířenějším 
+překladači u nás, Pure C - je však nutné použít verzi 
+1.1. Pro psaní aplikací v MiNT existuje rovněž knihovna- MiNT library. I ta je použitelná pod GNU C, Pure C a 
+navíc i pod Lattice C. Tato knihovna vytváří standardní
+systémové rozhraní do značné míry odpovídající normě 
+Posix. Tím se přenos programů z Unixu značně usnadní 
+(rozhodně je daleko snazší než přenos třeba do MS-DOS).
+K MiNTnetu a X existují příslušné knihovny pro GNU C 
+umožňující snadný přenos aplikací. MiNT a knihovny lze 
+nejlépe získat na některém FTP serveru. V případě, že 
+nemáte přístup k Internetu (i takoví jsou mezi námi), 
+je možné vše podstatné získat na některé zahraniční či 
+domácí BBS.
+Závěr
+MiNT je malou, ale výkonnou a snadno rozšiřitelnou 
+implementací unixového prostředí pro Atari. Přitom 
+nejde o klon Unixu, ale o rozšíření TOS -z toho vyplývá
+bezproblémová koexistence aplikací TOS i MiNT vedle 
+sebe. Je navíc dostatečně spolehlivý: na mém počítači 
+běží zcela rutinně už zhruba půl roku a zatím bez 
+závažnějších problémů.
+MiNT nabízí všechny podstatné výhody Unixu - záleží 
+pouze na aplikačních programátorech. Pokud by všichni 
+využívali MiNT aspoň v 75 %, změnila by se tvář vašeho 
+oblíbeného počítače k nepoznání. Problém vidím spíše v 
+tom, že uživatel odkojený DOS (nebo TOS) většinou 
+možnosti MiNT vůbec nevyužije, a ten je pak degradován 
+na pouhý multitaskový TOS.
