@@ -1,0 +1,49 @@
+MS Visual Basic 5.0 a spol.
+Zatvrzelý céčkař či pascalista pravděpodobně tento článek s pohrdavým úsměvem naprosto klidně vynechá. V tom případě udělá, troufám si říci, osudovou chybu. Visual Basic totiž zdaleka není jazyk jen pro ty, kteří neumějí programovat. Je to jazyk, který se naučí i začátečník a který zkušenému programátorovi nabídne nečekaně produktivní nástroj. A navíc – Visual Basic se teď “nosí”.
+
+VB, VBA, VBScript, ASP
+
+Víte, co mají všechny tyto zkratky společného? Ano, všechny souvisí s Visual Basicem. A protože technologie skrývající se pod těmito názvy podmiňují současný úspěch Visual Basicu, podíváme se na ně podrobněji. VB znamená (naprosto neočekávaně) Visual Basic, tedy kompletní strukturovaný programovací jazyk.
+VBA neboli Visual Basic for Applications je, jak název napovídá, poněkud omezené jádro VB určené pro integraci do koncových aplikací. Najdeme jej například v produktech MS Excel, MS Word, AutoCAD R14.
+VBScript obsahuje ještě menší podmnožinu jazyka VB a je používán jako skriptovací jazyk internetových aplikací (např. prohlížečů).
+Konečně ASP (Active Server Pages) je engine HTML serveru dovolující velmi efektivní skriptování aktivních WWW stránek za použití VBScriptu.
+Z tohoto zdaleka ne úplného seznamu použití VB je zřejmé, jak mocný je to nástroj.
+
+Je Visual Basic stále Basic?
+Visual Basic je programovací jazyk s kompletním vývojovým prostředím pro vývoj aplikací v prostředí MS Windows, který si zachoval jednoduchost a srozumitelnost Basicu a zároveň se stal strukturovaným jazykem. Od komplikovanějších jazyků (C, Pascal) ho odlišuje zejména absence složitějších syntaktických konstrukcí a pointerů a existence beztypových proměnných. Zejména neexistence pointerů znemožňuje efektivní zápis složitějších algoritmů, VB však nabízí jednoduché a propracované propojení s jinými jazyky, například C++. Zcela záměrně jako rozdíl neuvádím, že VB je interpretován a ne kompilován, protože to už od verze 5.0 neplatí.
+
+Distribuce a instalace
+Visual Basic je distribuován ve třech verzích. Verze Visual Basic Learning Edition obsahuje pouze základní grafické ovládací prvky, Professional Edition zahrnuje navíc program Crystal Reports a mnoho dalších ovládacích prvků ActiveX a konečně Enterprise Edition obsahuje ještě Automation Manager, Component Manager, Database Management Tools a Microsoft Visual SourceSafe. Podle zvolené verze získáte i rozdílné množství tištěných manuálů – od dvou až do sedmi.
+Vlastní software je distribuován na třech kompaktních discích: Visual Basic, poslední verze MSDN a CD s Transaction Serverem. Instalace si vyžádá ne méně než 50 MB prostoru pevného disku a při troše snahy se podaří nakonfigurovat i instalaci zabírající 300 MB.
+
+ 
+Vývojové prostředí
+Předem lze říci, že množství změn provedených od minulé verze je opravdu značné a staví Visual Basic do mnohem lepšího světla. První, čeho si pravděpodobně všimnete, je možnost kompilace do nativního kódu. Tato možnost je velmi výhodná, zejména když tvoříte časově kritické algoritmy. Zde bude každého jistě zajímat nějaké srovnání rychlostí – napsal jsem proto velmi jednoduchý prográmek (hledání minima v bloku dat) a otestoval na množině 50 000 000 celých čísel. Program v C provedl cyklus za čtyři sekundy, Visual Basic P-kód za 56 sekund, kompilovaný kód za pět sekund. Samozřejmě tyto výsledky nelze považovat za důkaz toho, že každý kód poběží ve stejných relacích.
+Další velmi významnou novinkou je možnost tvorby ActiveX Controls přímo ve Visual Basicu. Tvorba takového controlu je zde přímo triviální (kdo zkusil psát ActiveX v C++, to jistě ocení). V menu New vyberete ActiveX Control, doplníte kód pro vykreslení obsahu controlu a nový ActiveX je na světě. Stejně jednoduše lze vytvořit i ActiveX Document, který se dá použít ve webových prohlížečích.
+Pravděpodobně budeme chtít vytvořený control vyzkoušet. Naštěstí Visual Basic 5.0 umožňuje otevřít více projektů současně, takže není problém otevřít okno s kódem controlu i formulář s jeho použitím (viz obrázek).
+Neméně příjemným rozšířením vývojového prostředí jsou tzv. nápovědy (hints) přímo v editačním okně. Pokud napíšete jméno objektu a tečku, objeví se roleta se všemi dostupnými aplikovatelnými metodami, vlastnostmi a událostmi. Pouhým klepnutím myší či stiskem mezerníku vyberete zvolenou položku, která se automaticky vloží do textu, a dokonce se zobrazí nápověda o jejích parametrech (viz obrázky)!
+Velmi atraktivní možností je rozšiřitelnost vývojového prostředí. Ve Visual Basicu si můžete doprogramovat vlastní add-ins nebo i wizardy, které se stanou nedílnou součástí prostředí.
+
+Pro programátory
+Z programátorského hlediska je velmi zajímavá zejména podpora DCOM, umožňující jednoduchým a efektivním způsobem vytvářet distribuované aplikace. K ověření různých schémat distribuovaného zpracování je v Enterprise Edition určen Aplication Performance Monitor. Díky tomuto nástroji (napsaném také ve VB) můžete ověřit výkonnost různých schémat distribuovaných aplikací na vaší konkrétní síti.
+Přímo mílovým krokem k plně objektové technologii je zcela jistě zavedení polymorfismu, tj. podpora něčeho, co známe v C++ nebo ObjectPascalu jako virtuální metody.
+Důležitého rozšíření doznala také obsluha událostí. Pomocí klíčového slova RaiseEvent lze nyní vyvolat vlastní událost deklarovanou v Class modulu.
+
+Dodávané ActiveX Controls
+Množství dodávaných ActiveX controlů se liší podle edice VB. Zatímco Learning Edition nemá téměř žádné controly, Enterprise Edition jich obsahuje několik desítek. Uveďme například MSFlexGrid, umožnující zobrazit data v tabulkové formě s možností individuálního nastavení každé buňky.
+Pro Internet jsou k dispozici HTTP a FTP controly umožňující rychlé naprogramování např. FTP klientského softwaru. Pokud potřebujete navázat síťovou komunikaci, sáhněte po WinSock controlu. Mnoho controlů známých z minulých verzí bylo doplněno o nové možnosti, jako příklad uveďme OLE Drag&drop.
+
+Bezpečný kód
+V Enterprise edition najdete i SourceSafe 5.0. Je to nástroj pro týmovou práci na projektu ve VB nebo i jiném vývojovém nástroji, který zajistí, aby více vývojářů nepřepisovalo stejný kód, a zachovává celou historii změn v každém souboru. Jak je vidět z obrázku, není například problém zjistit, kde se přesně liší jednotlivé verze vyvíjeného softwaru.
+
+Databáze
+Značný počet vývojářů používá VB pro vývoj databázových aplikací typu desktop i klient/server. Důvod je vcelku zřejmý, VB poskytuje více možností připojení k databázovým zdrojům (tj. tabulkám nebo SQL serverům) a množství alternativ, jak tato spojení použít.
+Verz 5.0 nabízí následující možnosti: DAO (Databaze Access Objects) ve verzi 3.5 jsou dostupné pomocí Data controlu a podle nastavení patřičných vlastností se může připojit pomocí JET Engine na MS Access databáze, DBF, Paradox soubory či na libovolný ODBC zdroj. Nad MS Access databázemi jsou nyní plně podporované vnořené transakce až do pěti úrovní. Není už také nutné uzavírat každou operaci do transakce kvůli dosažení maximální rychlosti zpracování.
+Pro rozsáhlé a časově kritické operace nad databázemi typu klient/server je výhodné použít možnosti ODBCDirect. Je to velmi tenká vrstva nad RDO (Remote Data Object), umožňující přímý přístup na SQL server pomocí nativního SQL. Nabízí i možnost použití Server-side kurzoru, což přinese velmi citelné zvýšení výkonu (jak jsem měl možnost otestovat právě na MS SQL serveru).
+Přibyla také velmi užitečná možnost v oblasti replikací databází. Nyní už není nutné replikovat celé databáze, ale je možné nastavit replikaci pouze části databáze podobně, jako se klauzulí WHERE omezuje recordset v SQL. Drobné, ale podle mých zkušeností důležité vylepšení je možnost limitovat velikost recordsetu vraceného SQL serverem – pouze nastavíte vlastnost MaxRecords na požadovanou hodnotu.
+Opravdovým bonbonkem je však možnost ladění uložených procedur napsaných v jazyku Transact SQL. Můžete programově ošetřit výjimečné stavy, které nastanou během průběhu TSQL kódu na serveru. Je také vhodné se zmínit o tom, že nyní lze na vlastní databázové controly navázat více než jedno pole z recordsetu. Pomůckou pro práci s databázemi je Visual Data Manager. Slouží k prohlížení a modifikaci databází i jako příklad ilustrující způsob používání databázových komponent VB.
+Není žádným překvapením, že i v databázové části VB je nějaký ten wizard. Na obrázku je kupříkladu wizard, podporující efektivní generování vstupních a přehledových datových formulářů. Generování aplikace na obrázku netrvalo déle než 30 sekund a aplikace je plně funkční.
+Pro tvorbu reportů je k dispozici nástroj Crystal Reports, který je už ve vývojových nástrojích firmy Microsoft samozřejmostí a není ho tedy nutné představovat.
+
+Celkové dojmy
+Myslím, že mé hodnocení produktu je takové, jaké prostě musí být. Jde o velmi zdařilý produkt, který ve spojení s ostatními nástroji VisualStudia patrně pokryje potřeby naprosté většiny vývojářů. Mám snad jen jedinou výtku, a to k dokumentaci. V tištěné dokumentaci se poměrně často vyskytují nesmyslné příklady a on-line dokumentace také není takové kvality, jako například ve Visual C++.

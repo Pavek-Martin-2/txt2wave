@@ -1,0 +1,91 @@
+Ukládání dat
+Alternativní paměťová média
+Ve světle senzačně nízkých cen pevných disků se před alternativními paměťovými médii vynořuje otázka další existence. Paměťová kapacita sahá od 100 MB do 2,3 GB. Chip vyšetřoval, pro které aplikace se vyplatí datové nosiče se změnou fáze a pro které nosiče magnetooptické.
+
+Kam si schovat gigabajty?
+
+Ceny za pevné disky až propastně poklesly. Za disk o kapacitě 2 GB musí zaplatit kupující “už jen” 10 000 Kč. Není tedy divu, že se pevný disk těší stále větší oblibě jako zálohovací zařízení. Je tím zpečetěn osud alternativních médií?
+Vůbec ne – protože použití dosavadního disku jako záložního média má smysl pouze při zachování přesné konfigurace systému. Pošleme-li např. disk (E)IDE svému kolegovi, musí napřed zadat do BIOS svého PC parametry tohoto disku a případně přezkoumat nastavení můstků svých disků. Kromě toho se doporučuje transportovat pevný disk pouze v kartonu vyloženém pěnou. Výměnná média, která jsme otestovali, lze bez problémů poslat ve vyztužené obálce. Uživatelé, kteří si musí často vyměňovat nebo posílat data, se mohou jen stěží spokojit s řešením pomocí pevného disku, a to právě vzhledem k popsaným problémům s konfigurací.
+Výrobci výměnných médií z našeho testu sáhli po různých technologiích. Jednotka Fujitsu se 640 MB a Sony s 2,3 GB jsou magnetooptické (MO) jednotky. Při této technice se povrch podobný povrchu CD zahřeje laserem na tzv. Curieho bod (180 °C). Magnetickým polem se uspořádají částečky na médiu, takže z nich lze získat čitelná data. Pro čtení použije laser jen nepatrnou energii, která nezahřeje povrch natolik, nakolik by bylo zapotřebí k vymazání informace.
+Podobnou cestou kráčí Panasonic s tzv. jednotkami PD; říká se jim též jednotky se změnou fáze. Při psaní pracuje laser s různými výkonovými úrovněmi, aby se krystalová mřížka materiálu naneseného na povrchu buď uspořádala, nebo uvedla do neuspořádaného stavu. Podle toho, jak je mřížka uspořádaná, je odrazivost různá. Během čtení snímá laser médium; odražené světlo se vrací přes čočky a zrcátko a dopadá na dva fotosenzitivní prvky (fotosenzory), s jejichž pomocí se získávají data.
+U jednotky Syquest a u řešení Jaz od Iomegy jde o systémy s výměnným diskem. Vyměňuje se jen nosič, který je stejný jako u obyčejného disku. Elektronika hlaviček i ostatní elektronika je v jednotce. Média jsou před znečištěním chráněna záklopkou; ta se odsouvá teprve v jednotce. Doporučuje se tento kryt neotevírat; prach z okolí by mohl při vniknutí dovnitř zničit nejen médium, ale i jemnou mechaniku hlaviček.
+Při volbě správného média pro své potřeby musíte předem pečlivě zvážit, k jakému použití má sloužit. Chcete-li zabezpečit asi 50 MB, stačí médium s nižší kapacitou. Avšak plánujete-li zálohování databázových aplikací nebo střihů videa, potřebujete médium s vysokou přenosovou rychlostí a nízkou dobou vystavení.
+Chcete-li archivovat disk nebo jeho části, mají tato paměťová média několik výhod oproti běžně pro tento účel používaným páskám. Data leží v té struktuře, v jaké je uspořádal operační systém, např. u DOS ve FAT, u systému OS/2 v HPFS. Ani dlouhá jména souborů a adresářů pod Windows 95 nedělají potíže. Díky definovanému ukládání můžete k uloženým datům přistupovat i běžnými pomocnými programy, jako jsou např. Norton Utilities.
+Pro volbu datového média je důležitý uvažovaný objem ukládaných dat. Chcete-li např. posílat či ukládat data po gigabajtech, doporučuje se sáhnout i přes vyšší cenu po řešeních Fujitsu, Panasonic nebo Iomega Jaz a nikoliv po jednotce Zip – protože potom potřebujete jen jedno či dvě média místo nepohodlných deseti. 
+V tabulce najdete náklady včetně ceny jednotek. Na uložení 1 GB potřebuje Jaz jen jedno médium, Fujitsu dvě. Další hledisko je dostupnost datových nosičů. V současné době jsou snad nejsnadněji dostupnými médii Syquest a MO.
+
+Z testovací laboratoře
+Jak jsme testovali
+Výkonnost komponent nezávisí jen na hardwaru. Rychlost čtení a psaní ovlivňuje i spolupráce s příslušným operačním systémem. Výměnná média byla proto poměřována pomocí nově vyvinutého 32bitového typového programu pod Windows 95 a s běžnou databázovou aplikací pod DOS. Jako testovací platformu jsme použili Pentium na 120 MHz, paměť 16 MB a řadič SCSI Adaptec pro PCI.
+
+u Přenosová rychlost
+Přenosová rychlost je rozhodující při čtení a psaní souvislých datových bloků, např. při kopírování velkých souborů. Čtecí hlava čte celou stopu a pak se přesune o jednu stopu dál. Důležitá je hustota dat a rychlost otáčení média; rychlost přesunu hlavičky je vedlejší. U mnohých jednotek závisí přenosová rychlost ještě na poloze dat na médiu (vnější nebo vnitřní oblast) a na typu přístupu (čtení, zápis). Dále ovlivňuje přenosový výkon operační systém svou strategií práce s cache.
+Nový diskový test Chipu proto měří na 10 polohách vždy čtecí a zápisovou rychlost. Jednou to probíhá bez interní cache Windows 95 a jednou se strategií cache optimalizovanou na sekvenční přístup. Eventuálně odpojená zápisová cache v jednotce se pro test vždy zapojuje. Za naměřenou hodnotu se považuje průměr všech čtecích a zápisových přístupů.
+
+u Doba přístupu
+Doba přístupu je čas k vyhledání dat libovolně na disku rozložených. Čtecí hlavička se při tom pohybuje vždy na hodně vzdálené místo. Přenosová doba dat se téměř neuplatňuje. Diskový test Chipu získává různé hodnoty s pamětí cache a bez ní při čtení a zápisu. Opět se vyhodnocují průměrné hodnoty.
+
+u Databáze
+Jako databáze posloužilo ověřené relační zpracování zakázek a skladové hospodářství s dBase. Tento test běžel pod DOS bez Smartdrive. dBase používá volnou paměť jako vnitřní cache a dosáhne tak lepších hodnot než Smartdrive.
+
+u Konečné výkonové hodnocení
+Všechna tři posuzovací kritéria se oznámkují zvlášť. Tyto známky mají v celkovém hodnocení stejnou váhou. Pro celkové posouzení vhodnosti daného řešení je však potřeba zvážit pořizovací cenu a především cenu za 1 MB paměťového prostoru.
+Albert Lauchner
+
+ 
+Fujitsu M2513A2
+Fujitsu má na jednom 3,5" nosiči kapacitu 640 MB. Data v testu jsme získali s médiem o 540 MB, protože nosiče s 640 MB měly být k dispozici až v okamžiku uveřejnění tohoto článku – podobně jako nová verze mechaniky (M2513A6) s 2MB cache, u které má být výkon při zapisování o 30 % vyšší.
+Na moderním zařízení SCSI se zdají být standardní nastavení poněkud konzervativní; zápisová cache je totiž vypnuta a verifikace zapnuta. Jednotka byla také nastavena na protokol SCSI-I. Pro účely testu jsme mikropřepínačem na spodní straně aktivovali zápisovou cache, ověřování zápisu jsme vypnuli a nastavili jsme režim SCSI-II.
+Vnějškově se média podobají 3,5" disketám. Pouze kryt je trochu silnější a robustnější.
+Pod Windows 95 se jednotka okamžitě rozpoznala a byla schopna práce. Pod DOS a Windows 3.1 jsme byli schopni bez potíží oslovit tuto jednotku ovladačem ASPIDISC.SYS našeho testovacího adaptéru. Ani test se staršími médii o kapacitě 128 MB nezavdal příčinu ke kritice.
+V důsledku technologických omezení je výkonnost při zápisu s průměrnými 420 KB/s poněkud hubená, zatímco 1,46 MB/s při čtení dělá lepší dojem.
+Názor Chipu: Ceny za média jsou příznivé, cena zařízení je bohužel příliš vysoká.
+
+Iomega Jaz V1000i
+Jednotka Jaz od společnosti Iomega je konstruována podobně jako mechaniky od Syquestu. V 3,5" krytu média jsou umístěny dva pevné disky. Elektronika čtecí a zápisové hlavy a celá ostatní elektronika se nachází v samotné jednotce.
+Po zasunutí disku potřebuje jednotka asi 13 sekund, než dosáhne potřebných otáček. Stejně dlouho trvá, než se disk opět objeví po aktivaci elektronického vyjmutí. Nápadné bylo tepelné vyzařování celé mechaniky a provozní zvuky, které přehlušily dokonce i větrák našeho testovacího počítače.
+Windows 95 okamžitě rozpoznají Jaz jako zařízení SCSI a přijmou jej do systému. Pro DOS nám výrobce připravil příjemné překvapení: Chceme-li používat jednotku i pod DOS, zadáme do příkazové řádky GUEST.EXE. Po krátkém hledání je zařízení k dispozici např. pod označením D:\. To je výborná věc, protože tím odpadá obvyklé obtížné “šťourání” v souboru CONFIG.SYS.
+Cena média je se 4000 Kč za 1 GB právě tak na hranici. Za to jsme odměněni přenosovou rychlostí 3,2 MB/s, což může směle konkurovat běžným pevným diskům.
+Názor Chipu: Rychlost ospravedlňuje při určitých aplikacích poměrně vysoké pořizovací náklady.
+
+Iomega Zip Z100i insider
+Jednotka Zip od Iomegy má na rozdíl od Jazzu stejné firmy jiný materiál nosiče dat. Zatímco Jaz je založena na pevných discích, spokojí se Zip s měkkým ohebným kotoučem. Pouze kryt vlastního datového nosiče vychází pevnější než u běžných 3,5" disket. Ačkoliv jsou jak médium Zip, tak vlastní jednotka malé, zaberou přesto v krytu počítače 5,25" šachtu.
+Windows 95 rozpoznají námi testovanou interní verzi SCSI okamžitě, není nutná instalace diskety se speciálními ovladači. Přístup pod systémem DOS bez Windows bylo možné uskutečnit stejně jako u jednotky Jaz přes šikovnou utilitu GUEST.
+Dodávaná “příručka” se podobá spíše prospektu a je koncipována velmi spoře. Uvedení do provozu je tam však vysvětleno srozumitelně v několika jazycích.
+Zakládání médií se děje mechanicky, vyjímání je naproti tomu elektronické. Jako nedostatek jsme pociťovali, že pro SCSI ID byla k dispozici pouze čísla 5 a 6. Zakončení jednotky bylo možné uskutečnit odporovým můstkem. 
+Přenosový výkon Zipu je 700 KB/s, což je u tohoto typu média v pořádku.
+Názor Chipu: Jednotka Zip je levná alternativa pro zálohování a posílání menších objemů dat. Především cena mechaniky vychází v porovnání s ostatními ůčastníky testu příznivě.
+
+Panasonic LF-1004CF
+Jednotka LF-1004CF (Panasonic ji krátce označuje jako jednotku PD) má dvě mechaniky. Slouží buď jako jednotka CD-ROM nebo pro zápis na 650GB média.
+Při použití jako CD-ROM je uskutečněná přenosová rychlost kolem 600 KB/s, což je možné od čtyřnásobně rychlé jednotky očekávat. Střední doba přístupu 307 ms není žádná sláva; vychází z těžké mechaniky hlavičky, která je však na místě, když se založí médium se změnou fáze. Také systém opravy chyb s 265 neopravenými chybami volá po vylepšení. Avšak po opravě přechází jednotka opět do čtyřnásobného režimu.
+Při používání médií se změnou fáze obsadila jednotka PD ve všech disciplínách poslední místo. Může za to pravděpodobně především extrémně dlouhá střední doba přístupu 152 ms. Zdá se, že se tu výrazně projevuje velikost a hmotnost hlavičky.
+Pod Windows 95 se jednotka PD okamžitě zařadila. Písmena CF v typovém označení testovaného zařízení říkají, že je v dodávce i adaptér SCSI. Testované hodnoty však byly získány naší referenční kartou.
+Názor Chipu: Velmi, velmi pomalé. Zato však má jednotka PD též funkci CD-ROM. Cena za 1 MB uložených dat je poměrně příznivá.
+
+Sony SMO-F544
+Sony SMO-F544 je interní varianta OEM pro výrobce, kteří chtějí jednotku provozovat pod vlastním jménem. Jako externí verzi nabízí Sony toto zařízení pod jménem RMO-S594. Jinak žádné rozdíly nejsou.
+Jde o magnetooptickou jednotku (MO), jejíž média pojmou 2,6 GB dat. Tato kapacita však není k dispozici najednou – nosič se musí obrátit. Jsou to totiž dva kotouče slepené dohromady po 1,3 GB. Náš test probíhal s 2,3GB variantou média, které obsahuje 512 bajtů na sektor. Pro obě strany mají média po jednom vypínači ochrany zápisu.
+Neobvyklá velikost můstků zabránila zamýšlenému nastavení SCSI ID, protože k testovanému zařízení nebyly žádné můstky přiloženy. Založení a vyjmutí média se provádí přímo majestátně motorem. Sony vykázala v celkovém výkonu téměř stejné hodnoty jako jednotka MO od Fujitsu. Ale zatímco při sekvenčním psaní byla o něco lepší Sony, při čtení zase přidala Fujitsu.
+Nápadná byla úroveň vyzařování tepla, zvlášť když bylo médium založené. Umístění přímo nad diskem tudíž nelze doporučit.
+Názor Chipu: Média jsou sice s cenou 1 Kč za megabajt nejlevnější, ale cena za zařízení leží za hranicí možností peněženky běžného uživatele.
+
+Syquest SQ5200C
+Dlouhou dobu byla se jménem Syquest spojena představa výměnného média. Vývojáři této firmy jako první oddělili médium od mechaniky hlavičky, a mohli tak kdysi nabídnout cenově výhodná výměnná média. Z úmyslu zůstat kompatibilní se starými médii možná vychází staromódně působící mechanika zařízení SQ5200C. Médium o kapacitě 200 MB může být, stejně jako u předchůdců, zataženo neopatrným uživatelem do neštěstí, když se např. aktivuje páčka k vyjmutí média, zatímco se médium ještě točí.
+Stav zařízení se indikuje svítivými diodami. Červená říká, že se založený disk točí, zelená, že je možné bezpečně aktivovat vyjmutí média.
+Pod Windows 95 běžela jednotka podle očekávání ihned. V čistém prostředí DOS přebírá řízení ovladač ASPIDISC. Test čtení a zápisu se starými výměnnými disky o kapacitě 44 MB se podařil bez obtíží.
+U média založeného na technologii pevného disku nejsou dosažené parametry nijak okouzlující. Zejména když je srovnáme s hodnotami jednotky Jaz, které leží podstatně výš.
+Názor Chipu: Kompatibilita s velmi rozšířenými výměnnými médii s kapacitou 44 MB a 88 MB je výhodná. Náklady na 1 MB prostoru jsou však silně přehnané.
+
+Všechny výsledky testu paměťových systémů
+Jako platforma pro testy sloužilo 120MHz Pentium s 16 MB RAM. Všechny jednotky byly měřeny na řadiči SCSI Adaptec-2940 pro PCI. Nejdříve jsme zjišťovali přenosovou rychlost se systémovou cache Windows 95 a potom bez ní. Uvádíme vždy střední hodnotu těchto měření, a to zvlášť pro čtení a pro zápis. Uvedené doby přístupu jsou rovněž hodnoty získané z testovacích běhů s vyrovnávací pamětí a bez ní. Hodnota pro databázi odpovídá době průběhu správy zakázek a skladového hospodářství na relační databázi dBase pod DOS. Celkové posouzení reprezentuje geometrický průměr všech jednotlivých výsledků. Čím delší je řádka, tím lepší je výsledek.
+
+Shrnutí
+Samí vítězové
+Zdá se, že jednoznačný vítěz testu není. Podle posuzovacího kritéria se dostaly do popředí různé jednotky. U jednotky MO od Fujitsu je třeba se kromě výhodné ceny médií zmínit i o tom, že toto médium rozměrově i způsobem fyzického zápisu odpovídá normě ISO. 
+Pro zálohování malých souborů je neoddiskutovatelně výhodná jednotka Zip, co do rychlosti je bezkonkurenčně na špici.řešení Jaz.  Pevný disk je, při podobné ceně, sice stále rychlejší, ale posílání dat v kazetě Jaz je bezpečnější.
+Jednotka PD od Panasonicu má výhodu dodatečné jednotky CD-ROM. Pro zálohovací zařízení pro pracovní stanici není rychlost příliš směrodatná, takže nízké provozní hodnoty nejsou tak závažné.
+Varianta MO Sony vyhovuje též normě ISO. Systém má výhodnou cenu médií. Bohužel cena zařízení přesahuje možnosti běžného uživatele.
+Jednotka Syquest je kompatibilní se svými (mezitím dost rozšířenými) předchůdci. Cena za zařízení sice není vysoká, avšak média jsou drahá.
+Takže: Kdo potřebuje rychlost, sáhne po jednotce Jaz. Kde tempo nehraje roli, doporučujeme pro malé objemy dat Zip, jinak jednotku Fujitsu MO s 640MB médiem.
+Kjersten Waldheim
