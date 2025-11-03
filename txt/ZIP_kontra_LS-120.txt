@@ -1,0 +1,79 @@
+
+ZIP kontra LS-120
+Nezlobte se už s disketami. Více paměti vám nabízejí média Zip a LS-120, s nimiž se pracuje stejně lehce jako s disketami. Chip vám objasní rozdíly a pomůže při přechodu na nové mechaniky.
+
+Alternativy k disketě
+
+Mechaniku LS-120 potřebujete,
+v pokud už nechcete pobíhat s balíky disket,
+v potřebujete-li kapacitu více než 100 MB,
+v když průchodnost dat hraje spíše podřad-nou roli,
+v když vyžadujete, aby jedna a táž mechani-ka byla schopna pracovat se 720KB a 1,44MB pružnými (floppy) disketami právě tak jako se 120MB disketami LS.
+
+Zip mechaniku potřebujete,
+v pokud vystačíte s kapacitou 100 MB,
+v pokud průchodnost dat hraje velkou roli,
+v když pro 720KB a 1,44MB diskety používáte vlastní mechaniku nebo se jí úplně vzdáte.
+
+Co se týče kapacity a rychlosti, pokulhávají 3,5" diskety s kapacitou 1,44 MB za dnešními požadavky už dlouho: Windows 95 a jejich aplikace spolykají podstatně více dat. Kdo ukládá data a programy na 3,5" diskety, ten jich potřebuje rovnou celý balík. A to je nepraktické a časově už sotva únosné. Že floppy mechaniky patří do starého železa, poznali výrobci externích pamětí už dávno a vyvinuli dvě cenově výhodná řešení s vyšší paměťovou kapacitou: jmenují se jednotka LS-120 a Zip Drive. Za oběma těmito pojmy se skrývají dvě zcela odlišné technologie. Krátce je představíme. Tak můžete sami zjistit, zda je pro vás tou správnou pamětí jednotka LS-120, nebo Zip Drive.
+
+Jednotka LS-120
+Potěšitelné je, že se jednotka LS-120 chová jako 3,5" floppy mechanika – až na to, že má kapacitu 120 MB. Její další zvláštností je, že čte, a dokonce i zapisuje bezproblémově i na dosavadní 3,5" diskety s paměťovou kapacitou 1,44 MB nebo 720 KB. Disketa LS-120 má asi 83násobnou kapacitu oproti 1,44MB disketě. Pořizovací náklady jednotky LS-120 (mezi 4000 až 6000 Kč) jsou sice poněkud vyšší než u floppy mechaniky, ale cena média (450 Kč) je brzy vynahradí.
+Zvenku je mechanika LS-120 stejná jako 3,5" floppy. Při zápisu však vyjdou najevo rozdíly: hustota stop u média pro LS-120 je 95 stop/mm, zatímco u 1,44MB diskety jenom 5,3 stopy/mm. Takto zvýšená hustota byla umožněna magnetooptickým zaznamenáváním – data jsou zde sice opět čtena a zapisována magnetickou hlavou, ovšem jednotlivé stopy jsou ještě “ohmatávány” laserovým paprskem, který zajišťuje přesné vedení magnetické hlavy (podobně jako u magnetooptických disků). Nenalezne-li laserový paprsek kontrolní stopy, chová se k médiu jako k běžné disketě. Tím je zajištěna zpětná kompatibilita.
+Rychlost přenosu dat je důležitým bodem u každé paměti. Zapisovací a čtecí rychlost LS-120 není nijak zvlášť vysoká: je jen tři- až pětkrát vyšší než u původní jednotky. Pod Windows 95 dosáhla jen hodnot asi 170 KB/s při psaní a 240 KB/s při čtení. Pokud se vám to zdá pomalé, pak byste si měli koupit mechaniku Zip s rozhraním SCSI nebo IDE. I když má disketa Zip pouze 70násobnou kapacitu (100 MB) oproti dosavadní disketě, je 20krát rychlejší. Více o mechanice Zip Drive od firmy Iomega se dozvíte dále.
+Existují celkem tři možnosti, jak mechaniku LS-120 napojit na PC: přes sběrnici IDE, přes paralelní rozhraní (přes mechaniku pak lze i nadále připojit tiskárnu) nebo přes přídavný řadič IDE, který mnozí výrobci – např. O.R. Technology – přibalují k mechanice.
+Pokud chcete jednotku LS-120 připojit přímo na sběrnici IDE, musí být splněny dva předpoklady: za prvé potřebujete počítač PC s procesorem Pentium, jehož BIOS podporuje LS-120, a za druhé musí být instalován operační systém Windows 95 OSR/2.
+Pokud váš PC už není nejmladší, kupte si raději jednotku s přídavným řadičem nebo externí mechaniku s napojením na paralelní port. Taková LS-120, která se napojuje na paralelní rozhraní, se jmenuje obyčejně “SuperDisk” a vyrábí ji Imation. Paralelní varianta však neumí zavádět systém.
+
+Zip Drive
+Iomega od uvedení jednotky Zip na trh v březnu 1995 prodala více než osm milionů kusů. V provozu je tedy zhruba desetkrát tolik mechanik Zip než jednotek LS-120. Stále více uživatelů počítačů Mac a PC oceňuje diskety Zip jako výkonné paměťové médium: 100MB kapacita a přijatelná přenosová rychlost jsou základem pro zaznamenávání a přenos digitálních fotografií, dat z internetu, multimediálních prezentací anebo dokumentů na jedné disketě Zip. Nejeden výrobce PC proto dodává své počítače standardně s mechanikami Zip. Na rozdíl od LS-120 je ovšem Zip schopen pracovat výlučně s disketami Zip, už ne tedy s dosavadními floppy disketami.
+Na jednu disketu Zip se vejde asi tolik dat jako na 70 dosavadních 1,44MB disket a její datová průchodnost je zhruba 20násobně vyšší než průchodnost floppy mechaniky. Protože rychlost přenosu dat a paměťová kapacita vystačí pro většinu použití, je možné s mechanikou Zip Drive jednoduchým způsobem rozšířit pevný disk počítače, zálohovat data na jednom výměnném médiu nebo si třeba založit multimediální knihovnu s deseti nebo více disketami Zip.
+Existuje několik možností, jak připojit jednotku Zip: externě na paralelní port (při tomto řešení je datový tok výrazně pomalejší, tiskárnu je zde možné zapojit přes mechaniku Zip), externě na sběrnici SCSI (konektor D-Sub, 25pólový), interně na sběrnici IDE (40pólový konektor), interně na sběrnici SCSI (50pólový konektor), externí provedení SCSI lze navíc pomocí adaptéru PCMCIA připojit k laptopu či notebooku. Od konce roku 1997 je na trhu nový externí ZipPlus Drive. Velmi se podobá starší  mechanice Zip (označované také jako ZIP 100), dosahuje však vyšší přenosové rychlosti a výrobce jej vybavil jak paralelním rozhraním, tak rozhraním SCSI. Podrobnější informace naleznete v hardwarových krátkodobých testech v tomto čísle  (str. 84).
+
+Tipy pro LS-120
+Tip 1
+Mechanika LS-120: problémy často pomůže vyřešit nový systém BIOS.
+Ve funkci bootovací (startovací) mechaniky odpírají mnohé interní jednotky LS-120 službu. Přes velkou práci s konfigurací v systému BIOS a v operačním systému nelze operační systém z diskety LS-120 nastartovat. Ani s adaptérem IDE, který je přiložen k jednotce, zavedení systému nefunguje.
+Zde pomůže už jen jedno: BIOS na základní desce vyžaduje oživení, musí tedy být aktualizován, aby bez omezení podporoval mechaniky LS-120.
+U následujících verzí systémů BIOS je nutná inovace: 
+Award 	4.51PG nebo starší,
+AMI 6.26.02 nebo starší,
+Phoenix 6.0 nebo starší.
+Nová verze systému BIOS ještě sama o sobě nic nevyřeší – vyhovovat musí i základní deska, ta jinak po nahrání nové verze BIOS odmítá službu. Nahlédněte tedy ve vedlejším sloupci do seznamu nejdůležitějších základních desek, které bez omezení podporují jednotky LS-120. 
+
+Tip 2
+Mechanika LS-120: tak funguje “zaručená instalace”
+Vždycky znovu překvapí, že výrobci jednotek LS-120 berou instalační návod na lehkou váhu. U žádné ze tří testovaných mechanik od firem 3M, O.R Technology a Imation napoprvé nesouhlasil postup instalace popsaný v příručce. Vinu na tom nenesou ani tak mechaniky LS-120 nebo dodávané ovladače, jako spíš Windows 95 a systém BIOS na základní desce počítače.
+Nejprve k Windows 95. Tento operační systém existuje v současné době ve třech variantách: ve verzi 4.00.950 (originální verze), verzi 4.00.950A (originální verze a Service-Pack 1) a verzi 4.00.950B (Windows 95 OSR/2 se zabudovanou podporou ATAPI). Jaká verze Windows je instalována na vašem počítači, zjistíte pod položkami “Start/Nastavení/Ovládací panely/Systém/Obecné”.
+Pokud je instalovanou verzí Windows 95 OSR/2 a vaše základní deska není starší než jeden rok, máte dobrou šanci mechaniku LS-120 bez problémů zabudovat do operačního systému: BIOS základní desky totiž podporuje mechaniku LS-120 a Windows 95 jsou na to také připraveny.
+Žel většinou je instalována starší verze Windows a BIOS základní desky mechaniku LS-120 nepodporuje. Zde máte dvě možnosti: buď uděláte aktualizaci BIOS a nainstaluje-te Windows 95 OSR/2, nebo (a to je nejjednodušší řešení) zvolíte mechaniku LS-120, k níž je přiložen vlastní řadič určený pro sběrnici ISA.
+Rozšířeným řadičem je například karta FloppyMax od firmy Promise Technology, kterou k mechanice LS-120 přikládá např. firma O.R. 
+Na této jednotce popíšeme, jak se na ne právě nejnovějším PC se starší verzí Windows a systémem BIOS bez podpory LS-120 taková mechanika bez problémů nainstaluje: Nainstalujte jednotku LS-120 do volné šachty krytu PC. Zasuňte řadič IDE přiložený k mechanice LS-120 do volného slotu ISA, spojte oba prvky plochým kabelem a jednotku pak se síťovým zdrojem. 
+Potom nastartujte Windows 95 a pokud se objeví chybová hlášení, ignorujte je Nastartujte pak soubor SETUP.EXE v adresáři Windows na dodávané instalační disketě. Zodpovězte všechny otázky “Ano”. Přestože program Setup na konci upozorňuje na to, že ovladač mechaniky LS-120 byl nainstalován korektně, nemůžete ještě dlouho s jednotkou pracovat. Zde se ještě vyžaduje trochu ruční práce.
+Klepněte na “Start/Vypnout/Restartovat počítač”. Pokud se na obrazovce objeví po přestartování hlášení systému BIOS, pak stiskněte “Del”, abyste v systému BIOS zdařile dokončili instalaci. V případě standardního CMOS Setupu za “Drive A:” dosaďte hodnotu “None”. Jinými slovy – jednotka A: bude odpojena. Opusťte BIOS přes “Save & Exit Setup”.
+Počítač nyní znovu nastartujete. Teď musíte Windows 95 znovu nakonfigurovat pro LS-120. Klepněte proto na “Start/Nastavení/Ovládací panely/Systém/Správce zařízení”. Zbývá už jen inaktivovat disketový řadič v poli “Použitá zařízení” a ještě jednou přestartovat operační systém. Po těchto zásazích už můžete mechaniku LS-120 správně oslovovat bez ohledu na to, kterou verzi MS Windows 95 nebo systému BIOS máte na svém PC instalovanou.
+
+Tipy pro Zip Drive
+Tip 3
+Zip Drive ATAPI: zavádění DOS a Windows
+Pokud nestartujete z interní mechaniky Zip Drive ATAPI, pracuje jednotka pod DOS a Windows bez problémů. Pomocí příkazu “sys” můžete pod DOS na disketu Zip kopírovat systémové soubory, pod Windows 95 toho dosáhnete pomocí “Start/Nastavení/Systém/Software/Startovací disketa”.
+Pokud však chcete s takovou disketou Zip startovat, pak se počítač zastaví. Příručka bohužel nenabízí žádné východisko z toho, jak se musí mechanika Zip ATAPI korektně připojit na sběrnici IDE. To ale neznamená, že to nejde. Chcete-li pod DOS nebo pod Windows startovat z mechaniky Zip, připojte se na druhý port IDE na základní desce a přepojte propojky na mechanice Zip Drive na “Master”. Je-li na tomto rozhraní připojena i mechanika CD-ROM, musí být nakonfigurována jako “Slave”.
+Pokud váš nový počítač v systému BIOS podporuje startovací mechaniku ZIP, pak musíte v sytému BIOS nastavit Zip-Drive na “Enabled”. Zde je jedno, na jakém rozhraní IDE je mechanika napojena nebo zda je nakonfigurována jako master nebo slave. U staršího PC Pentium pak musíte v systému BIOS nastavit pro floppy mechaniku A: “None”, pak je třeba nainstalovat ovladač pro Zip.
+
+Tip 4
+Zip 100: zrychlete paralelní port
+Zapojíte-li mechaniku Zip 100 externě na paralelní port počítače, pak znatelně poklesne přenosová rychlost. Mechanika Zip-100, která je např. napojena na řadič pevných disků SCSI, je třikrát až čtyřikrát rychlejší.
+Proto by se mělo paralelnímu rozhraní pomoci na nohy “urychlovačem paralelního portu”. Tento nástroj se automaticky zkopíruje při instalaci ovladače Zip na pevný disk. Poklepáním na “Start/Programy/Iomega Tools/Parallel Port Accelerator” spustíte urychlení. Jestliže se ani potom průchodnost dat nijak zvláště nezvýší, pak musíte ještě trochu doladit BIOS Setup.
+Znovu přestartujte počítač a nastartujte pomocí “Del” BIOS Setup a parametr “Parallel Port Mode” nastavte na “ECP & EPP”.
+Ve Windows pak znovu nastartujte “Parallel Port Accelerator”. Průchodnost dat se zvýší zhruba o 10 až 15 %.
+
+Tip 5
+Pozor na interní mechaniky Zip-SCSI
+Většina počítačů nejsou SCSI systémy – pevné disky jsou zde napojeny na sběrnici IDE. Máte-li takový PC, pak pozor, když kupujete interní Zip Drive s rozhraním SCSI. Interní mechaniky Zip 100 totiž existují ve dvou různých provedeních: ve verzi pro počítačové výrobce (OEM) a obchodníky. Pouze ve druhém případě dostanete kvalitní řadič SCSI (s čipem Adaptec) a nemusíte jej ani zvlášť platit. 
+Verzi pro koncové uživatele poznáte lehce podle pestrého obalu s nápisem “SCSI inside”. Jinými slovy: v tomto případě kupujete bez jakýchkoli pochybností interní Zip Drive s potřebným příslušenstvím.
+Pokud si počítač vybavíte řadičem SCSI, pak je zabudování a integrace do operačního systému relativně jednoduchá. Potřebujete pouze volnou šachtu pro mechaniku a můžete pak velkokapacitní paměť napojit přímo na sběrnici SCSI. 
+
+Tip 6
+Zip-100: kdo hodně cestuje, měl by si koupit nový síťový zdroj
+Síťový zdroj mechaniky Zip 100 je těžký a neskladný. Pro nové jednotky ZipPlus však už existuje velmi lehký a kompaktní síťový zdroj, který se dokonce vejde do kapsičky u vesty, přitom má stejné technické parametry jako předcházející verze.
+

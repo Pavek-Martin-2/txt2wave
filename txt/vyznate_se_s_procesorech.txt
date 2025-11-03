@@ -1,0 +1,300 @@
+Vyznáte se v procesorech?
+Jednotlivé počítačové sestavy se odlišují v mnoha parametrech; jedním z nejdůležitějších 
+parametrů je procesor a jeho frekvence. V poslední době je však názvů procesorů a různých 
+zkratek mnoho a kdo se pak v nich má vyznat? Pro jednodušší orientaci jsme pro vás připravili 
+malého průvodce světem procesorů, které jsou v současné době používány v osobních 
+počítačích.
+Letem procesorovým světem
+V inzerátech a nabídkách počítačových firem se můžete dočíst, že jejich pracovní stanice, osobní
+počítače nebo notebooky jsou vybaveny procesorem MII, K6-2, Pentium/MMX, 6x86MX, 
+Mendocino, Cyrix, Pentium II, Celeron 300A, IDT nebo Xeon. Co však jednotlivé zkratky 
+znamenají, o jaké procesory se jedná a kdo je vyrábí, není každému jasné a není se ani co divit. 
+Někdy navíc výrobci nebo prodejci počítačů přesné názvy procesorů tak trochu zamlžují, protože 
+chtějí, aby jejich počítačová sestava vypadala zajímavěji, a použitý procesor raději označí 
+známějším jménem (například Pentium), i když jde o jiný procesor od jiného výrobce.
+Čas v počítačovém světě letí mnohem rychleji než v jiných odvětvích. Pět nebo i více let starý 
+televizor, magnetofon nebo i video může většinou bez problémů sloužit i nadále, ale takto starý 
+počítač již většinou málokdo chce. Každou chvíli se totiž objeví nový a výkonnější procesor. Už v 
+roce 1965, v začátcích éry integrovaných obvodů, vyřkl pan Gordon Moore (jeden ze zakladatelů 
+firmy Intel) větu, která později vstoupila ve známost jako Moorův zákon. Podle tohoto zákona se 
+počet tranzistorů (a tím i výkon) na čipu zdvojnásobí každých 18 – 24 měsíců (za 20 let je to pak 
+1000krát více). Tento odhad se ukázal jako velmi přesný a platí doposud – u procesorů skutečně 
+dojde jednou za 24 měsíců k zdvojnásobení počtu jejich tranzistorů. Průměrně za 24 měsíců je 
+možné vyvinout novou technologii a nový produkt – návrh nového produktu a specifikace nové 
+technologie trvají asi 3 měsíce, vývoj produktu a technologie 12 – 18 měsíců a rozjetí výroby a 
+umístění na trhu asi 3 měsíce. Novinky se na nás tedy hrnou velice rychle a každý výrobce ví, že 
+pokud neuvede na trh novinku dostatečně brzy, konkurence ho předběhne. Navíc je dnes cesta 
+nového výrobku k uživatelům mnohem rychlejší. Dříve uživatelé na nové procesory přecházeli 
+velice pomalu, ještě dlouho se používaly procesory starší generace, ale dnes jde křivka prodeje 
+nových výkonných procesorů nahoru velice rychle.
+Možná si ještě někdo vzpomene na doby nedávno minulé, kdy se jednotlivé generace procesorů 
+označovaly čísly 286, 386 a 486. I mezi procesory jedné generace byly značné rozdíly (například 
+ve frekvenci), ale skoro každý měl ještě jakousi představu o tom, co od daného procesoru může 
+očekávat a jaký výkon asi poskytuje počítač na něm založený. 
+Kromě nejznámějšího výrobce procesorů, tedy firmy Intel, se výrobou procesorů zabývají také 
+další firmy, a ty své procesory začaly pojmenovávat stejně jako Intel – jméno procesoru, 
+například 386, nejde totiž chránit, a tak proti tomu Intel nemohl skoro nic podniknout. Při vývoji 
+nového procesoru, který měl následovat po procesoru 486, se tedy hledalo jméno, které by už 
+konkurence použít nemohla – tím zmatení pojmů v podstatě začalo. Ale pojďme na to hezky od 
+začátku a podívejme se, jaké procesory pro osobní počítače se vyráběly a vyrábějí a jaké jsou 
+mezi nimi rozdíly.
+Trocha historie nikoho nezabije...
+... a pokud ano, může tento odstavec přeskočit. Všechno to začalo na konci roku 1971, kdy firma 
+Intel představila svůj první mikroprocesor 4004. Dnes se to zdá směšné, ale tento 4bitový 
+procesor měl frekvenci 108 kHz a obsahoval 2300 tranzistorů. Po něm (v roce 1972) následoval 
+rychlejší 8bitový procesor 8008 s frekvencí 200 kHz. To ovšem ještě nebyly procesory používané 
+v osobních počítačích, ale používaly se například v kalkulačkách nebo při řízení světelné 
+signalizace. První procesor použitý v osobním počítači Altair 8800 firmy MITS (pro něj pánové Bill
+Gates a Paul Allen vyvinuli jazyk Basic) byl označen 8080 a byl vyroben poprvé v roce 1974. 
+Pracoval již na frekvenci 2 MHz, obsahoval 6000 tranzistorů a byl asi 10krát rychlejší než jeho 
+předchůdce. V roce 1978 následoval procesor 8086 s 29 000 tranzistory a frekvencí 8 a 10 MHz 
+a v roce 1979 16bitový procesor 8088 (levnější verze procesoru 8086), který již možná někdo 
+pamatuje z prvních osobních počítačů firmy IBM označených jako IBM PC. Frekvence tohoto procesoru byla 5 a 8 MHz.
+V roce 1982 byl uveden na trh procesor 80286 se 134 000 tranzistory a frekvencí od 6 do 12 
+MHz. Ten už začali používat i jiní výrobci tzv. klonů počítače IBM (například Compaq) a tyto 
+počítače se pak označovaly jako “kompatibilní s IBM PC”. Rychlost tohoto procesoru byla asi troj-
+až šestinásobná oproti procesoru 8086. 
+V roce 1985 byl uveden následník procesoru 80286, a to 32bitový procesor Intel386 DX s 
+frekvencí od původních 16 MHz až po 33 MHz (33MHz verze byla uvedena na trh v roce 1989). 
+Tento procesor byl už schopen adresovat 4 GB paměti, podporoval multitasking, obsahoval 275 
+000 tranzistorů a byl asi 100x rychlejší než původní procesor 4004. Šlo o první procesor, který byl
+uveden ve více variantách – kromě varianty DX byla k dispozici i levnější verze procesoru 386 
+označená SX s 16bitovou externí sběrnicí a verze SL (s frekvencí 20 a 25 MHz), určená 
+speciálně pro přenosné počítače (šlo o první procesor firmy Intel navržený pro přenosné 
+počítače). Společnost IBM, do té doby technologický leader a tvůrce prvního osobního počítače, 
+nástup osobních počítačů s procesory 386 trochu zaspala a její jasné prvenství od té doby 
+skončilo. Procesory 386 byly už také vyráběny konkurentem firmy Intel a byly zajímavé 
+především svou cenou.
+V roce 1989 uvedla firma Intel na trh procesor Intel486 DX, který byl asi 50krát výkonnější než 
+procesor 8088 a obsahoval už přes milion tranzistorů a také matematický koprocesor (k 
+procesorům 386 bylo možné koprocesor dokoupit). S nástupem procesorů 486 se více prosadil 
+systém Windows firmy Microsoft a uživatelé přecházeli na grafické uživatelské prostředí, které do
+té doby na procesorech 386 nepracovalo uspokojivou rychlostí. Frekvence procesoru 486 byla 
+postupně zvýšena z původních 25 MHz až na 50 MHz. Kromě osobních počítačů se tento 
+procesor objevil také v serverech. Levnější varianta procesoru 486 označená SX se lišila tím, že 
+neobsahovala matematický koprocesor, a verze SL s nižší spotřebou energie byla opět určena 
+pro přenosné počítače. Nešlo však o jedinou variantu tohoto procesoru – v roce 1992 byl 
+představen procesor Intel486DX2 a o dva roky později ještě procesor Intel486DX4. Jádro těchto 
+procesorů pracovalo na dvou-, respektive čtyřnásobné frekvenci, než na jaké pracovala sběrnice,
+a tím se docílilo zrychlení celé sestavy. V té době již nebylo problémem vyrobit procesor s vyšší 
+frekvencí, ale problém byl se zvyšováním frekvence sběrnice. Firma Intel opět nebyla jediná, 
+která vyráběla procesory 486 – stejně označené procesory nabízely také firmy AMD a Cyrix.
+Intel Inside
+Máme za sebou trochu historie a také procesorů, které dnes již najdeme jen v počítačích 
+nabízených v bazarech nebo v inzerátech na prodej starého počítače. Doba totiž pokročila a o 
+počítače založené na procesorech 386 a 486 už prakticky nikdo nemá zájem, i když vlastně ještě 
+nedávno byly srdcem na svou dobu velice výkonných osobních počítačů, nebo dokonce i PC 
+serverů.
+Aby se společnost Intel mohla odlišit od konkurence, rozhodla se procesor nové generace označit
+trochu jinak. Rozhodování o novém jméně nebylo vůbec jednoduché, protože do propagace 
+procesorů 286, 386 a 486 věnovala firma nemalé prostředky, a logickým pokračovatelem měl 
+tedy být procesor 586. Problém byl ale v tom, že jméno by opět mohly zadarmo využít i 
+konkurenční firmy AMD a Cyrix. 
+Nakonec se tedy firma Intel rozhodla, že poprvé ve své historii označí svůj produkt jinak než jen 
+číslem. Výběrovým řízením (jméno procesoru mohli mimo jiné navrhnout i všichni zaměstnanci 
+Intelu) nakonec prošli tři žhaví kandidáti, a přestože byl konečný výběr několikrát změněn, 
+vyhrálo nakonec Pentium. I z tohoto jména je ovšem patrné, že jde o procesor páté generace, a 
+tak trochu připomíná název 586.
+První procesory Pentium s frekvencí 60 a 66 MHz byly představeny v roce 1993 a dnes už se asi 
+zapomnělo na aféru, která jejich uvedení provázela – tyto procesory totiž v některých speciálních 
+případech neuměly správně počítat. Procesory Pentium měly již přes 3 miliony tranzistorů a 
+rychlost přes 100 MIPS (milionů instrukcí za sekundu). Po 60MHz a 66MHz procesoru Pentium 
+byla uvedena jeho 75MHz verze, která se zasazovala do trochu jiné patice označené Socket 7. V 
+roce 1994 následovalo 90MHz a 100MHz Pentium a postupně světlo světa spatřil i 200MHz 
+procesor Pentium.
+Začátkem roku 1997 byly představeny 166MHz a 200MHz procesory Pentium s technologií MMX 
+(označované také jako Pentium/MMX) a se 4,5 milionu tranzistorů. Od běžných procesorů Pentium se tento procesor liší některými konstrukčními změnami (například byl rozšířen o 
+technologii SIMD – Single Instruction, Multiple Data), a především tím, že jeho instrukční sada 
+byla rozšířena o další instrukce (je jich 57) a datové typy podporující grafiku a multimédia. 
+Aplikací, které tyto instrukce využívají, přibývalo jen pomalu, ale technologie MMX se dnes už 
+stala standardem, který podporují všichni výrobci x86 procesorů. 
+Od této doby se tedy v názvech procesorů objevuje také zkratka MMX a dnes se už procesory 
+nepodporující tuto technologii nevyrábějí. Frekvence procesoru Pentium/MMX byla zvýšena ještě 
+na 233 (200MHz procesor a 233MHz procesor Pentium/MMX se dnes ještě dodává, pomalejší 
+verze již v prodeji nejsou) a byla také představena 200MHz a 233MHz verze procesoru 
+Pentium/MMX pro notebooky. Tím vývoj procesorů Pentium skončil.
+Ani procesory Pentium a Pentium/MMX už nejsou z dnešního pohledu příliš zajímavé a počítače 
+na nich založené pomalu mizí z nabídek výrobců. Nové osobní počítače už totiž používají 
+výkonnější procesory a také jinou architekturu. Po procesorech Pentium/MMX nasadila v roce 
+1997 firma Intel do konkurenčního boje procesory Pentium II. Ty jsou založeny na jiné 
+architektuře a využívají jiné patice a jiné základní desky. 
+Ani v případě procesorů páté generace, které Intel nazval Pentium, totiž konkurence nezahálela a
+představila své vlastní procesory, i když už jinak nazvané. Tyto procesory se po fyzické stránce 
+(tedy především počtem tzv. pinů, tedy jakýchsi paciček, které z procesoru vyčnívají) od 
+procesorů Pentium nelišily, a tak je bylo možné použít ve stejných základních deskách s paticí 
+označenou jako Socket 7, do níž se procesory vkládají. Navíc jejich cena byla nižší než cena 
+procesorů Pentium se stejnou frekvencí, a proto se začaly více používat. To se samozřejmě firmě
+Intel nelíbilo, vyvinula tedy pro nové procesory nazvané Pentium II speciální a patentovaný Slot 1
+(po fyzické stránce vypadá podobně jako slot PCI pro rozšiřující desky).
+První procesory Pentium II představenév roce 1997 měly frekvence 233 MHz, 266 MHza 300 
+MHz a byly tvořeny 7,5 milionu tranzistorů. Jedinou změnou oproti procesorům Pentium však 
+nebyla pouze změna rozměrů a použitého slotu pro připojení. Procesory Pentium II jsou totiž 
+vybaveny vyrovnávací pamětí druhé úrovně ve velikosti 512 KB (do té doby byla vyrovnávací 
+paměť druhé úrovně na základní desce). Přístup k této paměti je mnohem rychlejší a k této 
+paměti se přistupuje s frekvencí poloviční, než na jaké pracuje procesor. Naposledy byla 
+frekvence procesoru Pentium II zvýšena až na 450 MHz (dnes jsou tedy k dispozici procesory 
+Pentium II s frekvencí 450, 400, 350, 333, 300, 266 a 233 MHz), ale je možné, že v tuto chvíli je 
+již k dispozici i rychlejší verze.
+Procesory Pentium II mají sice slušný výkon, ale firma Intel je na trh uvedla v době, kdy se staly 
+velice populárními levné počítače s cenou okolo 1000 dolarů. Konkurenti firmy Intel sice neměli 
+tak výkonné procesory jako Pentium II, ale jejich produkty starší Pentia/MMX překonávaly, takže 
+konkurenti začali získávat významnější podíl na trhu levných počítačů. To se firmě Intel 
+pochopitelně nelíbilo, proto v dubnu roku 1998 uvedla na trh procesor Intel Celeron. Jiný název 
+měl odlišit jiný výkon a také jiné určení tohoto procesoru. Celeron je jakýsi “nahý” procesor 
+Pentium II – po architektonické stránce jde o stejné produkty (architektura P6), pouze Celeron 
+nemá vyrovnávací paměť druhé úrovně a nemá také obal odvádějící teplo. Díky tomu se mohla 
+podstatně snížit jeho cena a začal se dodávat do levných počítačů, tzv. Basic PC “s možností 
+růstu” – do stejné základní desky, do které se vkládá procesor Celeron, je totiž možné umístit i 
+procesor Pentium II. Procesor Celeron má frekvenci 266 MHz nebo 300 MHz.
+Bohužel cena procesoru není všechno a Celeron se ukázal (především díky absenci vyrovnávací 
+paměti) velice slabým hráčem, kterému se konkurence vysmála. Procesory firem IDT, Cyrix a 
+AMD sice zatím nejsou vybaveny vyrovnávací pamětí druhé úrovně, ale tato paměť je umístěna 
+na základní desce – v případě procesorů Celeron však na základní desce žádná vyrovnávací 
+paměť není. S nízkým výkonem procesorů Celeron musel Intel něco udělat, a tak pod kódovým 
+jménem Mendocino vyvíjel procesor Celeron s integrovanou 128KB vyrovnávací pamětí druhé 
+úrovně. Vyrovnávací paměť je umístěna přímo u procesoru (na stejném křemíku) a procesor má 
+19 milionů tranzistorů místo 7,5 milionu jako u běžného Celeronu. Na rozdíl od procesoru 
+Pentium II se k vyrovnávací paměti procesoru Celeron přistupuje se stejnou frekvencí, na jaké 
+pracuje procesor. Díky tomu je Celeron se 128KB vyrovnávací pamětí druhé úrovně v některých 
+případech dokonce rychlejší než procesor Pentium II se stejnou frekvencí a s 512KB vyrovnávací
+pamětí druhé úrovně. 
+Procesor Celeron se 128KB vyrovnávací pamětí má zatím frekvence 300 MHz a 333 MHz. Aby se odlišil 300MHz procesor Celeron bez vyrovnávací paměti a 300MHz procesor s vyrovnávací 
+pamětí, je verze s vyrovnávací pamětí označena jako Celeron 300A. V některých nabídkách se 
+však můžete setkat i s označením Mendocino, tedy s kódovým jménem tohoto procesoru.
+Samostatnou kapitolu v produktech firmy Intel tvoří procesory Pentium Pro. Běžní uživatelé se s 
+nimi možná ještě nesetkali a už ani nesetkají, protože jde o procesory, které se používaly v 
+pracovních stanicích a hlavně v serverech. První procesor Pentium Pro s frekvencí 150 MHz 
+(která byla později zvýšena až na 200 MHz) a 5,5 milionu tranzistorů byl představen v roce 1995 
+a používal se v podstatě ještě nedávno, protože firma Intel za něj dlouho neměla plnohodnotnou 
+náhradu. Ani následník procesoru Pentium/MMX, totiž procesor Pentium II, nebyl schopen 
+pracovat v systémech se čtyřmi a více procesory, což byla naopak výhoda Pentia Pro. Procesor 
+Pentium Pro byl oživen ještě docela nedávno (v srpnu 1998), kdy Intel uvedl tzv. Pentium II 
+OverDrive procesory, které jsou výkonnější než Pentia Pro, mohou je snadno nahradit a 
+podporují také technologii MMX.
+Výčet jmen procesorů firmy Intel ještě nekončí. V červnu roku 1998 bylo totiž představeno ještě 
+Pentium II Xeon, které je určeno především do pracovních stanic a serverů, a nahrazuje tedy 
+procesor Pentium Pro. Frekvence tohoto procesoru jsou 400 MHz a 450 MHz a procesor se 
+dodává buď s 512KB, nebo 1MB vyrovnávací pamětí druhé úrovně. Procesor Pentium II Xeon má
+stejné jádro jako procesor Pentium II, ale v některých vlastnostech se samozřejmě odlišuje, a to i 
+po fyzické stránce – v počítači ho tak snadno nepřehlédnete, protože je velký a váží 0,5 kg. 
+Pentium II Xeon se instaluje do jiné patice než Pentium II, má rychlejší přístup k vyrovnávací 
+paměti a podporuje víceprocesorové systémy. Procesory Pentium II mohou být použity v počítači 
+maximálně dva. 
+AMD – hlavní konkurent
+Velice známým výrobcem procesorů x86 je společnost AMD (Advanced Micro Devices), která 
+byla založena v roce 1969. Výrobou procesorů se zabývá již dlouhou dobu a velice populární byly
+například její 386DX/40 a také procesory 486DX/2 a 486DX/4. První procesor Am386 začala 
+dodávat firma AMD v březnu roku 1991, čímž prolomila dosavadní monopol firmy Intel. V dubnu 
+roku 1993, tedy mnohem později než Intel, uvedla společnost AMD na trh procesor Am486 s 
+jedním milionem tranzistorů. 
+Po uvedení Pentia firmy Intel musela firma AMD připravit vlastní konkurenční procesor. S 
+procesory 486, i když s vyšší frekvencí, nebylo možné dlouhodobě Intelu čelit. Uvedení procesoru
+páté generace společnost AMD několikrát odložila a její procesor označený jako K5 nebyl po 
+výkonnostní stránce příliš dobrý. Byl označován například AMD-K5-PR120, kdy zkratka PR (P-
+Rate) znamenala, jakému Pentiu procesor K5 výkonnostně odpovídá. Ve skutečnosti totiž běžel 
+na jiné frekvenci (například procesor AMD-K5-PR 120 pracoval ve skutečnosti na frekvenci 75 
+MHz,ale výkonnostně se blížil 120MHz procesoru Pentium). Procesory K5 se dodávaly ve verzích
+PR75, PR90, PR100, PR120, PR133 a PR 166.
+Vývoj procesoru šesté generace firmy AMD byl ovlivněn jednou obchodní transakcí. Původně 
+totiž tento procesor vznikal v laboratořích firmy NexGen (ta vyvíjela vlastní procesory Nx586 
+kompatibilní s procesory Intel, ale ty nebyly pinově kompatibilní s Pentiem), kterou však v roce 
+1996 firma AMD zakoupila a vývoj procesoru, později nazvaného AMD-K6, dokončila. Procesor 
+K6 s 8,8 milionu tranzistorů byl představen dokonce ještě před Pentiem II, a tak se společnost 
+AMD dostala poprvé (ale na velice krátkou dobu) do vedení výkonnostního boje. 
+Procesor K6 už podporoval také technologii MMX firmy Intel, ale AMD vyvinula svoji vlastní 
+technologii pro zrychlení 3D aplikací, kterou nazvala 3D Now!. Tato technologie byla začleněna v 
+květnu roku 1998 do procesoru K6 a takto vzniklý procesor byl nazván AMD-K6-2. Někdy se 
+ovšem můžete setkat i s pojmenováním K6 3D, právě proto, že podporuje 3D grafiku. Procesor 
+K6-2 má 9,3 milionu tranzistorů a je dostupný ve verzích s frekvencí 300, 350, 366, 380 a 400 
+MHz. 
+Procesory firmy AMD jsou vždy asi o 1/4 levnější než srovnatelné procesory firmy Intel a levnější 
+jsou také základní desky pro tyto procesory. Firma AMD zatím stále používá patice Socket 7, ale 
+aby se zvýšila výkonnost počítačů, vyvinula společně se svými partnery také architekturu Super7 
+– základní desky založené na této architektuře podporují 100MHz sběrnici, grafickou sběrnici 
+AGP, 100MHz paměť SDRAM, USB, Ultra DMA, APCI a volitelně také vyrovnávací paměť třetí 
+úrovně.Společnost AMD plánuje také uvedení procesoru K6-3 a procesoru nové generace K7. Procesor 
+AMD-K6-3 (má kódové jméno Sharptooth – ostrý zub) má stejné jádro jako procesor K6-2, ale 
+navíc má integrovanou 256KB vyrovnávací paměť druhé úrovně pracující na plné rychlosti 
+procesoru. Svým výkonem by se 400MHz procesor K6-3 měl vyrovnat procesoru Pentium II 450 
+MHz. Výhodou K6-3 je, že jej bude možné použít na současných základních deskách s paticí 
+Socket 7 (resp. Super 7). Vyrovnávací paměť umístěná na základní desce by se při použití 
+procesoru K6-3 měla stát vyrovnávací pamětí třetí úrovně. Na trh by se měl K6-3 dostat v prvním 
+čtvrtletí roku 1999.
+Hlavním trumfem AMD má být procesor K7, který je určen pro tzv. Slot A a 200MHz sběrnici s 
+architekturou Alpha EV6. Procesor AMD-K7 by měl konkurovat novým intelovským procesorům 
+zatím známým pod kódovým jménem Katmai, bude podporovat technologii 3DNow! a bude 
+rozšířen o 512KB nebo 1MB vyrovnávací paměť. Zajímavé je i použití 128KB L1 cache, která by 
+měla představovat další výhodu oproti procesoru Pentium II. 
+Cyrix – body za cenu
+Společnost Cyrix byla založena v roce 1988 a kromě jiných produktů začala dodávat také 
+matematické koprocesory pro osobní počítače. První klon procesoru x86 vyrobila v roce 1992 a 
+od té doby je konkurentem firmy Intel. Jako první začala vyrábět procesory 486 a také procesory 
+určené k upgradu procesorů 386. Vyráběla například i procesory 486DX2/DX4 s frekvencí od 50 
+MHz do 100 MHz a také speciální verze těchto procesorů pro notebooky.
+Když společnost Intel uvedla na trh procesor Pentium, vyvíjela i firma Cyrix procesor páté 
+generace. V roce 1995 byl hotov, byl pojmenován Cyrix 5x86 (někdy také M1sc) a měl frekvenci 
+až 120 MHz. Byl to dlouhou dobu jediný konkurent Pentia, protože společnost AMD se v uvedení 
+procesoru K5 opozdila. Po něm následoval procesor šesté generace označený 6x86 (kódové 
+jméno M2) ve verzích PR200+, PR166+, PR150+, PR133+ a PR120+. Podobně jako AMD u 
+procesorů K5 používal i Cyrix hodnocení P-Rate. 
+Po uvedení procesoru Intel Pentium s technologií MMX musely i ostatní firmy integrovat do svých
+produktů technologii MMX. Proto byl procesor 6x86 firmy Cyrix nahrazen procesorem 6x86MX, 
+který byl kromě podpory MMX vybaven také větší pamětí cache (64KB) a výkonnější jednotkou 
+FPU. Do prodeje se dostaly procesory 6x86MX-PR166 až 6x86MX-PR266. Procesory s vyšší 
+frekvencí (300 MHz a 333 MHz) a stejným jádrem označuje Cyrix jako Cyrix MII. Stejně jako 
+procesory 6x86MX, 6x86 a 5x86 je určen pro základní desky s paticí Socket 7 a pro desky 
+Super7. Procesory 6x86MX vyráběla ve svých továrnách firma IBM a také je pod svým jménem 
+prodávala.
+Kromě procesorů 6x86MX a MII vyrábí společnost Cyrix také procesor MediaGX, který v sobě 
+integruje také další technické prvky a multimediální funkce, a může tak nahradit grafickou i 
+zvukovou karu. Počítačové sestavy a také notebooky (existuje i verze tohoto procesoru určená 
+pro notebooky) na něm založené jsou tak cenově zajímavé. Osobní počítače na něm založené 
+mají cenu i okolo 500 USD. Přesto se tento procesor příliš neprosadil a zatím ho používá jen 
+několik firem (například firmy Compaq, Palmax nebo PackardBell/NEC). Pokud vím, žádný 
+počítač založený na tomto procesoru se u nás neprodává. Poslední novinkou v této řadě 
+procesorů je procesor MediaGX podporující technologii MMX.
+Společnost Cyrix převzala nedávno (v listopadu 1997) firma National Semiconductor, a Cyrix se 
+tak stal divizí této firmy. Na vývoji procesorů další generace se ale pracuje stále. Jádro nového 
+procesoru má název Jalapeno a první procesor s tímto jádrem (měl by se jmenovat M3) by měl 
+pracovat na frekvenci 600 a více MHz. Tento procesor, který se podle firmy Cyrix bude vyrábět v 
+prvním čtvrtletí roku 1999, by měl mít zcela nový zdvojený matematický koprocesor, podporu pro 
+3D grafiku, pro technologii MMX i 3D Now! a měl by mít integrovanou 256KB vyrovnávací paměť 
+druhé úrovně. 
+IDT – poslední z “klonařů”
+Dalším výrobcem “klonů” procesorů x86 je u nás málo známá společnost IDT (Integrated Device 
+Technology). Výrobou procesorů se zabývá dceřiná společnost této firmy, nazvaná Centaur 
+Technology. Procesory této firmy se k nám dlouhou dobu nedodávaly, ale nyní je do svých 
+počítačů instaluje několik firem.
+Od října 1997 firma IDT dodává na trh procesor IDT WinChip C6, který je podle ní optimalizován pro provozování operačního systému Windows. Pracují na něm ale samozřejmě všechny 
+systémy pro procesory x86. WinChip je kompatibilní s procesory třídy Pentium/MMX a frekvence 
+tohoto procesoru je 180 MHz a 200 MHz. Později (možná již nyní) má být dostupná ještě 225MHz
+a 240MHz verze. WinChip je menší, energeticky úspornější a mnohem jednodušší než procesor 
+Intel Pentium. Obsahuje 5,4 milionu tranzistorů a má jednodušší architekturu.
+Předností těchto procesorů je hlavně cena (a také nízká spotřeba), a používají se tedy především
+ve velice levných počítačových sestavách. Přestože procesory nesou jméno WinChip, jsou v 
+některých nabídkách firem označovány jako IDT, tedy jménem výrobce. V současné době by 
+měly být k dispozici i procesory WinChip 2 a WinChip 2 3D s frekvencí 266 MHz a 300 MHz. 
+Procesory jsou určeny pro základní desky s paticí Socket 7, tedy se stejnou, jakou používají 
+procesory Pentium, K6 nebo MII. Procesory podporují také architekturu Super 7 a technologii 
+MMX. Verze WinChip 2 3D navíc podporuje také technologii 3D Now! firmy AMD. Vývoj 
+procesorů WinChip bude pokračovat i nadále a společnost IDT připravuje procesory WinChip 2+ 
+(s větší vyrovnávací pamětí první úrovně), WinChip 2+NB a WinChip 3 (s novým jádrem a 
+frekvencí mezi 400 a 600 MHz). 
+Který si vybrat?
+Jednoznačná odpověď samozřejmě neexistuje, protože výkon se u různých druhů procesorů 
+výrazně liší a liší se také výkon procesorů při provozování různých typů aplikací. Navíc je nutné 
+kromě výkonu poměřovat také cenu. Nabídky počítačů se staršími procesory Pentium/MMX, K5 
+nebo Cyrix 6x86 pomalu mizí. Ve hře zůstávají procesory Pentium II, Celeron, K6, K6-2, 6x86MX 
+a WinChip. 
+Výhodou společnosti Intel je, že jednoznačně vede v oblasti nejvýkonnějších procesorů a její 
+škála produktů je velice široká. Firma je na tom dobře i po finanční stránce, zatímco její 
+konkurenti na tom už tak slavně nejsou.
+Procesory firem AMD, Cyrix a IDT mohou konkurovat v běžných kancelářských počítačích, a 
+především v levných a méně výkonných počítačích, jejichž trh Intel možná předčasně opustil. 
+Výhodou procesorů firem AMD, Cyrix a IDT je totiž nízká cena (jinou možnost než nabízet své 
+procesory levně ani nemají) – AMD se snaží být vždy alespoň o čtvrtinu levnější než Intel a ještě 
+levnější jsou procesory od dvou zbývajících firem. 
+V kancelářských aplikacích (kde se používají především celočíselné operace) sice mírně vedou 
+procesory Pentium II, ale náskok není nijak vysoký. Ve výpočtech s pohyblivou desetinnou čárkou
+už procesor Pentium II vede výrazněji. Konkrétní porovnání procesorů Pentium II a AMD-K6-2 
+jste si nakonec mohli přečíst v minulém čísle Chipu.

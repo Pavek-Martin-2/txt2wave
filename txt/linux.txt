@@ -1,0 +1,150 @@
+Operační systémy
+Linux
+Pojem Linux je znám počítačovým nadšencům pohybujícím se kolem sítě Internet coby volně 
+šiřitelný klon Unixu, který se svými vlastnostmi v lecčem vyrovná komerčně nabízeným systémům
+tohoto typu. V poslední době se začínají stále více objevovat i verze tohoto systému na CD, čímž 
+vysoce roste jeho dostupnost i pro běžného “neinternetujícího“ uživatele.
+Finské kapky dr. Linuse
+Nebojte se. Výše uvedený nadpis není výsledkem toho, že bych se zbláznil díky pravidelnému 
+užívání výrobku podobného jména. V názvu je totiž uvedena velice stručná charakteristika celého
+produktu, který původně pochází z Finska, jeho jádro bylo napsáno studentem jménem Linus 
+Torvalds (který už pravděpodobně dostudoval), a než si novopečený uživatel na tento systém 
+zvykne, dostane, zvláště během instalace, nejspíš pořádné “kapky“. Rozhodně nechci na tomto 
+místě tvrdit, že systém obsahuje nějaké naschvály či jiné prostředky trápení nebohých uživatelů. 
+Přejdete-li na tento systém z jiné unixové platformy, pak nejspíš ani žádnou změnu nepocítíte. 
+Pokud jste však byli předtím, stejně jako já, zvyklí pouze nadávat a rejdit myší v MS Windows, 
+pak asi výše zmíněné “kapky“ skutečně obdržíte. Předesílám však, že jestliže si na tento systém 
+časem zvyknete, budete se ke starým známým Windows vracet jen zřídka. Ale to už bychom moc
+předbíhali. Nyní na nás čeká popis vlastní architektury systému; pokusím se vás v krátkosti (o 
+Linuxu by totiž mohlo vyjít klidně celé samostné číslo) provést nejzajímavějšími částmi tohoto 
+systému, přičemž nahlédneme i do repertoáru nabízených aplikací. Aby to ale nebylo tak 
+jednoduché, rozhodl jsem se v případě výkladu architektury udělat jednu malinkatou změnu: 
+nebudeme se tímto tématem zabývat samostatně, ale probereme si je v části věnované instalaci. 
+U tohoto systému je totiž při instalaci velice žádoucí znát alespoň v hrubých rysech jeho 
+strukturu. Navíc každý, kdo si chce s Linuxem začínat, nepochybně asi tuší, co může od něj 
+očekávat. Při podrobnější procházce instalací si navíc udělá i představu, za jakou cenu to vše je. 
+A teď už hurá do toho!
+Instalace
+Ačkoliv se o Linuxu hovoří, jako kdyby to byl jediný systém, ve skutečnosti tomu tak není. Stejné 
+zůstává vždy jen jádro, zatímco repertoár ostatních podporovaných aplikací, a hlavně způsob 
+jejich instalace, závisí na konkrétní distribuci. Příčinou této situace je způsob, jakým se Linux až 
+do nedávna šířil - po síti Internet. Stačilo jen, aby se našel člověk, který si dal tu práci a posbíral 
+několik užitečných aplikací, přidal k nim jádro, pár instalačních programů  - a nová distribuce byla 
+na světě. Ze všech takto vzniklých “balíků“ se však ve skutečnosti setkáme pouze s několika, a to
+je zejména  Slackware, Yggdrassil, SLS, MCC a TAMU. První dva z těchto produktů jsem měl tu 
+čest prakticky otestovat, takže si je v průběhu článku můžeme porovnat. Předesílám, že zásadní 
+rozdíl mezi zmíněnými distribucemi je v tom, že Slackware obsahuje výrazně novější verze 
+aplikačních programů.
+U obou testovaných - a díky architektuře systému patrně i u ostatních distribucí - probíhá fyzická 
+instalace do počítače zhruba takto: nejdříve si z nějakého souboru, který je součástí dodávky, 
+vytvoříme bootovací disketu. Některé distribuce, jako například Slackware, po nás budou chtít 
+před začátkem instalace vytvořit ještě tzv. “root disk“. Na této disketě, jak jistě tušíte, je hlavní 
+systém souborů, použitý pro chod systému během instalace. Pak stačí jen zavést systém z 
+vytvořené zaváděcí diskety a pozorně sledovat, co po nás bude počítač chtít. Po zdárném 
+zavedení systému na nás čeká vytvoření dvou oddílů na pevném disku. První bude použit pro 
+hlavní souborový systém a druhý jako odkládací prostor. Velikost těchto dvou oddílů závisí 
+samozřejmě na počtu provozovaných aplikací. Odkládací prostor se doporučuje bez výjimky 16 
+MB (větší už být nemůže). Velikost naprosto minimální konfigurace může zabírat kolem 10 MB 
+(“holý“ systém bez XWindow), průměrná pak zhruba 130 MB (XWindow, překladače, aplikace), 
+maximálně by se na disku nemělo usídlit více než 300 MB (XWindow se všemi fonty, kompletní 
+vývojová prostředí, aplikace, dokumentace). Máme-li rozdělen pevný disk, můžeme nejčastěji 
+příkazem Setup spustit vlastní instalaci. Ta může mít podobu buď klasického terminálově 
+orientovaného skriptu (Yggdrassil), či uživatelsky přívětivějšího prostředí podobného známým 
+Turbo Visions (Slackware). Pro úplnost ještě dodejme, že existuje způsob, jak instalovat Linux do adresáře na dosovském disku, avšak sami autoři instalačních příruček to příliš nedoporučují.
+Tím, že jsme před chvílí zdárně vyřešili problém kam se systémem, naše starosti nekončí. 
+Musíme totiž ještě vymyslet, odkud budeme Linux instalovat. Možností je celá řada, počínaje 
+disketami, přes pevný disk, CD-ROM, až po nfs (síťový souborový systém). V našem případě si 
+asi nejspíše vybereme instalaci z CD, avšak ouha! Třikrát běda těm, kdož si zakoupili poslední hit
+firmy Mitsumi, tedy její mechaniku FX400, nebo jakoukoliv jinou AT-API mechaniku. Jádra od 
+verze 1.1.80 (poslední verze je tuším 1. 2. 4) tyto mechaniky už podporují, avšak jádro obsažené 
+v distribucích a použité během instalace je verze 1.1.59 (v Yggdrassilu dokonce 1.1.47). Zde 
+nastávají drobnější problémy, které obě dvě testované distribuce řeší po svém. Yggdrassil nabízí 
+na první pohled možná nebezpečnou, nicméně v praxi osvědčenou metodu připojení jakékoliv 
+nestandardní CD-ROM mechaniky přes dosovský ovladač MSCDEX. V konkrétní implementaci je
+to vyřešeno tak, že nejdříve zavedeme MS-DOS a pak nahrajeme vlastní linuxové jádro od 
+adresy 0x100000 (“druhý“ megabajt paměti). Toto jádro je rozšířeno o tzv. BIOS-callbacks (proč 
+zrovna “BIOS“, sám nevím), což umožňuje pracovat s rezidentními ovladači původně 
+zavedeného DOS. Tento princip činnosti zde rozvádím proto, že jádro z distribuce Yggdrassilu 
+skýtá počítačovým nadšencům nesčetné příležitosti k experimentování s přenosem dosovských 
+ovladačů (například Stackeru) do prostředí Linuxu. Avšak zpět k instalaci. V případě Slackwaru 
+nemůžeme použít ovladač MSCDEX, takže nám zbývají v zásadě dvě možnosti. Buď nakopírovat
+vše na disk a z něho instalovat, nebo si někde u známých nechat přeložit novou verzi jádra a tu 
+pak použít během instalace. To se zařídí velice snadno, neboť výše zmíněná zaváděcí disketa 
+obsahuje v podstatě “tvrdě“ (od začátku, bez ohledu na logický formát) nakopírovaný soubor s 
+jádrem. Všechna jádra Linuxu mohou být totiž automaticky zavedena z diskety, na kterou je výše 
+zmíněným způsobem zkopírujeme (například příkazem cat /vmlinuz >/dev/fd0). Drobné úpravě 
+samozřejmě neunikne ani kořenový disk, kam je třeba do adresáře /dev přidat speciální soubory 
+pro přístup k novým ovladačům mechaniky (pokud máme mechaniku na druhém EIDE kanálu, 
+budou to nejspíše soubory hdc a hdd). Pak zbývá jen “namontovat“ mechaniku na nějaký volný 
+adresář (např. mount -r -t iso9660 /dev/hdc /CD) a velet instalačnímu programu, aby zahájil 
+instalaci z tohoto adresáře. Na závěr části věnované instalaci podotýkám, že sítí bloudí nová 
+verze distribuce Slackwaru, takže je pravděpodobné, že po jejím vydání na CD výše zmíněné 
+problémy snad odpadnou.
+Nyní máme hlavní část instalace za sebou, avšak to stále ještě není konec! Teď na nás totiž čeká
+to hlavní, a tím je konfigurace našeho systému. První, co je třeba řádně zkonfigurovat, je zavaděč
+systému zvaný LILO (LInux LOader). Tento program nám umožní mít v počítači několik 
+operačních systémů zároveň a v okamžiku startu počítače si vybrat ten, se kterým chceme 
+pracovat. Ruční konfigurace LILO by vydala s přehledem na samostatný manuál, takže se zde 
+omezíme na konstatování, že vše většinou proběhne ještě v rámci instalačního programu a 
+většinou na uživatelsky přívětivé úrovni.
+Další důležitá činnost, které je Linux schopen a která si žádá být řádně nastavena, je síťová 
+komunikace. V popisovaném systému je obsažena kompletní implementace rozhraní TCP/IP 
+včetně připojení na síť pomocí protokolů SLIP či PPP. Konfigurace této části obnáší v podstatě 
+jen nastavení dostupných síťových zařízení (karty, SLIP spojení apod.) a trasovacích tabulek. 
+Systém je samozřejmě schopen pracovat jak s doménovými jmény, a to coby klient některého z 
+doménových serverů, tak i jako vlastní server. Poslední, čím se v rámci instalace budeme ještě 
+zabývat, je nastavení rozhraní XWindow, které je dodáváno ve verzi XFree86 3.1 X11R6. Nejprve
+si však v krátkosti připomeňme architekturu tohoto rozhraní. Základem všeho dění je aplikace 
+zvaná XServer, která má pod kontrolou myš, klávesnici a obrazovku. K tomuto serveru se pak 
+pomocí sítě TCP/IP připojují ostatní aplikace, zvané XClients, kterým server umožňuje získávat 
+vstup z naší myši a klávesnice či provádět výstup na náš monitor. Na první pohled je zřejmá 
+výhoda tohoto uspořádání spočívající v tom, že klient, se kterým pracujeme, může ve skutečnosti
+běžet na mnohem výkonnějším počítači kdesi na síti a náš počítač využívat jen jako grafický 
+terminál pro zobrazování vlastních výsledků. Pravda, v panelovém bytě 1+0 si výdobytků síťové 
+komunikace sice příliš neužijeme (leda přes modem), avšak je třeba podotknout, že XWindow 
+vznikl pro nasazení v poněkud odlišných podmínkách. Touto poznámkou chci vyjádřit fakt, že 
+leccos vám ze začátku bude připadat na tomto rozhraní těžkopádné a “sto let za opicemi“ (typy 
+písma se například ve většině aplikací specifikují napsáním jména toho kterého fontu do 
+dialogového okna), ale s tím bohužel nic nenaděláme. Sami autoři projektu se nijak netají faktem,že hlavním aspektem návrhu XWindow byla jeho flexibilita a přenositelnost a až na druhém místě
+uživatelská přívětivost.
+Konfigurace všech možných částí XWindow by opět vydala na samostatný článek. Pro rozběhnutí
+systému však potřebujeme v zásadě jen jedno -zkonfigurovat náš XServer. To se nám nejlépe 
+podaří pomocí dodávaného konfiguračního skriptu (xf86config-XFree86-3.1), kde si “pohodlně“ 
+vybereme, jakou videokartu použijeme, kolik má paměti a podobně. Jedno malé upozornění pro 
+majitele videokaret řady S3: v serveru pro tyto karty je bohužel chyba, která se projevuje tím, že 
+po opuštění XWindow není korektně obnoven textový režim, takže na obrazovce nevidíme zhola 
+nic (někdy, když je nám osud milostivě nakloněn, spatříme zajímavé šikmé pruhy...).
+Dodávané aplikace
+Na první pohled se může zdát, že existuje-li více nezávislých distribucí, dá se jen stěží hovořit o 
+aplikacích Linuxu jako takového, neboť každá distribuce může nabízet něco zcela jiného. Tak zlá 
+však situace není. Přece jen existuje určitý okruh aplikací, které jsou, řekněme, závazné a které 
+najdeme v každém distribučním balíku. Určitě zde tedy najdeme základní příkazy Unixu, jako jsou
+ls, sed, awk a jim podobné. Z příkazových shellů máme k dispozici zejména bash (Bourne Again 
+Shell), což je vylepšený klasický Bourne Shell, a tcsh (Toronto C-Shell), což zase není nic jiného 
+než klasický C-Shell. Mezi další aplikace patří zejména překladače jazyků C/C++, Objective C, 
+Lisp či Smalltalk, aplikace TeX či Emacs a už zmíněné rozhraní XWindow. Stranou nezůstává ani 
+síťová komunikace, kde jsou víceméně klasické programy jako telnet, ftp, mail, elm, pine, rsh atd.
+Užitečný může být i emulátor systému MS-DOS či betaverze emulátoru Windows. V 
+terminálovém režimu jistě oceníme aplikaci mc (Midnight Commander), která jako by z oka 
+vypadla známému Norton Commanderu. Pro Linux rovněž existuje i oblíbená hra DOOM.
+Abstraktně můžeme o škále dodávaných programů konstatovat, že zde najdeme vše, co se na 
+funkce a užitkuschopný systém typu Unix s XWindow rozšířením sluší a patří.
+Kniha Dr. Linux
+Nebývá častým zvykem recenzovat zároveň s programy i knihy, leč v tomto případě si dovolím 
+udělat výjimku. Spolu s prvním přechodem do světa Linuxu je totiž spojeno nezměrné množství 
+otázek, na které najdete odpověď právě v této knize.
+Celá kniha je členěna na řadu samostatných kapitol, které mají mnohdy odlišné autory. Za 
+všechny kapitoly bych se rád zmínil zejména o kapitolách věnovaných administraci systému: jistě 
+nám budou vítaným průvodcem po všech souborech a konfiguračních skriptech, které je třeba 
+nastavit, aby systém fungoval tak, jak má. Zde se například dozvíme, kterak správně konfigurovat
+spojení SLIP, jak nastavit poštovního démona, jak si poradit s UUCP či s LILO a podobně. Pro 
+pokročilejší uživatele je zde kapitola věnovaná rozšiřování jádra o vlastní ovladače. Celou knihu 
+doplňuje ještě celá řada kapitol zabývajících se všemi otázkámi, které s provozováním Linuxu 
+mohou vzniknout (emulátor DOS, Windows, používání streameru apod.). 
+Souhrnně můžeme o knize konstatovat, že ne nadarmo se jí také říká “The Linux Bible“. Kniha je 
+v angličtině, obsahuje 1176 stran a vyšla v nakladatelství LSL.
+Závěr
+Celkově se o systému můžeme vyjádřit jako o produktu vhodném zejména pro počítačové 
+nadšence, kteří by rádi poznali něco nového a přitom příliš nehledí na čas, který je toto poznání 
+bude stát. Za to jim budiž odměnou nezměrné a nepopsatelné množství nejrůznějších informací a
+zkušeností ze světa programování, administrace a praktického využívání operačního systému 

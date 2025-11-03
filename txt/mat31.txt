@@ -1,0 +1,236 @@
+Textové editory
+MAT 3.1
+Mnoho firem předvedlo na Invexu nové verze svých produktů; alespoň nějakou tu desetinku k 
+číslu předchozí verze se pokusil přidat skoro každý. Pozadu nezůstala ani brněnská firma Cybex 
+se svým textovým editorem MAT, jehož poslední verze nese číslo 3.1.
+MAT, ale komu?
+MAT 3.1 je původní český textový editor určený pro dosovské prostředí. Používá pouze 
+neproporcionální písmo (v několika variantách), přitom ale běží v grafickém režimu obrazovky.
+Na rozdíl od běžných textových editorů nabízí MAT možnost pracovat s matematickými vzorci. 
+Umožňuje také vkládat do textu obrázky.
+Prostředí tohoto editoru je - jak je dnes víceméně obvyklé - inspirováno Windows. Tvoří je okno s 
+nabídkami menu a s ikonami pro některé často používané akce. Editované soubory se zobrazují 
+ve vnořených oknech. MAT podporuje přemísťování označených bloků textu přetažením myší 
+(drag and drop).
+V MAT si můžeme otevřít zároveň až osm souborů.
+Mezi další zajímavé vlastnosti patří editovatelná klávesnice, možnost použít vlastní ovladač 
+klávesnice, kontrola překlepů už při psaní textu, slučovací tisk, ovládání pomocí maker.
+Dokoupit lze překladové slovníky pro angličtinu a němčinu. Soubory můžeme před nevítanými 
+zvědavci chránit zašifrováním (šifrou BSC 2).
+K editoru jsou přibaleny obvyklé pomocné programy, jako je kalkulačka, diář apod. Mezi nimi 
+vyniká snímač obrazovek, který umožňuje “odchytit“ obrazovku dosovského programu a později ji
+použít jako ilustraci. (Všechny obrázky v této recenzi jsem získal pomocí tohoto snímače.)
+Jak dále uvidíme, bohužel ne všechny vlastnosti MAT fungují bezchybně.
+Požadavky
+Minimální konfigurace, na které je MAT schopen provozu, je počítač PC AT se 640 KB RAM, s 8,5
+MB volného místa na pevném disku a s grafickou kartou VGA.
+Konfigurace, doporučená v dokumentaci, je počítač s procesorem 80386 a se 2 MB RAM, disk s 
+cache, grafický adaptér SVGA s barevným monitorem, myš a tiskárna.
+Vzhledem k tomu, že současná verze MAT nepodporuje práci s barevnými obrázky ani barevná 
+písma, vystačíte ovšem docela pohodlně s kartou VGA s odstíny šedi.
+Instalace
+Instalační program se prostě zeptá na cílový adresář, a pak do něj rozbalí potřebné soubory. 
+Překladové slovníky se instalují zvlášť. Česko-anglický a anglicko-český slovník jsou na jedné 
+třiapůlpalcové disketě a mají vlastní instalační program. Tyto dva slovníky vyžadují dalších asi 1,6
+MB disko-vého prostoru. Podobné je to i u česko--německého a německo-českého slovníku.
+MAT lze spouštět i pod Windows. Součástí dodávky je i ikona a soubor PIF.
+Prostředí
+Prostředí MAT tvoří okno, které má v horní části menu a tlačítka, představující zkratky pro 
+nejběžnější povely (obr. 1). Ve vnořených oknech pak můžeme psát nebo editovat své soubory. 
+Můžeme otevřít až osm oken, což by mělo pro většinu použití stačit.
+Na pozadí jsou trvale dvě pomocná okna, ve kterých je základní a rozšířená znaková sada MAT 
+(obr. 2). Pouhým ťuknutím myší se zvolený znak přenese do aktivního okna na pozici kurzoru. 
+Bohužel však tato dvě okna nelze “vytáhnout na popředí“, takže chceme-li použít některý ze 
+znaků, musíme zmenšit nebo odsunout editační okna.
+MAT podporuje používání myši. Myší lze měnit velikost a polohu oken, označovat bloky textu, 
+přemísťovat je atd. Bloky však takto nelze přenášet mezi různými okny - tam musíme použít 
+schránku.
+Dost mi vadilo, že ve vstupních řádkách dialogových oken nelze bloky označovat vůbec - ani 
+myší, ani kurzorovými šipkami.
+Při práci s MAT lze používat i makra. Můžeme jich vcelku pohodlně definovat až deset a mohou 
+být i dost komplikovaná.Písmo
+MAT nabízí pouze neproporcionální písmo. Můžeme si ovšem poručit, zda chceme normální 
+písmo, kurzivu, vysoké nebo široké písmo, horní nebo dolní index, nebo podtržené písmo. Tyto 
+varianty lze i kombinovat. Typ písma předepíšeme nejsnáze pomocí ikon na horní liště okna.
+Písma různých velikostí se nezapisují na stejnou úroveň. Např. vysoké písmo má základnu o 
+kousek výš než normální písmo; to přece jen poněkud snižuje jeho použitelnost. Začneme-li psát 
+vysokým písmem na úplně prvním řádku v okně, nebude část písma vidět a nedostaneme ho do 
+okna, pokud před něj nevložíme řádek navíc.
+Součástí dodávky je i program pro editování fontů. To znamená, že si můžeme vytvořit znaky, 
+které nám chybějí.
+Obrázky
+Textový editor MAT umožňuje vložit do textu obrázek. Musí to být černobílá bitová mapa v 
+některém z formátů BMP, PCX nebo IMG. MAT se pokusí obrázek konvertovat podle typu 
+tiskárny, na které se bude výsledek tisknout.
+Velikost obrázku nebo poměr stran lze podle potřeby měnit. Text může obrázkem procházet nebo
+jej může obtékat; výsledek může vypadat docela pěkně. (Po vytištění na laserové tiskárně s 
+rozlišením 300 dpi vypadaly některé obrázky dokonce lépe než na obrazovce.)
+Obrázek je ovšem vázán na řádek, na který jej vložíme, a po vložení jej lze přemísťovat pouze v 
+rámci tohoto řádku. Nelze také umístit dva obrázky vedle sebe na týž řádek.
+Při vkládání obrázku se MAT zeptá, jak velké mají být jeho strany. Trochu mi vadilo, že se při tom 
+nepokusí napovědět správný poměr stran, tedy takový, aby výsledek pokud možno odpovídal 
+originálu. U některých obrázků jsem musel udělat několik pokusů, než jsem dostal uspokojivý 
+výsledek.
+Jedna z nepříjemností, na které můžeme narazit, vychází z toho, že MAT nezvládá barevné 
+bitové mapy. Pro pokusy jsem si vzal bitovou mapu ze známého šetřiče obrazovky Show me 
+Goldie, a to jako černobílou a jako šestnáctibarevnou (byť s pouhými dvěma barvami). Černobílý 
+obrázek se povedlo vložit bez problémů, z barevné bitové mapy vznikly svislé pruhy (obr. 3). 
+Navíc při tisku pak takovýto obrázek způsobil vnitřní chybu programu (obr. 4).
+Asi by bylo rozumnější, kdyby MAT oznámil, že barevné obrázky prostě nebere, a odmítl obrázek 
+importovat.
+Jiná nepříjemnost se týká mazání obrázků. Obrázek lze odstranit pouze pomocí příkazu z menu. 
+Jestliže jej označíme jako blok a smažeme, obrázek sice zmizí, ale pak se bude při psaní zase 
+zvolna - řádek po řádku - vynořovat. Takové chování přece jen dost odporuje tomu, co uživatel 
+očekává. Měl by si sice přečíst manuál, jenže...
+Matematické vzorce
+MAT je, pokud vím, jediným domácím editorem, který umožňuje vkládat do textu matematické 
+vzorce složitější, než je řekněme Pythagorova věta. Vzorce mohou obsahovat zlomky, indexy, 
+exponenty, integrály s vyznačením mezí, sumaci, násobení, většinu řeckých písmen, parciální 
+derivace atd. Výrazy lze uzavírat do závorek různých druhů a velikostí.
+Ke vkládání vzorců slouží zvláštní dialogové okno (obr. 5). V jeho vstupní řádce vzorec zapíšeme
+v jakémsi metajazyku, který může vzdáleně připomínat sazbu vzorců v TeX. Stiskneme-li tlačítko 
+Ukázat, objeví se v okně vzorec tak, jak jej MAT vysází. Tlačítkem Použít jej pak přeneseme do 
+schránky, odkud jej můžeme vlepit na zvolené místo v textu.
+Vzorec je ovšem poskládán z dílů ze základní a především z rozšířené znakové sady MAT a 
+zabírá zpravidla několik řádků. Po vložení jej můžeme dále “ručně“ editovat a pokusit se tak 
+odstranit některá nedopatření.
+Při pokusech se vzorci jsem narazil na řadu potíží. Nejprve jsem zjistil, že pomocí editoru vzorců 
+nenapíšu přijatelným způsobem “rovná se po zaokrouhlení“, tedy rovnítko, nad kterým je tečka. 
+Postrádal jsem také možnost umístit nad znak vodorovnou čárku (“pruh“ - používá se např. pro 
+komplexně sdružená čísla) nebo vlnovku.
+Nepodařilo se mi také napsat “x1 na druhou“ tak, aby nebyl horní nebo dolní index odsazen o 
+jeden znak doprava (to je asi v neproporcionálním písmu neřešitelné). Potíže jsem měl i při psaní čísel s desetinnou čárkou: číslo 2,55 dopadalo vytrvale jako 2, 55 s jednou zbytečnou mezerou, 
+kterou jsem musel odstranit ručně.
+Když jsem se pokusil napsat “e na x na druhou“ a použil doporučený zápis “exp (x^2)“ byl 
+výsledek ex2; musel jsem napsat “e^x^2“, ale pak bylo e sázeno kurzivou jako proměnná, nikoli 
+tučně jako konstanta. Ještě hůře jsem dopadl, když jsem se pokusil vysázet “integrál z e na x na 
+druhou“.
+Integrál byl na svém místě, ale integrand se posunul o řádek níž (obr. 5).
+Při psaní matematických vzorců mi chyběla také některá řecká písmena - např. dzéta. (V 
+matematice se používá pro jednu speciální funkci; také v některých odvětvích fyziky se bez něj 
+neobejdete.)
+Některé další možnosti
+MAT dále nabízí možnost vložit část textu nebo obrázek do rámečku.
+Pokud použijeme MAT k nějaké náročnější práci, můžeme v něm vytvořit obsah nebo rejstřík k 
+dokumentu. Můžeme také např. automaticky přečíslovat kapitoly.
+MAT a svět
+MAT používá svůj vlastní formát .MAT. Vedle toho umí pracovat s formáty T602, ASCII a DBF. 
+Převod ze 602 do MAT je naprosto bez problémů; při opačném převodu se mohou ztratit některé 
+informace, neboť šestsetdvojka např. neumožňuje používat vysokou kurzivu nebo vkládat 
+obrázky.
+Vedle toho nabízí MAT import z formátů WordPerfect a Microsoft Word 2.0, export do těchto dvou
+formátů a do formátu Ventury Publisher.
+Zkoušel jsem import z prostředí českého MS Wordu 2.0. Nepřekvapilo mne, že se nepodařilo 
+přenést tabulky - to se obvykle nepodaří ani u dražších editorů. Trochu horší bylo, že u jednoho z 
+dokumentů zarovnal MAT z neznámých důvodů všechny řádky k pravému okraji.
+Matematické vzorce vložené do wordovského dokumentu pomocí editoru rovnic MAT ignoroval. 
+To lze akceptovat jako řešení. Obrázky vložené do dokumentu pomocí kreslicího programu MS 
+Draw způsobily, že MAT celý soubor prostě odmítl. To už moc přijatelné řešení není.
+Při exportu do Wordu jsem dostal dokument ve fontu courier a v implicitní šabloně. Samozřejmě 
+matematické vzorce dopadly dost špatně - ale převod vzorců z MAT do Wordu je asi zase 
+neřešitelný.
+MAT umí - jako každý pořádný textový editor - slučovací tisk. Data importuje ze zadané databáze 
+ve formátu DBF - k tomu se ještě vrátím.
+Klávesnice
+Nabídka několika klávesnic není u českých textových editorů nic neobvyklého. MAT nabízí při 
+standardní instalaci pět možností: českou klávesnici consul, českou programátorskou klávesnici, 
+grafickou, matematickou a standardní klávesnici.
+Přiznám se, že jsem ocenil zejména poslední možnost, standardní klávesnici. Ta totiž znamená, 
+že MAT použije klávesnici, která je na počítači už instalována.
+Jednou z voleb menu je i editovat klávesnici. Umožňuje definovat vlastní rozložení kláves (a 
+výsledek samozřejmě uložit jako soubor).
+Vedle toho můžeme načíst některé další klávesnice - slovenskou,  německou nebo dvě 
+klávesnice označené azbuka nebo azbuka_c. Pokud ale chceme doopravdy psát azbukou, 
+musíme načíst odpovídající znakovou sadu. K tomu poslouží další položka menu.
+Korektor
+Samozřejmou součástí textových editorů jsou mj. nástroje pro vyhledávání překlepů. Pokud vím, 
+jde u všech domácích editorů o týž produkt přizpůsobený různým prostředím.
+Korektory obvykle současně s nalezeným překlepem nabízejí možné náhrady. To může zejména 
+na starších počítačích docela slušně zdržovat, takže korektor MAT implicitně náhrady nenabízí. 
+Lze je ovšem zapnout.
+MAT nabízí také možnost kontroly překlepů přímo při psaní. Jakmile dokončíte slovo (napíšete 
+mezeru, čárku, tečku apod.), zkontroluje, zda je správně, a pokud ne, upozorní pípnutím nebo i 
+nápisem. V tomto případě nenabízí možné náhrady nikdy.Slovní zásoba korektoru pokrývá běžné vyjadřování a základní odbornou terminologii. Podobně 
+jako u mnoha jiných editorů neobsahuje běžné počítačové zkratky jako KB, MB apod. Selhává 
+také na archais-mech a silnějších vulgarismech. Proti předchozím verzím se naučil vedle -ismů 
+přijímat i nově zavedené -izmy. Podobně akceptuje kurs i kurz. Pokud jde o ostatní slova tohoto 
+typu (pulz, reverz apod.), akceptuje MAT stále pouze “klasickou“ podobu (puls atd.).
+Thesaurus
+Tento nástroj by měl nabízet synonyma a případně i antonyma. Lze jej volat z menu nebo 
+klávesovou zkratkou. Nabídne synonyma ke slovu, na které ukazuje kurzor. U některých slov 
+opravdu nabízí i antonyma, tedy slova s opačným významem.
+Jeho slovní zásoba je ale značně omezená. Zkusil jsem např. hledat synonyma ke slovům mrak 
+nebo oblak a dozvěděl jsem se, že program nenašel žádné synonymum. Podobně jsem dopadl u 
+slova koukat, i když u slova hledět možnost koukat se je.
+U slova milý nabídne sice řadu synonym, avšak žádná antonyma.
+Překladové slovníky
+Pokud si tyto slovníky koupíte a instalujete, objeví se v menu Pomůcky automaticky položka 
+Překladový slovník. Ovládá se podobně jako Thesaurus. Navíc musíme v dialogovém okně zvolit,
+odkud kam chceme překládat (tato volba pak zůstává v platnosti i při dalších použitích, dokud ji 
+nezměníme).
+Slovník nabídne možné překlady slova, na které ukazuje kurzor. Pokud ale dané slovo nenajde, 
+vezme nejbližší následující, takže se občas dočkáme docela kuriózních odpovědí.
+Slovní zásoba těchto slovníků není nejbohatší. Např. v česko-anglickém slovníku chybělo slovo 
+východ a místo toho mi byl nabídnut překlad slova vycítit. Slovník také neznal slovo seznam a 
+nabídl mi překlad slova Sibiř. Na druhé straně ale zná i některá slova, která korektor zatvrzele 
+odmítá (příklady nelze tisknout).
+Tisk
+MAT poskytuje docela úctyhodnou řadu ovladačů pro tiskárny. Neinstalují se zároveň s 
+programem, ale až později, příkazem z menu.
+Pokud tiskárna sama neumí háčky a čárky, postarají se o ně downloady - soubory PIP. Bohužel 
+se o nich v manuálu příliš nehovoří a tak uživateli nemusí být na první pohled jasné, o co jde, 
+když se MAT zeptá, zda je má na tiskárnu odeslat.
+Jednou z výhod MAT je, že umí využívat i textový režim tiskárny. Přímo do textu lze vkládat 
+tiskové příkazy, které ovlivní např. velikost nebo typ písma.
+Jedna drobnost, na kterou při tisku můžeme narazit, mi připadá příznačná. V dialogovém okně 
+pro tiskové volby můžeme určit, co se má dělat na konci stránky: vyžádat si vložení nového 
+papíru, vyslat znak FF apod. V témže okně také předepisujeme, zda chceme výstup do souboru 
+nebo na tiskárnu. Jestliže zároveň předepíšeme ruční vkládání papíru a výstup do souboru, 
+objeví se po odťuknutí tlačítka OK okno se sdělením, že do souboru nelze vkládat papíry (obr. 7).
+Z čistě filozofického hlediska proti tomu nelze nic namítat: je to pravda. Jako recenzent musím 
+ocenit autorův smysl pro humor, v Česku poslední dobou tak vzácný. Nicméně nemohu se zbavit 
+dojmu, že autor nenavrhl hierarchii přepínačů úplně nejlépe. Myslím si, že pokud někdo zvolí tisk 
+do souboru, je vysílání příslušného řídicího znaku samozřejmostí a není s tím třeba uživatele 
+obtěžovat.
+Šetřič obrazovky
+Šetřiče obrazovky jsou dnes téměř automatickou součástí nejrůznějších programů. MAT nabízí 
+jen jeden, ale docela půvabný - rotující kola světel. Nazývá se Noc a lze jej spustit i z menu.
+Pomocné programy
+Spolu s textovým editorem dostanete i několik pomocných programů: kalkulačku, diář, 
+jednoduchý databázový program, kartotéku (to je vlastně databáze adres) a program pro snímání
+obrazovek. Zmíním se podrobněji o dvou z nich.
+Databáze umí pracovat se soubory ve formátu DBF. Umožňuje otevírat, prohledávat, editovat a 
+vytvářet databáze. V nabídce funkcí je i možnost setřídit. Podobně jako předchozí verze, ani databáze MAT 3.1 nerespektuje ČSN 01 0181, která stanoví pravidla abecedního třídění.
+Tato norma totiž mj. předepisuje: dvojice d - ď, t - ť a n - ň se rozlišují až v případě, že v 
+porovnávané dvojici slov není žádný jiný rozdíl. Tuto skutečnost MAT nebere na vědomí a klidně 
+řadí dudka před ďase, nulu před ňoumu nebo tupouna před ťapku.
+Druhý program, o kterém stojí za to psát, je snímač obrazovek. Jde vlastně o dvojici programů 
+GRB a AGRB. První z nich je rezidentní prográmek, který se aktivuje klávesovou kombinací. Data
+uloží ve zvlášt-ním souboru, ze kterého si jej můžeme později pomocí dalšího programu 
+vytáhnout. Umí snímat jak grafické, tak i textové obrazovky.
+Program AGRB má své vlastní prostředí (obr. 6), ve kterém umožňuje předem si prohlédnout 
+obrázky, a pokud se nám líbí, “vysypat“ si je ve formátu BMP, PCX, IMG nebo RC. Tento program
+umí pracovat se šestnáctibarevnými bitovými mapami. Umí je transformovat na bitové mapy v 
+šedé škále nebo černobílé.
+Jak jsem už řekl, všechny obrázky v této recenzi jsem “odchytil“ programem GRB. Jeho jedinou 
+nevýhodou je, že nefunguje i pod Windows - ale to zase tak moc nevadí.
+Manuál
+MAT se dodává v úhledné krabičce, ve které najdete tři diskety 3,5" a jeden manuál o 160 
+stranách. Manuál je napsán poměrně srozumitelně a v příkladech narazíme na roztomilé vtipy.
+Škoda jen, že obsahuje dost gramatických chyb (zejména pokud jde o shodu podmětu s 
+přísudkem).
+Co říci na závěr
+MAT by mohl být dobrý textový editor. Najdeme v něm řadu vyloženě pěkných nápadů, které v 
+ostatních editorech chybějí. Také skutečnost, že pracuje pouze s neproporcionálním písmem, by 
+mohla představovat výhodu. Přece jen ne každý si může dovolit laserovou tiskárnu a tisk s 
+využitím vnitřních fontů tiskárny bude na jehličkových tiskárnách podstatně rychlejší.
+Bohužel řada věcí není dotažená do konce. Nejnápadnější je to u zpracování obrázků, editování 
+matematických vzorců nebo u databáze (problém s českým abecedním tříděním byl, pokud se 
+dobře pamatuji, zmiňován už v jedné z recenzí verze 3.0).
+Také hierarchie nabídek a přepínačů není uspořádána nejlépe - příklad s vkládáním papíru do 
+souboru je jen vrcholem ledovce.
+Zdá se mi, že tento program trpí dnes tak rozšířenou nemocí našich i zahraničních programů: 
+neprošel solidním beta testováním. Všechny problémy kolem obrázků, vzorců, hierarchie nabídek
+apod. by přece musely už dávno být odhaleny a odstraněny.
+Neustále se mi vnucují slova, která svého času napsal Petr Koubský ze Softwarových novin o 
+jedné z verzí úplně jiného programu: Je hotový, jen ho dodělat...
