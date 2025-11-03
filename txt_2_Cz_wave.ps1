@@ -2,9 +2,79 @@
 
 # prelozi vsechny nalezene textove soubory v cestine ( kodovani UTF8 ) do souboru Wav pripanne take do mp3
 
-# test jestli program nalezl utilitu "ffmpeg" aby bylo moze vytvaret take souboru *.mp3 ( uspora mista na disku )
+Set-PSDebug -Strict # jakakoliv nedeklarovana promenna pri jejim zavolani udela chybu skriptu
+#Set-PSDebug -Off
+#echo $irtiruturtr
+
 Remove-Variable exist_ffmpeg, prog, file_txt, d_file_txt, input_txt -ErrorAction SilentlyContinue
+# pridano 2.11.2025 - pokud by se smazal soubor "ROZTRIDIT_HOVOVE_SOUBORY.bat" tak ho vytvori znova
+#$file_bat = "a.txt"
+$file_bat = "ROZTRIDIT_HOTOVE_SOUBORY.bat"
+
+$fileExist = Test-Path $file_bat # otestuje exisatenci souboru $file_bat
+if ( $fileExist -clike "False" ) { # poukud soubor neexistuje tak to vytvori a naplni ho obsahem z $pole_bat
+
+# pole prikazu davkoveho souboru - uspora pameti, definice pole uvnitr podminky
+# pole se definuje pouze v pripade ze je ho opravdu potreba :)
+$pole_bat = @(
+"@echo off",
+"verify on",
+"title ROZTRIDIT_HOVOVE_SOUBORY.bat",
+"",
+"echo roztridi vsechny hotove soubory",
+'echo vsechny vygenerovane soubory z priponou "wav" budou presunuty zde do adresare wav/',
+'echo vsechny "mp3" presune do adresare mp3/',
+'echo a "txt" presune do txt/',
+"echo pokud by nejaky z techto adresaru neexistoval program do vytvori",
+"echo paklize v nejakem adresari jiz existuje soubor stejneho jmena tak bude bez dotazu prepsan novym",
+"pause",
+"",
+":label_1",
+"dir wav > nul",
+"if errorlevel == 1 goto chyba_wav",
+"move /Y *.wav wav",
+"",
+":label_2",
+"dir mp3 > nul",
+"if errorlevel == 1 goto chyba_mp3",
+"move /Y *.mp3 mp3",
+"",
+":label_3",
+"dir txt > nul",
+"if errorlevel == 1 goto chyba_txt",
+"move /Y *.txt txt",
+"",
+"goto konec",
+"",
+":chyba_wav",
+"mkdir wav",
+'echo BYL VYTVOREN NOVY ADRESAR "WAV"',
+"goto label_1",
+"",
+":chyba_mp3",
+"mkdir mp3",
+'echo BYL VYTVOREN NOVY ADRESAR "MP3"',
+"goto label_2",
+"",
+":chyba_txt",
+"mkdir txt",
+'echo BYL VYTVOREN NOVY ADRESAR "TXT"',
+"goto label_3",
+"",
+":konec",
+"@echo on",
+"pause"
+)
+
+# samotni zapis souboru bat (pokud by byl smazan)
+Set-Content -Path $file_bat -Encoding ASCII -Value $pole_bat
+sleep 1
+}
+
+
+# test jestli program nalezl utilitu "ffmpeg" aby bylo moze vytvaret take souboru *.mp3 ( uspora mista na disku )
 $exist_ffmpeg = 0
+
 
 #$prog = "ffmpegXXXX" # testovaci
 $prog = "ffmpeg"
@@ -184,5 +254,12 @@ Write-Host -ForegroundColor Cyan "text byl ulozen do souboru '$name_mp3'"
 $synth.Dispose() # uzavreni streamu
 echo "vse hotovo"
 
+$out_3 = ""
+$out_3 += "nyni muzes spustit soubor "
+$out_3 += '"'
+$out_3 += $file_bat
+$out_3 += '"'
+Write-Host -ForegroundColor Yellow $out_3
+#Write-Host -ForegroundColor Yellow 'nyni muzes spustit soubor "ROZTRIDIT_HOVOVE_SOUBORY.bat"'
 sleep 10
 
