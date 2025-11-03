@@ -1,0 +1,637 @@
+Modernizovat?
+Na stránkách CHIPweeku otevíráme nový seriál, který se bude zabývat dnes velmi aktuální 
+problematikou modernizace hardwaru. Nejen nový operační systém Windows 95, ale i řada 
+moderních aplikací pro Windows staví majitele počítače před problém výměny počítače nebo 
+jeho částí. V prvním dílu se pokusíme zodpovědět nejčastější dotazy před modernizací počítače.
+Potřeba modernizace zasahuje asi každého uživatele, který má svůj počítač déle než dva až tři 
+roky. Vývoj v oblasti hardwaru jde skoro šíleným tempem kupředu a producenti softwaru se snaží 
+potenciálu moderních zařízení využít. Tento trend se z pohledu posledního ceníku počítačů může
+zdát pro uživatele velmi nepříjemný – sám mám doma počítač, ve kterém jsem “utopil” přes 120 
+tisíc (bez započítání softwaru, což by byla kapitola sama pro sebe); stejnou sestavu bych však 
+dnes pořídil pod 50 tisíc. Druhou stranou mince je ovšem to, že si počítač svoji hodnotu na sebe 
+“vydělal”. 
+Pustit se do vylepšení počítače je tedy vhodné (i když uznávám, že můj příklad je trochu 
+extrémní). Zvláště nyní, kdy se dá čekat nová generace 32bitových aplikací pro Windows 95. 
+Jiným příkladem mohou být třeba hry – moderní hry už někdy nepracují ani na PC 386 se 4 MB 
+paměti, což byla ještě před rokem standardní sestava. Zkrátka k modernizaci jste donuceni 
+požadavky nového softwaru, avšak výsledkem jsou vyšší možnosti práce.
+Co to přinese?
+Abych byl konkrétnější, uvedu několik příkladů. Multimediální vybavení počítače je dnes 
+víceméně samozřejmé – a s ním přichází obrovské množství her, encyklopedií, databází, 
+zábavních a výukových titulů, ale třeba i reklam na CD. Sám nosič CD-ROM přináší uživatelům 
+mnoho výhod – jednoduchou manipulaci, vysokou spolehlivost, často nižší cenu softwaru. 
+Výkonné grafické karty na lokálních sběrnicích umožňují práci v grafických prostředích s řádově 
+vyšším uživatelským komfortem. Výkon procesorů je dnes dostatečný pro reálně použitelný 
+multitasking. I poměrně levný faxmodem s rychlostí 14 kb/s umožňuje zapojit počítač do Internetu
+nebo jiných sítí, posílat a přijímat faxy a některé modemy mohou nahradit i telefonní záznamník 
+(pokud necháváte počítač trvale zapnutý).
+Zároveň se některé dříve drahé komponenty stávají běžnými: za všechny bych jmenoval alespoň 
+podporu šetření proudem a matematický koprocesor, který se už stal výbavou i těch nejlevnějších
+počítačů.
+Modernizovat, nebo koupit nový?
+Nevím, nakolik jsem vás v předchozích řádcích přesvědčil a nakolik jste k potřebě modernizace 
+dospěli sami a teď hledáte jen konkrétní rady, jak na to (o tom bude celý zbytek seriálu). 
+Modernizaci je však dobré uskutečňovat s rozmyslem a hned zpočátku je právě dobré si 
+rozmyslet, zda je lepší jen vyměnit některé komponenty, nebo zda starý počítač prodat za 
+symbolickou cenu a koupit si nový.
+Druhá varianta vás patrně vyjde levněji a s menší námahou, pokud vlastníte hodně starý počítač 
+(prakticky každé “átéčko” 286 nebo 386SX s malým diskem a “obyčejnou” grafickou VGA-kartou).
+Jinak byste museli vyměnit téměř všechny díly a z původního počítače by vám nezbylo nic jiného 
+než skříň a možná ještě 5,25" mechanika pro čtení starých disket.
+Modernizace má smysl jen tehdy, nevznikne-li v novém systému nějaké “úzké hrdlo”. Bez 
+dlouhých teoretických pojednání: Jde o to, aby komponenty v novém počítači navzájem svojí 
+úrovní odpovídaly. Výměna procesoru, paměti a disku nepomůže ke zvýšení výkonu grafiky, na 
+kterou bude nový systém (aplikace Windows) náročný. Solidní grafiku zase nezobrazíte na 
+černobílém nebo prokládaném 14" monitoru atd. Pokud nepoužíváte příliš často třeba modem 
+nebo vás nezajímají (alespoň prozatím) multimédia, můžete na těchto komponentách něco ušetřit
+(koupit si třeba výprodejní mechaniku CD s dvojnásobnou rychlostí či faxmodem 2400/9600 bps; 
+navíc faxová část většinou funguje stejně). 
+Základní komponenty – procesor a základní deska, grafická karta a sběrnice, monitor, paměť a 
+pevný disk – by měly být dobře vyváženy. Různé softwarové pomůcky, například kompresní ovladače disku a nejnověji i paměti, pomáhají jen nouzově v období, kdy ještě nemáte dost 
+prostředků na modernizaci hardwaru.
+Lze modernizovat postupně?
+Jak bylo řečeno výše, je důležité sladit vybrané komponenty systému a nezůstávat u starých dílů,
+které degradují určitou činnost počítače na původní úroveň. Ne vždy je možné tuto podmínku 
+splnit; je-li však počítač moderni-
+zován postupně, měl by se již předem naplánovat “konečný” stav a tomu přizpůsobit výběr 
+komponent. Například při výběru grafické karty dbejte na to, aby podporovala systémy šetření 
+energií (DPMS, EnergyStar), i když je váš monitor nepodporuje – až časem vyměníte monitor, 
+určitě bude tyto normy podporovat. Zvlášť si dávejte pozor na základní desku, rozšiřující karty a 
+paměťové čipy: pokud modernizujete 386 na 486, investujte raději do sběrnice PCI a vyměňte 
+paměťové čipy SIMM se 30 piny za čipy se 72 piny – pentiové desky v drtivé většině podporují 
+jen tyto nové díly (v dobrých obchodech a servisech vám vymění SIMMy za 72pinové za 
+symbolickou cenu).
+Je ovšem otázka, zda se více vyplatí si některý díl “předplatit do budoucna” a koupit jej s větší 
+výkonovou rezervou. Například když jste si před rokem až rokem a půl koupili 340MB disk, dali 
+jste za něj 13 až 15 tisíc Kč. Pokud jste místo něj koupili disk jen 170MB za 6 tisíc a dnes 
+zakoupíte 850MB disk za dalších 7 tisíc, máte za stejné peníze mnohem vyšší kapacitu. Pokud 
+vám během tohoto období 170 MB postačovalo, investovali jste mnohem lépe. Podle mého 
+názoru se výraznější “předplácení” v době strmě klesajících cen příliš nevyplácí.
+Pokud budete modernizovat nějakou část počítače (např. videokartu), zkuste si představit, jak ji 
+budete moci použít při další úpravě (např. videokarta by měla být PCI, aby ji bylo možno použít
+i v Pentiu, případně jiném systému, a asi by měla podporovat i detekci monitorů plug-and-play). 
+Nebude-li možné ji takto použít, není to zcela na závadu (viz rozvaha v předchozím odstavci, 
+naše videokarta by mohla být třeba na sběrnici VLB), ale musíte s tím počítat při dalším 
+rozšiřování.
+Plánujete-li pořízení nějaké rozšiřující desky, dávejte si velký pozor na to – zvláště pokud ji 
+budete chtít uplatnit i v budoucnu, aby odpovídala specifikacím pro Windows 95. Na tomto místě 
+není dostatek místa pro popisování podrobností, takže alespoň stručně: Jde jak o kompatibilitu a 
+dostupnost nových ovladačů, tak i o podporu norem plug-and-play. Úplný systém plug-and-play 
+by totiž měl být složen jen z komponent plug-and-play. Na některé vlastnosti specifických zařízení
+ještě upozorním v dalších dílech při jejich popisu.
+Zkusíte to sami?
+Před vlastní modernizací tedy zbývá poslední rozhodnutí: Zvládnete to svépomocí, nebo dáte 
+počítač do nějaké firmy? Jste-li méně technicky nadaný, dáte spíše přednost druhé variantě a já 
+vám jen doporučím dávat si pozor na solidnost vybrané firmy (občas najdeme na stránkách novin
+nešťastné historky těch, kteří si dali do opravny třeba video a dostali ho zpět za řadu měsíců v 
+ještě horším stavu; v počítačové branži to myslím tak hrozné není).
+Nelekejte se ovšem ani první varianty, neboť moderní PC je v podstatě stavebnice s několika 
+málo díly, kterou dokáže složit i “cvičená opice”. Rady a konkrétní postupy pro montáž vlastními 
+silami najdete v dalších dílech seriálu; předtím vám ještě sdělím několik obecných rad:
+l v každém případě zazálohujte obsah pevného disku, i když se úprava disku přímo netýká,
+l pro každý případ mějte po ruce telefonní číslo
+servisního technika,
+l neprovádějte montáž v pátek odpoledne ani 
+o víkendu, v případě potíží se jen obtížně dovo-láte pomoci,
+l při provádění více zásahů dělejte jeden po dru-hém a po každé změně otestujte funkčnost,
+l před demontáží si zakreslete na papír pozice desek, přívodních kabelů a konektorů, podobně si 
+poznamenejte původní nastavení (přerušení, adres, pozice jumperů) před jeho změnou,
+l zacházejte se zařízeními opatrně, s ohledem zvláště na statickou elektřinu.                            
+Michal Mareš
+Příště: V příštím dílu našeho seriálu se už budeme věnovat konkrétním postupům při 
+modernizaci: zaměříme se na zvětšení kapacity paměti RAM.Autor:
+Michal Mareš
+Produkt:
+Firma:
+Rubrika:
+Miniseriál
+Vydání:
+728527 - 728534
+Miniseriál
+Modernizujeme své PC (2)
+Paměť
+V dnešním dílu našeho miniserálu o modernizaci počítačů se zaměříme na rozšiřování paměti. 
+Moderní aplikace, zvláště v současné době nástupu Windows 95, si žádají stále větší kapacitu 
+paměti RAM – standardem se stává 8 MB paměti, optimální kapacita je 12 až 16 MB.
+Kapacita paměti je u moderních operačních systémů důležitá z hlediska výkonnosti: i když má 
+počítač velmi rychlý procesor a pevný disk, nedostatek paměti způsobuje tak velké ztráty výkonu,
+že se takový počítač vyrovná jinému se zastaralým procesorem, ale dostatkem paměti. Zvýšením
+kapacity paměti se tedy často zvýší výkon počítače ve Windows více než použitím rychlejšího 
+procesoru.
+Druhy paměťových čipů
+Naštěstí je už za námi doba, kdy se paměť osazovala jednotlivými čipy, které byly citlivé na 
+statický výboj a musely se přenášet a instalovat s velkou opatrností. Definitivně se již prosadily 
+paměti v modulech typu SIMM a u starších desek se můžete setkat ještě s moduly SIPP. 
+Rozeznáte je snadno: SIMM-modul má kontakty na plošném spoji, zatímco kontakty na modulu 
+SIPP jsou tvořeny řadou pinů. Ovšem i modulů SIMM existuje řada typů v různých provedeních. 
+Nově se prosazují rychlejší paměti typu EDO (Extended Data Out), jako protiklad k dnes 
+užívaným pamětem typu fast-page-mode.
+Před rozšířením paměti je proto nutné, abyste zjistili, jaké typy pamětí budete do svého počítače 
+potřebovat. Tyto informace zjistíte v dokumentaci k základní desce; nemáte-li ji, musíte potřebné 
+typy paměti odhadnout podle již instalovaných modulů nebo poradit se v servisu.
+Moduly SIMM se vyskytují ve dvou základních provedeních: 30pinové a 72pinové (označují se 
+jako “PS/2”). To, které provedení budete moci použít, závisí na vaší základní desce. Některé 
+desky obsahují patice pro oba typy SIMM-modulů. U takové desky musíte pozorně prostudovat 
+její dokumentaci, zda umožňuje současné použití 30pinových a 72pinových modulů (mnohé 
+desky musí mít osazeny moduly pouze jednoho typu). Dále musíte zjistit, jak se nastavují 
+přepínače pro příslušné kombinace.
+Dalším rozdílem paměťových modulů SIMM je provedení s paritou či bez parity. Původní osobní 
+počítače byly konstruovány v době, kdy se častěji vyskytovaly chyby pamětí. Dnešní čipy jsou 
+výrazně spolehlivější, proto se z úsporných důvodů začaly používat moduly bez paměti pro 
+paritní informace. Takové moduly se označují jako x8 nebo x32 (např. 4 MBx32), zatímco moduly 
+obsahující čipy pro uchování parity se označují jako x9 nebo x36. V nabídce se v poslední době 
+rovněž objevily moduly SIMM s tzv. “logickou paritou”. Jde o moduly, které se “tváří”, jako by 
+obsahovaly paměti pro uložení paritní informace, ale ve skutečnosti jsou hodnoty paritních bitů 
+poskládány logickými obvody podle skutečného obsahu pamětí. Logická parita tedy nedokáže 
+odhalit chyby. Tyto moduly jsou určeny do systémů, které musí být osazeny pamětí s paritou; 
+pokud vaše základní deska umožňuje použít bezparitní moduly, je použití modulů s “logickou 
+paritou” zbytečné.Ještě na okraj bych chtěl podotknout, že v náročných systémech se používají paměti s chybovou 
+korekcí – ty se označují jako ECC. Základní desky laciných systémů je však nedokáží použít.
+Možné kombinace
+Aby nebylo rozšiřování paměti zcela jednoduché, řada základních desek omezuje možné 
+kombinace modulů SIMM. Před nákupem pamětí a při jejich instalaci se proto musíte řídit 
+podmínkami výrobce desky. V tomto textu není možné postihnout všechny možné kombinace – 
+vždy byste se měli podívat do dokumentace desky. Všimneme si jen nejčastějších omezení:
+Organizace paměti do banků. Bank je označení pro organizaci paměti, jak ji chápe čipset na 
+základní desce. Bank musí být vždy osazen celý. Počítače s 30pinovými SIMM-moduly mají 
+obvykle bank se dvěma nebo čtyřmi moduly, 72pinové SIMMy mají bank složen z jednoho nebo 
+dvou modulů (Pentium). Desky umožňující kombinaci 30pinových a 72pinových modulů mají 
+bank obvykle organizován tak, že může být osazen jedním 72pinovým modulem nebo čtyřmi 
+moduly30pinovými. Dále je třeba dávat pozor na pořadí banků: nejprve se musí osazovat hlavní 
+bank (č. 0), na některých deskách v něm navíc musí být paměťový čip s vyšší kapacitou.
+Bank pro 30pinové moduly se obvykle osazuje 256KB, 1MB nebo 4MB moduly po dvojicích, resp.
+po čtveřicích, jak je popsáno výše. Bank 72pinový se osazuje 4MB, 8MB, 16MB nebo 32MB 
+moduly, u pentií po dvojicích. Celková kapacita paměti je dána součtem kapacit všech modulů. 
+Máte-li v počítači obsazeny všechny banky (např. 8 MB v osmi 1MB modulech), musíte staré 
+moduly vyhodit a nahradit novými (např. místo čtyř 1MB modulů osadit čtyři 4MB – pak se paměť 
+zvětší na 20 MB).
+Přístupová doba. Dnes běžné moduly mají přístupovou dobu 70 ns. Vyskytují se ovšem i čipy s 
+přístupovými dobami 60, 80, 100 a 120 ns. Nemám sice zkušenosti s kombinacemi čipů s 
+různými přístupovými dobami, ale obecně se tyto kombinace nedoporučují. Proto si před 
+dokoupením paměti zjistěte, jaké přístupové doby mají současné paměťové moduly ve vašem 
+počítači (tato informace je obvykle natištěna na paměťových čipech tak, že hodnotu v 
+nanosekundách nebo v desítkách nanosekund udává číslo za pomlčkou v označení čipu – např. 
+428200-70).
+Parita. V systému lze obvykle použít jen jeden druh modulů, a to buď s paritou, nebo bez parity. 
+Omezení parity vyplývá z konstrukce desky a velmi často se liší. Proto musíte před nákupem 
+pamětí vědět, zda váš systém potřebuje moduly s paritou, nebo bez ní. Pokud tuto informaci 
+nezjistíte z dokumentace, zkuste si ověřit, zda již použité čipy jsou s paritou, nebo bez ní (zkuste 
+spočítat čipy na modulech). Jen málo desek vyžaduje paměti s paritou, takže při nákupu 
+bezparitních modulů můžete ušetřit. Jiné desky zase nedokáží použít paměť pro paritní 
+informace, i když jsou instalovány příslušné moduly (tím se vyznačují např. desky osazené 
+čipsety Intel Triton – zde nemá žádný smysl utrácet za paritní paměti).
+Instalace paměťových čipů
+Samotný postup instalace modulů SIMM je jednoduchý: 
+1. Otevřete počítač a uvolněte místo k paticím. Patice mohou být skryté pod zdrojem nebo 
+diskovými mechanikami – možná budete muset disky nebo základní desku vymontovat z 
+počítače. V takovém případě si pečlivě poznamenejte rozložení všech kabelů. Rady k montáži 
+základní desky najdete v příštím dílu seriálu.
+2. Do správného banku vložte postupně všechny moduly. Modul se vloží do patice pod úhlem asi 
+60 stupňů k základní desce, pak se opatrně “narovná”, až se zamknou západky po stranách. 
+Tomu, abyste vložili SIMM--modul obráceně, sice zabraňuje malý výstupek a mírně nesymetrické 
+uchycení modulu v patici, ale při hrubší manipulaci byste patici mohli zlomit.
+3. Po zakrytování počítače a prvním spuštění se u některých typu BIOSu ohlásí chyba 
+kontrolního součtu CMOS RAM. To je vyvoláno tím, že v CMOS je uložena “stará” velikost hlavní 
+paměti, která se instalací nových modulů změnila. Stačí vyvolat setup BIOSu a opustit jej s 
+uložením konfigurace (nemusíte měnit žádná nastavení – BIOS novou hodnotu kontrolního 
+součtu uloží obvykle automaticky).
+Když to nefunguje
+Není-li paměť správně instalována, závada se obvykle projeví tím, že se počítač vůbec 
+nenastartuje a pouze vydává nějaké zvuky (počet písknutí je závislý na typu BIOSu), případně senová paměť “jen” nehlásí. Je-li vadný paměťový čip, počítač se nastartuje, ale při práci se 
+objevují chyby (i takové, které s pamětí nesouvisí, např. výjimka matematického koprocesoru), 
+hroutí se programy (zvláště ve Windows) a celý operační systém. Nejčastější problémy s 
+paměťmi jsou:
+Nesprávné umístění v banku. Ověřte v dokumentaci, zda je osazen správný bank a zda je 
+osazen správně (tj. celý a ze stejných modulů).
+Modul je špatně zasunut. Vypněte počítač a mírným tlakem dostaňte modul do správné pozice.
+Nesprávné typy modulů. Nevhodná kombinace modulů, např. paritních s bezparitními, vzácněji 
+se vyskytnou obtíže s kombinací modulů s různými přístupovými dobami.
+Není správně konfigurována deska. Na některých deskách (zvláště těch, které umožňují použití 
+30pinových i 72pinových modulů) musíte nastavit přepínače (jumpery) podle dokumentace.
+Chybný modul. K otestování modulů SIMM se v servisech používají speciální testovací programy 
+– ty ovšem mají různou kvalitu. (Jednou jsem měl v počítači vadný SIMM-modul, ovšem testy 
+pomocí CheckIt a HIMEM.SYS chybu neodhalily. Tu zjistil teprve Qualitas Memory Tester 
+QMT.EXE z paměťového ovladače 386Max 7.0.) Potíž při testech paměti spočívá v tom, že chyby
+dynamických pamětí se projevují jen v některých kombinacích bitů, takže prosté zapsání určité 
+hodnoty a její následný test čtení nemusí postačovat.
+Michal Mareš
+Autor:
+Michal Mareš
+Produkt:
+Firma:
+Rubrika:
+Miniseriál
+Vydání:
+728541 - 728548
+Miniseriál
+Modernizujeme své PC (3)
+Procesor a základní deska
+Díky agresivní cenové politice výrobců procesorů se k uživatelům dostávají stále výkonnější 
+procesory za ceny téměř směšné ve srovnání s ostatními díly počítače. Proto věnujeme třetí díl 
+našeho seriálu o modernizaci právě výměně procesoru.
+Procesor a sběrnice mohou výrazně ovlivnit celkový výkon počítače, i když v interaktivních 
+aplikacích není jejich vliv tak patrný, jako je tomu u dávkových výpočtů. Výměna základní desky 
+se ostatně nemusí provádět jen kvůli zrychlení výpočtů, ale třeba i kvůli přechodu na grafickou 
+kartu na lokální sběrnici. Proto je dobré uvážlivě volit typ základní desky a procesoru z hlediska 
+možností budoucích úprav. Samotná deska sice není příliš nákladná komponenta, ale je zbytečné
+utrácet v budoucnosti za novou desku čtyři až šest tisíc jen kvůli momentální úspoře několika set 
+korun.
+Procesory všech značek
+Při modernizaci máte na výběr z řady procesorů. Čipy 486 vyrábí řada výrobců: kromě Intelu jsou
+to především firmy AMD, Cyrix a UMC. V době psaní tohoto textu se ceny čipu 486DX2/66 od 
+firem AMD a Cyrix pohybovaly pod úrovní 2 000 Kč s daní, takže nákup “slabšího” procesoru 
+486SX už nemá praktický smysl. Procesory 486 se vyrábějí v různých provedeních z hlediska 
+napájecího napětí. Původní čipy 486 řad SX, DX a DX2 pracovaly s napětím 5 V, procesory 486 
+řady DX4 pracují s napětím 3,3 V a některé čipy od jiných firem používají napěťové úrovně 3 V a 
+3,45 V. Na napětí procesoru je třeba dávat velký pozor při nastavení přepínačů na základní desce: vyšší napětí dokáže procesor okamžitě zničit! U “třívoltových” procesorů může být 
+nastavení nesprávného napětí přičinou “záhadných” zamrznutí po určité době provozu.
+Pentium je stále doménou Intelu, i když se už objevil první procesor srovnatelné třídy od 
+konkurence (NexGen Nx586). Z výroby definitivně “odešly” první řady o taktovací frekvenci 60 a 
+66 MHz a Pentium je nabízeno ve variantách od 75 do 133 MHz (chystají se verze o taktu 150 a 
+166 MHz). Moderní základní desky pro Pentium podporují všechny uvedené frekvence 
+procesoru, druhá generace pentií je celá navržena “třívoltovou” technologií. 
+Úmyslně vynechávám problematiku procesorů “Overdrive”, neboť zkušenosti s nimi nejsou nijak 
+příznivé – výměna celé desky obvykle přináší vyšší výkon a je finančně přinejmenším 
+srovnatelná.
+Základní deska
+Jestliže u procesoru hraje roli “jenom” frekvence, typ a značka, výběr vhodné základní desky by 
+měl být pečlivější. Kromě výkonu totiž deska rozhoduje také o použití přídavných karet a o 
+dalších funkcích.
+Při výběru sběrnice byste se měli orientovat na PCI. Sběrnice VL-bus má svůj vrchol již za sebou 
+a rozšiřující desky pro PCI se dají sehnat téměř za stejnou cenu jako v provedení VL-bus. PCI 
+přitom nabízí jednodušší nastavení a celkově menší potíže při použití. Dále je dobré všimnout si 
+následujících prvků:
+l Velikost urychlovací paměti (cache memory): Běžná je kapacita 256 KB, větší už přináší jen 
+malé zlepšení. Důležitý je její typ. U desek 486 je nejvýkonnější variantou tzv. write-back cache. 
+Desky pro Pentium laborují s dalšími “fígly” urychlovacích pamětí a nejlepší řešení představuje 
+tzv. pipeline-burst cache.
+l Patice pro paměťové čipy: Viz předchozí díl seriálu. Všimněte si, zda deska umožňuje použití 
+30pinových nebo 72pinových modulů, po kolika modulech a jak musí být osazeny paměti, zda je 
+podporována, či dokonce vyžadována parita.
+l BIOS. BIOS by měl být uložen v pamětech typu Flash, což umožní snadnou výměnu za 
+opravenou verzi při výskytu problémů. Pokud je to možné, zajímejte se o podporu plug-and-play 
+– ovšem i desky prodávané letos na podzim nemají většinou BIOS typu plug-and-play. BIOS by 
+měl podporovat systém pro šetření proudem.
+l Integrovaná rozhraní. Vedou se spory, zda má deska integrovat rozhraní, příp. grafickou kartu, 
+nebo zda se tyto komponenty mají používat ve formě rozšiřujících karet. Integrace na desku 
+snižuje cenu, na druhou stranu jste omezeni ve výběru (především u grafického čipu) a při 
+závadě jedné komponenty se musí opravovat celá deska. Podle mého názoru je velmi vhodná 
+integrace rozhraní Enhanced IDE. Umístění grafické karty na desku je vhodné hlavně u levných 
+počítačů.
+Výměna desky a procesoru
+Výměna základní desky je přeci jen náročnější úkon, a proto bych ji doporučil jen technicky 
+zdatným jedincům. Na desce se musí správně nastavit řada přepínačů, a to počínaje frekvencí a 
+napětím procesoru přes konfiguraci paměti a přídavných karet a konče třeba správným 
+připojením řady vodičů k diodám, tlačítkem RESET a dalším prvky ve skříni počítače.
+Před vyjmutím desky z počítače si pečlivě poznamenejte, kam jsou na staré desce zapojeny 
+vodiče ze skříně, a zjistěte v návodu k nové desce, kam je budete připojovat. Z nastavení v 
+BIOSu si opište parametry disku. Než se pustíte do práce, zjistěte si také, zda budete moci do 
+nové desky použít staré paměťové čipy, případně zajistěte jejich výměnu nebo dokupte chybějící 
+(např. když máte na desce 486 jeden 72pinový SIMM-modul, budete muset při modernizaci na 
+Pentium zakoupit ještě jeden o stejné kapacitě – viz předchozí díl seriálu).
+Budete-li na desku osazovat procesor, všimněte si správného usazení do patice. Jeden roh 
+pouzdra procesoru je “ukouslý” a na patici v tomto místě chybí jeden pin. Tím je zaručeno, že 
+omylem nezasunete drahý čip do patice nesprávně. U nového procesoru také nezapomeňte na 
+jeho chlazení. Výkonné procesory řady 486 a pentia vyžadují chlazení malým větráčkem téměř 
+bezpodmínečně.
+Při nastavení frekvence procesoru na desce budete patrně muset měnit polohu několika 
+přepínačů (jumperů). S frekvencí procesoru souvisí i frekvence, na které pracuje lokální sběrnice;
+u sběrnice VL bus se někdy musí nastavit přepínače i na samotných deskách. Podrobnosti najdete v manuálech k deskám – v časopise se dají jen těžko popisovat konkrétní nastavení, 
+když jsou pro každou desku jiná.
+Předpokládám, že vyjmutí přídavných karet a vyjmutí staré desky z počítače nepotřebuje 
+podrobné vysvětlení. Při usazování nové základní desky doporučuji osadit paměti před vložením 
+do skříně, pak připevnit novou desku na své místo a nakonec osadit nejnutnější přídavné karty. 
+Zvláštní pozor dávejte na připojení dvou konektorů zajišťujících napájení ze zdroje: musíte je 
+připojit správně – černými vodiči k sobě – jinak při prvním zapnutí “odpálíte” základní desku! 
+Zapojte všechny ostatní kabely, pečlivě zkontrolujte nastavení desky a zkuste svůj “nový počítač” 
+zapnout. Pokud bude všechno v pořádku, postupně přidávejte další karty (zvukovou, modem a 
+další, které máte). Přitom dávejte pozor na konflikty mezi zařízeními, zvlášť pokud má nová 
+deska integrována některá rozhraní, která byla ve starém počítači na přídavných kartách.
+Na konci práce ještě upravte nastavení v BIOS Setupu. Na nové desce budete muset nastavit 
+parametry pevného disku. Některé moderní biosy jsou ovšem vybaveny autodetekční funkcí, 
+takže si dokáží na požádání “správné” parametry disku zjistit samy. Dále zkuste změnit některá 
+nastavení, která mají vliv na rychlost (paměť cache nastavte do režimu “write-back”, zapněte 
+volby “hidden refresh” a “DRAM fast page mode”).
+Když to nefunguje
+Není-li nová deska správně instalována nebo konfigurována, počítač obvykle nejde vůbec 
+nastartovat a nanejvýš vydá několik hlasitých pípnutí. Těmi oznamuje BIOS kód chyby, ale 
+tabulka kódů většinou nebývá v dokumentaci k deskám uvedena. Příčinami potíží bývá špatné 
+osazení pamětí, nedostupná grafická karta nebo jiná kritická komponenta, případně některé 
+konflikty zařízení.
+Chyby v nastavení BIOS Setupu se projevují většinou zamrznutím krátce po základní inicializaci 
+počítače (během několika sekund při startu systému). Podobně se projevují konflikty zařízení při 
+prvním přístupu k zařízení (většinu konfliktů obvykle způsobí ovladač zaváděný při startu). Jindy 
+se však konflikty projeví jen nedostupností zařízení pro systém a ovladače. Přehřívající se 
+procesor může zavinit pády systému, nedostupnost periferních zařízení nebo další bizarní chyby.
+Konkrétní rady pro řešení problémů s pamětí a pro řešení konfliktů zařízení najdete v dalších 
+dílech seriálu, nastavení desky musíte zkontrolovat podle dodávané dokumentace.
+Michal Mareš
+Autor:
+Michal Mareš
+Produkt:
+Firma:
+Rubrika:
+Miniseriál
+Vydání:
+728548 - 728555
+Miniseriál
+Modernizujeme své PC (4)
+Výměna pevného disku
+Nároky na diskový prostor moderních aplikací rostou téměř do neomezených výšin (kdysi 
+standardní 40MB disk by dnes nestačil ani na instalaci samotného operačního systému), úměrně 
+k tomu ovšem klesají ceny pevných disků. Modernizace disku je tedy v této situaci logická.
+V dnešním dílu budu možná trochu teoretičtější, neboť problematika pevných disků to vyžaduje: 
+samotná instalace nebývá příliš obtížná. Myslím si však, že při řešení potíží je třeba znát jejich 
+“pozadí” a pochopit příčiny.Rozhraní pevných disků
+Nejméně tři roky už v obchodech nejsou žádné disky s rozhraním ST506 či ESDI, disky s 
+krokovými motory bez automatického parkování ani další historické relikty z osmdesátých let. Od 
+té doby rovněž ustoupilo starší rozhraní ATA (též IDE nebo AT-bus) rozšířené verzi ATA-2 a stalo 
+se dominantní v oblasti disků určených pro  “spotřební” počítače. Proto se v tomto textu budu 
+věnovat pouze diskům s tímto rozhraním; problematika SCSI-zařízení přesahuje záměr seriálu i 
+prostorové možnosti CHIPweeku.
+Rozhraní ATA vychází z logiky jednoduchého připojení ke sběrnici počítače a z integrace řadiče 
+na disk. Řadič je navržen přímo pro daný disk, což umožňuje optimalizaci přístupu, přemapování 
+vadných sektorů a další výhody. Pozůstatkem rozhraní ST-506 je tzv. geometrie disku: v BIOSu je
+třeba nastavit “správné rozměry” disku. Podle této tabulky určovaly staré řadiče typ disku. 
+Původní pevná tabulka zhruba 40 typů disků byla později nahrazena tzv. uživatelsky 
+definovanými typy disků. Ke svému disku musíte zadat správný počet cylindrů (stop), hlav a 
+sektorů na stopu. Nové biosy naštěstí již disponují automatickou detekcí geometrie připojeného 
+disku, a tak stačí jen “odklepnout” zjištěnou hodnotu.
+Návrh rozhraní ATA v kombinaci s možnostmi BIOSu bohužel přinesl dvě silná omezení: pomalý 
+přenosový režim a omezení kapacity disků na 528 MB. Rozšířené verze rozhraní ATA-2 se však 
+snaží tato omezení odstranit. Tyto verze definují nové přenosové režimy s vyšším výkonem a pak
+i nová adresovací schémata, která zvyšují maximální kapacitu na prozatím přijatelných 8,4 GB. 
+Přenosové režimy ATA-2, resp. ATA-3 se nazývají PIO mode 3 a 4 a single- a multiword DMA 
+mode 1 a 2. Jejich rozbor by opět přesáhl záměr tohoto článku, proto jen ve zkratce: nejrychlejší 
+režimy PIO 4 a DMA 2 mají přenosovou rychlost až 16,6 MB/s a nacházejí se u nejnovějších 
+disků ATA-3. Většina disků dnes dostupných na trhu je typu ATA-2 a podporuje jen PIO mode 3 a 
+rovněž DMA-režimy s přenosovou rychlostí 11,1 MB/s. Vhodnou kombinací režimů a blokového 
+přenosu více sektorů najednou se dá “vyladit” výkon disku na nejvyšší úrovneň, danou 
+kompatibilitou disku, řadiče a BIOSu počítače.
+Kompatibilita BIOSu se rovněž podepisuje na potížích s adresováním disku. Systém CHS 
+(cylindr-hlava-sektor), který odpovídal fyzickým parametrům starších disků ST-506, je příčinou 
+výše zmíněného omezení kapacity na 528 MB. Doplněním systému CHS se toto omezení 
+částečně odstraňuje (na zmíněných 8,4 GB), ale tvůrci nové normy ATA přišli s lepším řešením, 
+kterým je adresování LBA (Logical block address). Tento režim, který podporují i nové biosy a 
+operační systémy (např. Windows 95), používá 28bitovou lineární adresu sektoru, tj. jednoznačné
+pořadové číslo od počátku disku. V normě ATA-2 je použití LBA-režimu doporučováno, ale pokud 
+disk pracuje v CHS-režimu, není myslím nutné jej měnit.
+Rozhraní ATA-2 sice definuje jen dvě disková zařízení, ale firma Western Digital uzpůsobila tuto 
+normu pro použití dvou řadičů – k takovým řadičům je možné připojovat až 4 zařízení s rozhraním
+ATA, resp. ATAPI. Na každém řadiči (kanálu) se přitom vyskytují nejvýše dva disky: jeden je 
+označován jako “master” a druhý jako “slave”. U dvojitých řadičů se zařízení číslují: zařízení 0 je 
+“master” na primárním kanálu, zařízení 1 je “slave” na tomtéž kanálu a zařízení 2 a 3 jsou 
+“master” a “slave” na sekundárním kanálu. Na primární kanál by se měly připojovat pevné disky, 
+zatímco na sekundární kanál pomalejší zařízení, jako jsou jednotky CD ROM nebo streamery.
+Shrnuto: Disky ATA-2 (Fast-ATA; Enhanced IDE), resp. ATA-3 (Fast-ATA-2) vyžadují podporu 
+BIOSu pro adresování sektorů nad hranicí 528 MB. Není-li v BIOSu podporováno rozšířené 
+adresování, musí se použít speciální ovladač (např. Disk Manager). K využití rychlejších 
+přenosových režimů je potřeba příslušný adaptér na lokální sběrnici (VL-bus nebo PCI; nové PCI-
+desky mají tento řadič integrovaný) a opět podpora v BIOSu nebo ovladači (např. Drive rocket). 
+Rychlost závisí kromě disku a rozhraní také na vyladění, tedy na použití nejrychlejšího 
+dostupného režimu.
+Montáž a uvedení do provozu 
+Před montáží nového disku pečlivě zazálohujte všechna důležitá data, připravte si disketu, ze 
+které budete moci spustit DOS, a zkopírujte na ni systémové utility FORMAT, FDISK, CHKDSK, 
+resp. SCANDISK a SYS.
+V praxi mohou při montáži disku nastat dvě situace: buď je vyměněn starý disk za nový, nebo se 
+nový přidá ke starému a používají se oba. 
+V prvním případě je samotná instalace velmi jednoduchá a jedinou chybou může být otočený konektor. V případě montáže druhého disku je třeba správně nastavit oba disky, aby byla možná 
+jejich vzájemná spolupráce. Disky mívají několik přepínačů (jumperů), z nichž jsou pro naši 
+potřebu důležité dva: přepínač “master/slave” určuje, zda se disk má chovat jako “master”, nebo 
+jako “slave”, a přepínač “slave present” musí být zapojen u obou disků. Jak jsem se ovšem v 
+praxi přesvědčil, ne všichni výrobci disků označují tyto přepínače stejně, takže někdy budete 
+muset nahlédnout do příslušné dokumentace.
+Po správném zapojení kabelů a připevnění disku musíte nejprve spustit BIOS Setup a v něm 
+nastavit parametry nového disku, případně spustit autodetekci. Pak nastartujte systém z 
+připravené diskety a připravte nový disk: rozdělte jej na oddíly, zformátujte a instalujte na něj 
+operační systém.
+Operační systémy na počítačích PC vyžadují, aby byl na disku vytvořen jeden nebo více oddílů 
+(parition), které se pak spravují nezávisle (např. každý může mít jiný souborový systém). K 
+vytvoření oddílů slouží utilita FDISK. Vytvoření a změna oddílu je destruktivní, proto si musíte 
+organizaci disku dobře rozmyslet předem. Jedna možnost je vytvořit na disku jediný oddíl, ale ta 
+není vždy nejvýhodnější. Na velikosti disku totiž (u systému s tabulkou FAT) závisí velikost 
+alokační jednotky – klastru. V oddílech do 256 MB má klastr 4 KB, do 512 MB má klastr 8 KB, do 
+1 GB má klastr 16 KB, a nad 1 GB je velikost klastru dokonce 32 KB. Znamená to, že pokud 
+uložíte soubor o velikosti třeba 1 KB, zabere ve skutečnosti celý klastr; u větších souborů totéž 
+nastává při zaokrouhlování na celé násobky velikosti klastru. Přijatelná velikost klastru je tak do 8
+KB, takže u disků nad 512 MB bych vám doporučil rozdělení na několik menších oddílů. V 
+opačném případě se disk začne “rychle zaplňovat” a poměrně veliká část místa zůstane 
+nevyužita.
+Máte-li dva disky, jsou vždy první oddíly (tzv. primary parition) těchto disků označeny C: (disk 
+“master”), resp. D: (“slave”). Další oddíly, pokud jsou na discích vytvořeny, jdou nejprve v pořadí 
+disku “master” (např. E: a F:) a za ním následují oddíly disku “slave” (např. G: a H:). Při více 
+oddílech na disku se další oddíly vytvářejí na tzv. extended parition. Po rozdělení disku je třeba 
+všechny oddíly naformátovat a současně na oddíl C: instalovat operační systém. Pak už můžete 
+začít nový disk používat, případně ještě vyzkoušet různá nastavení BIOSu a cache ke zvýšení 
+rychlosti. Nezapomeňte ještě vytvořit novou záchrannou disketu pro případ potíží.
+Když to nefunguje
+S připojením disků ATA nebývá příliš problémů, snad kromě vyložené nekompatibility jednotlivých 
+komponent. Někdy proto pomůže třeba výměna řadiče nebo BIOSu. 
+Pokud se po zapnutí počítač nerozeběhne a obrazovka zůstane bez signálu, je patrně otočený 
+konektor v disku nebo na řadiči. Když se počítač rozeběhne, ale po úvodních testech skončí s 
+hlášením “Missing operating system”, jsou pravděpodobně špatně nastaveny parametry disku v 
+BIOSu, případně disk není správně naformátován nebo neobsahuje DOS. Četné obtíže mohou 
+způsobit rovněž viry.
+Michal Mareš
+Autor:
+Michal Mareš
+Produkt:
+Firma:
+Rubrika:
+Miniseriál
+Vydání:
+728555 - 728562
+Miniseriál
+Modernizujeme své PC (5)Grafika 
+Marná sláva, grafická uživatelská rozhraní neoživí nic více než rychlá grafika. Ovšem možnosti 
+dané originálním návrhem počítačů PC značně omezovaly výkonnost grafických karet. Teprve po 
+vstupu rychlých a levných lokálních sběrnic nastalo to pravé oživení na trhu: kvalitní grafickou 
+kartu v kvalitě dříve vyhrazené jen pro specialisty dnes pořídíte za pár tisícovek.
+Celkový výkon grafiky, resp. zobrazení není dán jenom počtem megapixelů za sekundu, které 
+dokáže ta která karta zobrazit. Tato datová propustnost sice hraje roli při přehrávání 
+videosekvencí, ale současná úroveň spotřebních zařízení z této oblasti ještě není taková, jakou 
+kvalitní video skutečně potřebuje. Pod pojmem výkonu zobrazovacího systému však lze v širším 
+významu chápat i kvalitu obrazu: jeho rozlišení a stabilitu. A právě na této veličině se pozná, jak 
+se “superlevné” grafické karty a monitory liší od těch o něco dražších.
+Grafické standardy
+Zatímco ještě před pár lety byste pod podobným titulkem našli historický exkurz od karty MDA k 
+VGA, dnes je myslím situace v “opravdových” standardech odlišná. Na trhu se vyskytují karty 
+Super VGA od řady výrobců, ale jejich klíčové komponenty vyrábí jen několik firem. Z hlediska 
+kompatibility je důležitý grafický čip. Nejznámější grafické čipy nesou značky ATI, Cirrus Logic, 
+Matrox, S3, Tseng nebo WD. Méně často uváděnou, ale stejně důležitou komponentu grafické 
+karty představuje čip DAC (rychlý digitálně-analogový převodník), na jehož kvalitě závisí 
+možnosti zobrazení. Mezní frekvence převodníku určuje, jaké je maximální dosažitelné rozlišení 
+při daném počtu barev. Třetím důležitým parametrem grafické karty je osazení pamětí a druh této 
+paměti. Nejnižší standard představuje 1 MB, zájemcům o vyšší barevné rozlišení lze doporučit 
+paměť 2 MB a ve spojení s monitorem o velké uhlopříčce je pro práci v režimu “true color” třeba 4
+MB. Karty mohou být osazeny buď standardními čipy typu DRAM, nebo rychlejšími čipy, 
+označovanými jako VRAM, WRAM apod. Vyšší rychlost těchto pamětí je vyvolána tím, že z nich 
+může grafický čip číst data a současně do nich může procesor zapisovat nové údaje. Tím se 
+eliminují čekací stavy (v principu stejný “fígl” představovalo vypnutí zobrazování, které sloužilo ke
+zvýšení rychlosti výpočtů na některých osmibitových počítačích). Opět lepší technické parametry 
+zde vyvažuje vyšší cena těchto pamětí.
+Dosud jsem se nezmínil o sběrnici, kterou by karta měla používat. Prozatím nabízejí výrobci 
+většinu svých karet – alespoň z nižší cenové kategorie – v provedeních jak pro VL-bus, tak pro 
+PCI. Rozhodně je však lepší volbou karta určená pro sběrnici PCI, pokud jí disponuje vaše 
+základní deska. Tato sběrnice nabízí jednodušší instalaci a “starou” PCI-kartu budete moci – na 
+rozdíl od VL-busu – použít i v počítači s Pentiem.
+V podmínkách omezeného rozpočtu budou možnosti grafického zobrazení asi nejvíce ovlivněny 
+monitorem. Mezi barevnými VGA-monitory jsou značné kvalitativní i cenové rozdíly. Kvalita 
+monitoru je určena šířkou pásma a nejvyšší řádkovou frekvencí (snímkové frekvence se při 
+daných rozlišeních dají z těchto údajů dopočítat). Nejlacinější monitory nabízejí nejvyšší rozlišení 
+1024x768 bodů v prokládaném režimu, což odpovídá řádkové frekvenci 38 kHz. Na těchto 
+monitorech lze doporučit pouze rozlišení 640x480 bodů. Kvalitnější 14" a 15" monitory umí 
+pracovat s řádkovými frekvencemi 48 až 64 kHz, což odpovídá rozlišením 800x600 až 1024x768 
+(všechna doporučovaná rozlišení jsou při snímkové frekvenci nejméně 70 Hz). Další třídu 
+představují 17" monitory, kde je rozlišení 1024x768 standardem – některé modely 17" monitorů 
+zvládají i rozlišení 1280x1024 bodů při snímkové frekvenci 72 Hz.
+Monitor je největším konzumentem elektrické energie běžícího počítače, a proto dbejte na to, aby
+jak monitor, tak i grafická karta podporovaly standardy pro šetření proudu (Energy Star). Nastavte
+odpovídající parametry “zhasínání” spolu s šetřičem obrazovky. Monitory se obvykle “vypínají” ve 
+dvou stupních. V prvním se vypnou synchronizační obvody, ale obrazovka se stále žhaví. Hlubší 
+stupeň “spánku”, a tedy i úspor ve spotřebě nastává při vypnutí žhavení elektronového děla 
+obrazovky. Monitor se z tohoto režimu však “probouzí” déle.
+Rozhodnutí o pořízení karty a monitoru se bude z velké části odvíjet od vašich finančních 
+možností, ale v této oblasti se rozhodně nevyplatí šetřit. Máte-li laciný monitor, nepoužívejte ho 
+ve vyšších rozlišeních, kde klesá snímková frekvence pod 70 Hz (řiďte se návodem k monitoru).
+Instalace grafické karty
+Samotná instalace grafické karty do počítače se nijak neliší od zasunutí do slotu u jiných karet. Protože je však grafická karta nezbytnou součástkou pro práci počítače (na rozdíl třeba od 
+modemu nebo zvukové karty), provádí BIOS zvláštní testy jejího správného připojení. Je-li karta 
+špatně připojena, BIOS vydá výstražné zvukové hlášení.
+Po uvedení do provozu je třeba správně nastavit všechny používané grafické režimy. Většina 
+karet umožňuje pomocí dodávaných ovladačů nastavovat pro všechna podporovaná rozlišení 
+odpovídající řádkové/snímkové frekvence a posouvat, resp. rozšiřovat obraz. Některé monitory 
+disponují podobnou funkcí, takže můžete zvolit, zda centrování obrazu provedete prostředky 
+monitoru, či karty. Při experimentování s řádkovými frekvencemi však dávejte pozor na možnosti 
+monitoru, neboť nejlacinější typy monitorů nejsou obvykle vybaveny ochranou proti vysokým 
+frekvencím a signál z karty by je mohl zničit. “Lepší” multisynchronní monitory s vyšší šířkou 
+pásma se při přivedení příliš vysoké frekvence signálu “odpojí”, a nehrozí tedy jejich poškození.
+Ovladače bývají obvykle dodávány s kartou, ale pokud je instalujete ve specifických prostředích 
+(např. Windows 95), poohlédněte se nejprve po ovladači, který je dodáván se systémem a který 
+je kompatibilní s vaší kartou. Ovladače pro nové verze systémů jsou pro ně optimalizovány a 
+bývají výkonnější. V některých případech mohou u starých ovladačů nastat problémy i s 
+kompatibilitou – nezobrazuje se např. správně kurzor myši nebo systém “padá”. (Ojedinělé pády 
+aplikací,  i když je jako příčina označen některý z ovladačů grafické karty, nemusí být ještě 
+příznakem nekompatibility. Vadné aplikace někdy volají funkce ovladačů přímo a při předání 
+nesprávných hodnot parametrů se chyba parameterů projeví až v kódu ovladače.)
+Když to nefunguje
+Nefunguje-li grafická karta po zapnutí, je pravděpodobně špatně konfigurována. U karet VL-bus 
+záleží na rychlosti procesoru, resp. na rychlosti jeho vnější sběrnice. Karty ve slotech musí být 
+nastaveny pro příslušnou frekvenci (obvykle se rozlišuje do a nad 33 MHz; při vyšších 
+frekvencích je stabilita sběrnice slabší). Někdy pomůže také přemístění karty do jiného slotu. 
+U grafických karet na sběrnici PCI musí být v BIOSu zpravidla nastaven příslušný typ karty. Je-li 
+nastavena karta na ISA-sběrnici, ale v systému je karta PCI, neobjeví se po spuštění žádný 
+obraz, ačkoliv půjde spustit i operační systém. V tomto případě musíte poslepu nastavit správný 
+typ karty v Setupu BIOSu nebo pro nastavení vložit do počítače starou grafickou kartu.
+Zůstane-li obraz po přepnutí do nějakého grafického režimu (rozlišení) tmavý, je ovladač 
+pravděpodobně nekompatibilní s videokartou, případně se monitor nedokáže sesynchronizovat 
+se signálem přiváděným z karty. V takovém případě je třeba vyměnit ovladač, případně změnit 
+nastavení pro příslušný režim. Malé rozdíly ve snímkové frekvenci (např. 70 a 72 Hz) nemusí 
+monitor správně rozpoznat a synchronizuje se s nesprávnou frekvcencí. Obraz je pak příliš široký
+nebo naopak úzký. Pak musíte zvolit správný režim (frekvenci), při které se dá velikost obrazu 
+pohodlně nastavit. 
+Michal Mareš
+Autor:
+Michal Mareš
+Produkt:
+Firma:
+Rubrika:
+Miniseriál
+Vydání:
+728562 - 728569
+Miniseriál
+Modernizujeme své PC (6)
+Multimédia
+Pištění, kvičení a řinčení se z počítače neozývá už jen v řadě her, ale zvuk využívá i řada dalších aplikací. Multimediální encyklopedie na CD-ROM mohou obsahovat zeměpisné, bibliografické, 
+ekonomické, badatelské i jiné databáze.
+Jako multimediální se obvykle označuje počítač vybavený zvukovou kartou a mechanikou CD-
+ROM, avšak rozvíjející se schopnosti přehrávání videa začínají tyto požadavky doplňovat o 
+hardwarové dekodéry MPEG, díky kterým lze přehrávat videosekvence v rozlišení celé obrazovky
+(640x480 bodů) v plných barvách.
+Zvukové možnosti multimédií se projeví především ve speciálních aplikacích, ale zvukovou kartu 
+můžete využít třeba i pro doplnění poznámek do textu nebo k vlastním hudebním pokusům. 
+Hudebníci využijí především MIDI, které je vlastně původně určeno pro profesionální záznam s 
+obrovskými možnostmi dodatečných úprav. Každá zvuková karta obsahuje alespoň jednoduchý 
+syntezátor, na MIDI se však dá připojit řada hudebních nástrojů (kromě obligátních kláves třeba i 
+elektronické bicí a existuje i speciální MIDI-kytara). Zájemce o profesionální využití MIDI bych 
+však odkázal na jinou literaturu (např. časopis Muzikus nebo knihy z pera D. Forróa, které vyšly v
+nakladatelství Grada).
+I když však nechcete utrácet peníze za zvuk, měli byste si pořídit alespoň mechaniku CD-ROM. 
+Na tomto nosiči je dnes k dostání řada softwarových titulů; stříbrné disky jsou velmi populární pro 
+distribuci sharewaru a nejrůznějších sbírek dat, a protože si na zapisovatelný CD disk můžete u 
+soukromých firem dát “vypálit” vlastní data, můžete využít CD--ROM i jako médium pro archivaci.
+Výběr multimédií
+Na trhu je celá řada zvukových karet a CD mechanik s rozdílnou úrovní kvality i ceny. Amatérské 
+a poloprofesionální zařízení je reprezentováno zvukovými kartami v ceně od 2 do cca 10 tisíc Kč. 
+Obvykle jsou to 16bitové zvukové karty s možností nahrávání a přehrávání sterea (starší karty 
+nabízely “pseudostereo”, kdy se dalo určit, zda jinak monofonní signál bude slyšet z reptoduktoru 
+levého, či pravého, anebo z obou reproduktorů). Karty vesměs obsahují MIDI-syntezátor, u 
+levných karet jde o FM-syntézu, dražší karty nabízejí kvalitnější wave-table syntézu (cena od cca 
+5 tisíc Kč s daní). Některé zvukové karty obsahují i čip DSP (Digital Signal Processor), který s 
+dodanými ovladači umožňuje urychlit například kompresi zvuku nebo provádět speciální efekty.
+Při výběru karty je třeba zvýšené opatrnosti: vyplatí se nejprve prostudovat testy v odborných 
+časopisech. I když se všichni výrobci chlubí “CD kvalitou”, skutečnost bývá značně odlišná. Na 
+kvalitě zvuku se podepisují jak analogové části zvukového řetězce (zesilovač na laciných kartách 
+mívá někdy frekvenční pásmo horší telefonní linky), tak i elektromagnetické poměry uvnitř 
+počítače (prakticky všechny laciné karty “chytají svistot bitů”). Pozor je třeba dávat na některé 
+zvlášť podařené karty, které třeba neumí nahrávat jinak než na 8 bitech (i když nabízejí 
+přehrávání 16bitových vzorků) nebo nabízejí tzv. 12bitovou technologii s emulací 16 bitů. Dalším 
+parametrem je kompatibilita: ačkoliv takřka všechny karty inzerují kompatibilitu se 
+SoundBlasterem, u některých karet je k tomuto účelu třeba zavést rezidentní program. Budete-li 
+kartu používat jen ve Windows, dbejte na to, abyste obdrželi potřebné ovladače. Ve Windows 95 
+někdy dělají ovladače z Windows 3.1 potíže, a proto se snažte opatřit si nové ovladače od svého 
+prodejce.
+Mechaniky CD-ROM se dnes nabízejí výhradně s rozhraním SCSI nebo ATAPI, které se někdy 
+nesprávně označuje jako IDE či AT-bus. Mechaniky ATAPI jsou levnější a dnes jsou stejně 
+kompatibilní jako SCSI. Rychlost mechanik CD-ROM se pohybuje od dvou - do osminásobku 
+rychlosti zvukového CD (tzv. dvoj-, čtyř-, šesti- a osminásobné otáčky). Zatímco audioCD 
+dosahuje rychlosti přenosu 150 kB/s, rychlejší mechaniky dosahují příslušných násobků. 
+Mechaniky se vyrábějí v provedení s výsuvným vozíkem nebo pro vkládání disků v tzv. caddy. 
+Výsuvný vozík je praktičtější. Pokud budete muset instalovat mechaniku ve svislé poloze, zjistěte 
+si v technických údajích, zda je na to konstruována.
+Existuje řada standardů CD disků popsaných v tzv. duhových knihách. Některé mechaniky 
+nepodporují všechny tyto standardy, např. CD-XA, CD-I nebo CD-Video. Já jsem se s žádným 
+takovým diskem zatím osobně nesetkal, takže si nejsem jistý, zda má taková podpora praktický 
+smysl. Mechanika by však určitě měla být schopna číst disky Photo-CD v režimu Multisession 
+(opakovaný zápis) a neměla by mít problémy se čtením zapisovatelných CD (tzv. zlatých disků).
+Při výběru multimediálních komponent byste neměli zapomenout ani na vhodné reproduktory a 
+kvalitní stíněný mikrofon.Instalace karty
+Mechanika CD-ROM s rozhraním ATAPI se instaluje poměrně snadno, pokud již máte v počítači 
+řadič IDE se dvěma kanály nebo standardní IDE-řadič spolu s druhým řadičem ATAPI (např. 
+integrovaným na zvukové kartě). Propojení mechaniky s řadičem je podobné jako propojení 
+pevného disku (podrobnosti a řešení potíží najdete ve 4. dílu seriálu). Aby mechanika CD-ROM 
+fungovala, je třeba instalovat rovněž příslušné ovladače, obvykle dodávané spolu s mechanikou.
+Mechanika s rozhraním SCSI se dodává buď se zvláštním řadičem, který je pro mechaniku již 
+připraven a nastaven, nebo se předpokládá připojení na řadič SCSI, který je již v počítači 
+instalován. V druhém případě je třeba dávat pozor jak na identifikaci jednotky CD, tak i na 
+správné ukončení sběrnice SCSI. Tato problematika však přesahuje vymezený rámec tohoto 
+textu.
+Instalace zvukové karty se často neobejde bez potíží. Ke své činnosti totiž zvuková karta 
+potřebuje několik přerušení, DMA-kanálů a vstupně-výstupních adres, a tak je poměrně snadné 
+se s těmito požadavky dostat do konfliktu s jiným zařízením. Proto je dobré před instalací prověřit
+pomocí nějakého dobrého diagnostického programu volné zdroje ve svém počítači.
+Při vlastní montáži zvolte takový slot, který je co nejvíce vzdálen od ostatních karet a od 
+procesoru, aby se alespoň trochu snížilo přenášení šumu. Najděte na kartě konektor pro připojení
+mechaniky CD-ROM (zvukového výstupu) a zkontrolujte, zda máte správný kabel dodán také k 
+mechanice. V případě mechanik značky Panasonic je konektor zapojen jinak než u mechaniky 
+Mitsumi nebo u standardní mechaniky ATAPI; mechaniky Sony mají jiný tvar konektoru. Někdy 
+bývají s připojením zvuku od CD-ROM kvůli nevhodným konektorům zbytečné potíže.
+Po spuštění operačního systému instalujte ovladače zvukové karty a pomocí dodávaných 
+diagnostických programů zkontrolujte její funkci. Pokud se při nahrávání ovladačů do paměti 
+(např. při startu Windows) počítač neočekávaně restartuje, pravděpodobně nastal konflikt 
+zařízení. V takovém případě se musíte pokusit změnit některá nastavení (DMA-kanál, IRQ). 
+Konflikt zařízení se někdy projevuje méně dramaticky, karta třeba “jenom” nehraje. Vyzkoušenou 
+kombinaci nastavení karty si zapište, neboť některé programy (hry) ji vyžadují ručně zadat v 
+nastavení.
+Když to nefunguje
+Nejčastější příčinou potíží bývá již zmíněný konflikt více zařízení, která jsou nastavena na stejnou
+hodnotu IRQ, DMA-kanálu nebo vstupně-výstupních adres. Pokud se počítač vůbec 
+nerozeběhne, můžete kromě toho ještě zkusit přemístit kartu do jiného slotu (podobně to zkuste, 
+když ji nebude možné normálně vůbec oživit).
+Pokud nejde zvuk nebo je zkreslený, zkontrolujte také reproduktory, zda jsou zapojeny do 
+správné zdířky. Máte-li aktivní reproduktory, zapojte je do zdířky line-out, jinak je zvuk zkreslený.
+Pokud nemůžete mixérem regulovat hlasitost MIDI-syntezátoru nebo CD-ROM vstupu, 
+pravděpodobně používáte špatný ovladač mixéru (směšovacího zařízení). Abyste mohli pod 
+Windows 3.1 přehrávat zvukové CD disky, musíte instalovat ovladač MCI CD Audio (Ovládací 
+panel – Ovladače – Přidat).

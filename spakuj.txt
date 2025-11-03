@@ -1,0 +1,59 @@
+Komprimační programy
+Komprese pod Windows
+Většina komprimačních programů jsou nástroje DOS. Používat je z Windows je relativně nepohodlné. Ovšem s pomocí speciálních shellů (např. Winzipu) se dají pakovací programy obsluhovat pohodlně. Představujeme nejdůležitější komprimační prostředí a radíme, jak se používají.
+
+Spakuj si to!
+
+Každý pevný disk, ať je jeho kapacita jakkoli rozsáhlá, má přece jen velikost omezenou - uživatelé PC znají tento fenomén až příliš dobře.
+Existují však metody, jak zabránit přeplnění disku. Jedna obzvláště úspěšná spočívá v tom, že nemusíme každý soubor, který si chceme přivlastnit, kopírovat na pevný disk a ponechávat jej zde na věky. Příliš mnoho uživatelů jsou však od přírody náruživí sběratelé - a pevné disky se jim velmi rychle přeplní.
+Atraktivní alternativou jsou komprimační programy Online. Kapacita pevného disku se také neprodlouží do nekonečna, přece se však na nosiče dat dá uložit znatelně více programů - v průměru dvojnásobek.
+
+Komprimátor Online
+Pokud používáme komprimátor Online, nemusíme si dělat starosti, kdy, jak a kde se data pakují - je to docela jednoduché. Proto se tak velké oblibě těší komprimátory Online, např. Double-space, který je od 6. generace pevnou součástí MS-DOS, nebo Stacker, který je volně k dostání v obchodě a zároveň patří k výbavě PC-DOS 6 a Novell DOS 7. Komprimátory Online jako Doublespace nebo Stacker jsou schopné zdvojnásobit kapacitu pevného disku - téměř nebo úplně bez dodatečných nákladů.
+Je proto konec dobrých časů klasických komprimátorů jako Pkzip, Arj nebo Lharc? Nikoli - protože ne každý vlastní a používá výše zmíněné nebo jiné komprimátory Online. Kromě toho ne každý, kdo na svém pevném disku má poloautomatické komprimátory, jim věnuje i potřebnou důvěru - proto leží mnohý komprimátor Online ladem.
+
+Praktické: komprimátor v Cyberspace
+I kdybychom si této skutečnosti vůbec nevšímali, vzrůstá význam klasického komprimátoru proto, že se stále větší oblibě těší mailboxy a datové služby. I Němci “mailují” a “downloadují”, co síly stačí. A protože každá minuta Online stojí pěkné peníze, pokoušejí se všichni co nejvíc zkrátit dobu přenosu textů, obrázků a hudby. Pochopitelně - nakonec to pomůže ušetřit peníze.
+Kromě toho ani není zvlášť napínavé dívat se na svůj program při dálkovém přenosu dat - další důvod, proč by se mělo zprostředkování informace ukončit co nejrychleji. Potřebujeme-li pro zavedení komprimované grafiky pět minut, nebo patnáct minut pro nekomprimovanou, je to rozdíl, jehož si povšimneme nejen v peněžence.
+Kdo pracuje s datovými sítěmi, musí se zabývat odlišnými postupy komprimace. To platí tím více při použití komerčních sítí, které odečítají v minutovém taktu; každý zbytečně přenášený bajt stojí vedle telefonních nákladů ještě také “Connect Charges”, poplatky za spojení.
+Ale žádný strach: v zásadě existují jen dva, maximálně tři obzvláště populární komprimátory, jež bychom ovšem měli bezpodmínečně znát. Nejdůležitějším je bezesporu Pkzip, o kterém zde ještě budeme hovořit. Stejně často se používají Arj a Lharc.
+
+Komfortní: speciální prostředí
+Komprimační programy mají už tradici. Proto jde bez výjimky o dosovské aplikace. To sice v zásadě neškodí jejich použitelnosti, má to ovšem jednu malou, avšak rozhodující nevýhodu: obsluhovat dosovské aplikace z Windows je všechno - jen ne pohodlné!
+Většina komprimačních programů vyžaduje, abychom je vybavili více či méně podrobnými parametry - aby přesně věděly, co mají dělat. Příkazový řádek vypadá např. takto: lha f archiv *.txt. Jasné? Odhlédneme-li od toho, že je to dost nepohodlné, musejí uživatelé Windows nejprve vyvolat dosovské okno (nebo opustit Windows), aby mohli pracovat s pakovacími programy. Ve století grafických prostředí je to přinejmenším neobvyklé.
+
+Vůdce na trhu: Winzip
+Naštěstí někteří bystří programátoři Windows tuto problematiku objevili a rychle programovali speciální prostředí (shelly), s jejichž pomocí se dají pakovací programy obsluhovat. A sice tak, jak jsme ve Windows zvyklí: klepnutím myší, aniž bychom museli opouštět uživatelské prostředí.
+Nejznámějším prostředím pro obsluhu komprimátorů je Winzip, programovaný Američanem Nico Makem. Název sharewaru napovídá, že Winzip slouží především k obsluze populárních komprimátorů Pkzip/Pkunzip.
+Avšak Winzip umí mnohem více: všude dostupný shareware existuje už ve verzi 5.5 a s léty se nestává jen stále výkonnějším a flexibilnějším, nýbrž především jednodušším a pohodlnějším. V ničem si nezadá s komerčními programy. Podporuje nejen Pkzip/Pkunzip, nýbrž také všechny ostatní důležité komprimátory, mezi nimi Arj, Lharc a Arc.
+Jak je u sharewaru běžné, musíme po určité zkušební době zaplatit, abychom si program mohli ponechat. Winzip můžeme testovat a používat 21 dní, potom je nutný registrační poplatek 29 USD - přijatelná cena.
+
+Instalace prostředí
+Instalace probíhá pod Windows, pokud se Winzip vyskytuje v rozbalené formě. Má-li být i samotný program ještě zabalen, musíme jej nejdřív rozbalit manuálně v prostředí DOS. Potom aktivujeme funkci Soubor - Spusť ve správci programů nebo souborů Windows. Do vstupního pole Příkazový řádek zadáme pokyn setup a podle potřeby nastavíme odpovídající rozlišení mechaniky. Instalační program navrhne zřídit adresář C:\WINZIP; samozřejmě si můžeme zřídit libovolný adresář. Potom se setup pokusí zjistit, jaké komprimační programy máme instalovány na počítači; odpovídající soubory najdeme v následujícím dialogovém okně. Pokud setup komprimační program nenajde, můžeme zadat název souboru manuálně.
+
+Komprimace a rozbalení
+To není s Winzipem žádný problém: pomocí odpovídajících funkcí menu nebo tlačítek symbolů můžeme jednotlivé soubory archivního souboru - jak se také výsledek komprimace s oblibou nazývá - doplňovat, soubory z archivního souboru extrahovat atd.
+Praktické je, že na obrazovce kdykoli můžeme vidět, co je obsahem právě zpracovávaného archivního souboru nezávisle na tom, jaký pakovací formát byl vybrán (předpokládá se přítomnost potřebných pakovacích programů).
+Fanouškové uživatelského komfortu drag and drop se mohou radovat, neboť Winzip jej ovládá také. Pohodlně lze označit jednotlivé soubory ve správci souborů a potom je s pomocí myši přetáhnout do programového okna Winzip. Winzip sám od sebe pozná, jestli se soubory mají doplnit, obnovit nebo rozbalit, neboť samozřejmě funguje i opačná cesta: vytahování a upouštění názvů souborů z okna Winzip. Tímto způsobem můžeme pohodlně operovat se soubory uloženými v archivním souboru - jednodušeji už to nejde.
+Winzip má k dispozici širokou nabídku voleb a možností nastavení, takže každý uživatel může konfigurovat pakovací prostředí podle svých osobních představ a potřeb.
+
+Zabudovaná profylaxe: ochrana před viry
+Winzip dále nabízí ještě jednu zvláštní službu ve věci ochrany souborů před viry: přítomnost virů v archivních souborech lze testovat také pomocí skeneru.
+Jestliže jsme spustili Winzip a vybrali archivní soubor, jenž má být prověřen, zvolíme funkci Actions-Virus Scan. Winzip neobsahuje vlastní skenovací program, používá virový skener udávaný, případně nalezený při instalaci. Pokud používáme MS-DOS, najde Winzip zpravidla zkoušecí program MSAV.EXE. Vlastníme-li jiný, který bychom použili raději, můžeme jej zadat dodatečně v menu Options-Program Locations.
+Nyní se archivní soubor v pozadí kompletně rozbalí a soubor po souboru hledá viry. Výsledek analýzy se objeví ve speciálním textovém okně.
+
+Photostacker
+Komprimační programy pracují většinou relativně úspěšně. Podle toho, co se komprimuje, se musejí (nebo měly by se) používat odlišné pakovací algoritmy - protože co je optimální pro obrazový soubor, neposkytne u programového souboru v žádném případě ideální výsledky - abychom uvedli jen jeden příklad.
+Většina komprimačních programů sama pozná, jaký postup má u daného souboru použít. Je tu ovšem oříšek, na kterém si často vylámou zuby: grafiky s vysokým rozlišením, tj. s 24 bity barevné hloubky, tedy 16,7 milionu současně zobrazitelných barev.
+Obraz Truecolor s rozlišením 800 x 600 bodů vyžaduje alespoň 1,5 MB místa v paměti. Protože jsou data nezvykle rozdělena, ušetří Pkzip & Co. většinou jen asi 20 % paměťového požadavku - výsledek, který leží zřetelně pod průměrnou hodnotou. Photostacker tento uzel rozmotá: program Windows slouží komprimaci nepohyblivých obrazů s pomocí postupu JPEG (Joint Photographic Experts Group). Podporovány jsou následující formáty: BMP, PCX, TIF, GIF a TGA.
+Abychom mohli sharewarový Photostacker vůbec využít, je zapotřebí odpovídající hardwarové vybavení: kromě procesoru 386 potřebujeme alespoň 4 MB pracovní paměti, protože musí být k dispozici tolik paměti, aby mohl být proveden komprimační proces. Zvláštnost Photostackeru: vlastní kompresi lze nastavit stupňovitě, tedy variabilně. Sami si určíme, zda chceme tolerovat ztrátu kvality při komprimaci a jak velká má být. Můžeme si vybrat ze tří postupů: sekvenční DCT (Discrete Cosine Transform), progresivní DCT a bezeztrátový DPCM (Differential Pulse Code Modulation). Ale to je jiná kapitola.
+
+Rosenthal Winlite
+Winlite je utilitou, s níž lze efektivně komprimovat soubory Windows EXE. Ze hry Solitér (u Windows 180 KB) udělá Winlite obratem ruky EXE soubor o velikosti 77 KB.
+Pro zabalení programového souboru zadáme pouze název souboru příslušného EXE souboru Windows. Jako výsledek obdržíme za několik okamžiků funkčně identický EXE soubor (může se tedy spouštět i v zabaleném stavu), jenž je ovšem kompaktnější. Pozitivní je na tom to, že není třeba žádných dodatečných řídicích programů nebo dalších modifikací Windows. V USA stojí Rosenthal Winlite 149 USD; program bohužel není k mání jako shareware.
+Jőrg Schieb
+
+Pakovací programy a komprimátory Online
+Kdo používá komprimátory Online jako Doublespace nebo Stacker, měl by vědět, že dodatečné použití komprimačních programů už další místo neuspoří. Komprimátory Online pracují podobně jako Pkzip & Co. a dosahují i podobných výsledků.
+Protože však komprimovaný soubor nemůžeme dále zhustit, alespoň ne podstatně, není nám k ničemu dvojité pakování. Platí proto zlaté pravidlo: neukládejme na mechaniky organizované Doublespacem nebo Stackerem archivní soubory, jestliže chceme pouze shrnout více souborů. Úspory místa tak totiž nedosáhneme.
+
