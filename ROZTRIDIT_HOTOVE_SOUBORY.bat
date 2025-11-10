@@ -1,6 +1,6 @@
 @echo off
 verify on
-title ROZTRIDIT_HOVOVE_SOUBORY.bat
+title ROZTRIDIT_HOTOVE_SOUBORY.bat
 
 echo roztridi vsechny hotove soubory
 echo vsechny vygenerovane soubory z priponou "wav" budou presunuty zde do adresare wav/
@@ -8,7 +8,7 @@ echo vsechny "mp3" presune do adresare mp3/
 echo a "txt" presune do txt/
 echo pokud by nejaky z techto adresaru neexistoval program do vytvori
 echo paklize v nejakem adresari jiz existuje soubor stejneho jmena tak bude bez dotazu prepsan novym
-pause
+REM pause
 
 :label_1
 dir wav > nul
@@ -44,4 +44,4 @@ goto label_3
 
 :konec
 @echo on
-pause
+REM pause
