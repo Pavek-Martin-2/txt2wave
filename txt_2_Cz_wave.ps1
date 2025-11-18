@@ -80,6 +80,12 @@ $exist_ffmpeg = 0
 $prog = "ffmpeg"
 if ( Get-Command $prog -ErrorAction SilentlyContinue ){
 $exist_ffmpeg = 1
+
+# pridano 16.11.2025, nastaveni hodnoty verbose u vystupu ffmpeg, viz scrennshoty
+$pole_lvl = @("quiet", "panic", "fatal", "error", "warning", "info", "verbose", "debug", "trace")
+#                0        1        2        3        4          5        6         7        8
+$lvl = $pole_lvl[3] # (default=5)
+
 }
 
 
@@ -244,7 +250,8 @@ sleep 2
 # smaze stary mp3, pokud esistuje
 Remove-Item -Path $name_mp3 -Force -ErrorAction SilentlyContinue
 sleep 1
-& ffmpeg -y -i $name_wav -b:a 192k -vol 1024 $name_mp3
+# & ffmpeg -loglevel $lvl -y -i $name_wav -b:a 192k -vol 1024 $name_mp3
+& ffmpeg -y -loglevel $lvl -i $name_wav -vol 1024 $name_mp3 # upraveno 16.11.2025
 # & ffmpeg -y -i $name_wav $name_mp3
 Write-Host -ForegroundColor Cyan "text byl ulozen do souboru '$name_mp3'"
 }
