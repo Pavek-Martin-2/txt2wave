@@ -1,0 +1,90 @@
+
+moje poznámky k progaramu co se týká vyslovovaní číslovek a zkratek
+k převedenému textu do mp3, jsou také přiloženy puvodní textové soubory
+tedy lépe řečeno puvodní textové soubory převedené do formátu HTML a PDF
+které mají sloužit jako kontorola co se převádělo, program má typicky problém
+stím správně vyslovovat číslovky a zkratky, je to samozdrějmě dáno tém že nemá 
+žádnou informaci co ty to zkratky znamenají a i to že se vlastně jedná o zkratu
+nechápe kontext věty
+pokusím se uvéct nekolik příkladu se kterými jsem se při práci setkal, převedl sjem
+testovaci vzorek asi třiceti textu do mp3
+takže např. měl problém, při vyslovování zkratky "mp3" nebo "cd-r" a "cd-rw" atd.
+"mp3" vyslovoval např. "jako em pé třetí", "cd-rw" to zkomolil nprosto uplně tomu nebylo rozumět vůbec
+atd. bylo toho docela dost, z normálním textem problém neměl ale jakzile v textu narazil na 
+číslovku za slovem "mp3", "windows 98" a nebo nějakou "cd-r","cd-rw" zkratku, ihned nastal menší či větší
+problém z výslovností
+na tomto místě si myslim že by se docelo hodilo dat odkaz na moje povídání z minula na téma AI překlepy
+protože si myslim že je to vlasně dost příbuzný téma
+https://github.com/Pavek-Martin-2/mp3_serial_o_AI/tree/main/AI_preklapy
+
+dále si myslim že sofwarový gigant Microsoft který ma systémovou službu "předčítání" nabo jak to tam maj nazvaný, už ani nevim :)
+zabudovanou přimo do operačního systému má dostatek pracovních sil a prostědku na to aby tento problém vyřil, pakliže by byl řešitelný ale jak vydno není bežnym zpusobem taky je potřeba si uvědomit že já vlasně celou dobu
+píšu jenom o čestine ale těch jazyku je ve službě "předčítání" ve Windows mnohem víc já nevim asi dvacet nebo třicet
+sem jich tam zahlínul a třeba taková zkratka "mp3" je mezinárodní a používá se ve všech jazycí ale samozdžejmě ještě 
+k tomu v každem jazyce se řekne asi trochu jinak, tohle je prostě opravdu považuju za BIG problém
+na počítač mam Windows 10 Pro, nevim jak ve Windows 11, je tohle vyřešeny jesli nějak pokračovali ve vývoji ve
+vyšší verzi. každopádně čim jsem si jistej je to, že o tomto problému Microsoft určitě ví, nevim co sim budou dělat
+jesli vubec něco se stim dá dělat, no řešenim si myslim že by byl ktomu jestě nejaký AI doplněk a nebo připojení 
+do nějake online databáze apod. kde by se analyzoval vstupní text jako to třeba děla ChatGPT apod.
+musim řict že jsem vyděl na internetu pár služeb které převádí text do audia ale všechno placená služba
+a nebo ve free verzi nějak omezená třeba jenom na 500 písmen apod. takže nějaký článek se musel rozdelovat na 5 dílu
+posílat mu to postupně a potom zase terminálu "slepovat" audio mp3 soubory dohromady a byl to takovej vopruz že jsem od toho utek a řekl jsem si že si na to udělam raději program "svuj" ale mám pocit že ani tam tohleto nefungovalo
+tak jak by mělo a že tohleto je prostě všeobecnej problém
+tak co ktomu ještě říct a vymyslet nějaký řešení nebo alespon nějaký částečný východisko
+co jsem trochu zkoušel bylo to, editovat vstupní textovej soubor a v místech kde si nevědel rady 
+mu prostě pomoct tim, že mu to tam napsat foneticky takže samozdřemě udělal jsem si napřed zálohu původního textu
+a pakliže mě na nějakém článku obvzlášt záleželo tak jsem mu tak prostě šoupnul fonetickej ekvivalent místo puvodního
+takže např. na místo již několikrát zminovaný zkratky "mp3" kterou komolil jsem mu tam proste napsal "em pé tři",
+místo zkratky "cd-rw" kterou komolil uplně totálně jsem mu zkusil podstrčit "cé dé er vé" apod., jo tady asi vidíte
+proč je duležitě si napřed zazálohovat původni needitovaný text, protože když by si to pak člověk chtěl někdy
+přečíst taky ještě v textoví podobě tak už by asi mohl mít trošku problém zase stímhle
+takže co říct závěrem tak heslovitě v bodech co mě napadá:
+
+chce si to stim pohrát, editovat, poslechnout si výsledek znova upravit případně atd., což mě moc nebavilo
+
+je to prostě všeobecnej problém viz. Microsost (proč to tam už nemá...)
+
+má to ještě určitě boudoucnost tenhle obor a řešenim bych řek že bude asi nějaky to propojení z AI
+
+měla by bejt dostupná na netu dostupná nějaká rozsáhlá online knihovna/databáze která by toto pomáhala řešit
+
+a co mě ještě napadá je to že tato databáze by vlasně musela bejt navíc ješte spacializovaná
+protože si myslim že bežný jazykový AI modely vlastně pracujou z psanym textem, čili tim chci
+říct že tam neni vlasně nejaká informace jak se co správně vyslovuje a nevim že by něco takvýho existovalo
+
+mam teda pocit že jsem někde zaslechnul nebo vyděl že snad ten ChatGPT má v placený verzi nějakej dopnkovej
+"kecací" mod do kterýho se prej dá navíc ještě přepnout ale bohužel nikdy jsem stimhle nepracoval a řikam si že kdyby jsem se ktomu dostal tak tohle by bylo asi to první co by mě napadlo na tom zkoušet a sledovat jak by se stim popasoval...
+samoždřejmě, človek když něco vydí napsanýho tak ví jak se co vyslovuje, protože to má naučený ale do toho
+software to někdo musí prostě nasázet takže v dněšní době nejaká na umělá neuronalní sít no, což je hit dneška, to se nadá zpochybnit
+
+25.2.2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
