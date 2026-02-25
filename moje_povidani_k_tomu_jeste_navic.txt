@@ -15,7 +15,7 @@ atd. bylo toho docela dost, z normálním textem problém neměl ale jakzile v t
 problém z výslovností
 na tomto místě si myslim že by se docelo hodilo dat odkaz na moje povídání z minula na téma AI překlepy
 protože si myslim že je to vlasně dost příbuzný téma
-https://github.com/Pavek-Martin-2/mp3_serial_o_AI/tree/main/AI_preklapy
+https://github.com/Pavek-Martin-2/txt2wave/tree/main/jpg/AI_preklapy
 
 dále si myslim že sofwarový gigant Microsoft který ma systémovou službu "předčítání" nabo jak to tam maj nazvaný, už ani nevim :)
 zabudovanou přimo do operačního systému má dostatek pracovních sil a prostědku na to aby tento problém vyřil, pakliže by byl řešitelný ale jak vydno není bežnym zpusobem taky je potřeba si uvědomit že já vlasně celou dobu
